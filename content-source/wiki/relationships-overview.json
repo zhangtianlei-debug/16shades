@@ -1,0 +1,28 @@
+{
+  "slug": "relationships-overview",
+  "status": "published",
+  "category": "relationships",
+  "title": {
+    "zh": "关系地图：从两个人到一个局面",
+    "en": "Relationship map: from two people to a situation"
+  },
+  "summary": {
+    "zh": "关系由双方回应、具体情境与选择构成，类型只是进入问题的材料。",
+    "en": "Relationships emerge from both participants’ responses, circumstances, and choices. Types only provide a way into the questions."
+  },
+  "kind": {
+    "zh": "项目定义",
+    "en": "Project definition"
+  },
+  "body": {
+    "zh": "## 关系不是两张类型卡相加\n\n同一对人物会因共同任务、稀缺资源、筹码、观众、历史和退出选择而走向不同方向。类型提供相对优先，不能预测现实配对结果。\n\n## 三层内容\n\n底层是外部理论参照；中层是本项目整理方法；上层是136组人物关系创作。这里提供概览和阅读入口；从人物关系页选择任意两位，可以阅读合作、对抗和CP情境。\n\n## 现实使用\n\n可以用“谁想保住什么、谁控制条件、事情何时算结束”来描述互动；不把关系名字当作事实或命运。",
+    "en": "## A relationship is more than two type cards added together\n\nThe same pair can take different directions depending on a shared task, scarce resources, bargaining power, an audience, history, and options to leave. Types describe relative priorities; they cannot predict real pairing outcomes.\n\n## Three layers of content\n\nExternal theoretical references form the foundation. The project's organizing method is the middle layer. Creative interpretations of 136 character pairings sit above it. This page offers an overview and reading paths. Select any two characters on the Relationships page to explore cooperation, conflict, and close bonds.\n\n## Using this in everyday life\n\nDescribe interaction by asking what each person wants to keep, who controls the conditions, and when the matter counts as finished. Do not treat a relationship title as a fact or a destiny."
+  },
+  "related": [
+    "relationships-method",
+    "mechanism-m01",
+    "psychology-p01"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": false
+}

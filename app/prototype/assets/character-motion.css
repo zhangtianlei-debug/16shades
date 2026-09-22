@@ -1,0 +1,456 @@
+/*
+ * 仅对内联 SVG 生效。根 svg 默认静止：
+ * - 每次播放两轮并回到原位；点击或滑动再播放，SVG 节点保持不变。
+ * - T01 结果页：加 motion-result。
+ * - T12 结果页：加 motion-result。
+ */
+
+svg.character-motion [class*='motion__'] {
+  transform-box: view-box;
+  will-change: transform;
+}
+
+/* ── T01 掮客：探身辅助，递筹码与藏筹码为主动作 ── */
+
+svg.t01-motion .t01-motion__body {
+  transform-origin: 650px 825px;
+}
+
+svg.t01-motion .t01-motion__offer {
+  transform-origin: 565px 690px;
+}
+
+svg.t01-motion .t01-motion__offer-bridge {
+  transform-origin: 620px 700px;
+}
+
+svg.t01-motion .t01-motion__stash {
+  transform-origin: 760px 735px;
+}
+
+/* T01 两眼始终共用一条时间线：只同步眨眼，不改变左向视线。 */
+svg.t01-motion [data-source-layer='010'],
+svg.t01-motion [data-source-layer='011'] {
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+svg.t01-motion [data-source-layer='016'],
+svg.t01-motion [data-source-layer='018'] {
+  transform-box: view-box;
+  transform-origin: 690px 505px;
+  will-change: transform;
+}
+
+:is(svg.t01-motion.motion-intro, [data-motion-phase='intro'] svg.t01-motion)
+  .t01-motion__body {
+  animation: t01-body-intro 1.25s cubic-bezier(0.22, 0.72, 0.2, 1) both;
+}
+
+:is(svg.t01-motion.motion-intro, [data-motion-phase='intro'] svg.t01-motion)
+  .t01-motion__offer {
+  animation: t01-offer-intro 1.25s cubic-bezier(0.22, 0.72, 0.2, 1) both;
+}
+
+:is(svg.t01-motion.motion-intro, [data-motion-phase='intro'] svg.t01-motion)
+  .t01-motion__offer-bridge {
+  animation: t01-offer-bridge-intro 1.25s cubic-bezier(0.22, 0.72, 0.2, 1) both;
+}
+
+:is(svg.t01-motion.motion-intro, [data-motion-phase='intro'] svg.t01-motion)
+  .t01-motion__stash {
+  animation: t01-stash-intro 1.25s cubic-bezier(0.22, 0.72, 0.2, 1) both;
+}
+
+:is(svg.t01-motion.motion-intro, [data-motion-phase='intro'] svg.t01-motion)
+  [data-source-layer='010'],
+:is(svg.t01-motion.motion-intro, [data-motion-phase='intro'] svg.t01-motion)
+  [data-source-layer='011'] {
+  animation: t01-eyes-intro 1.25s linear both;
+}
+
+:is(svg.t01-motion.motion-intro, [data-motion-phase='intro'] svg.t01-motion)
+  [data-source-layer='016'],
+:is(svg.t01-motion.motion-intro, [data-motion-phase='intro'] svg.t01-motion)
+  [data-source-layer='018'] {
+  animation: t01-brows-intro 1.25s cubic-bezier(0.22, 0.72, 0.2, 1) both;
+}
+
+:is(svg.t01-motion.motion-welcome, [data-motion-phase='welcome'] svg.t01-motion)
+  .t01-motion__body {
+  animation: t01-body-welcome 3.2s cubic-bezier(0.22, 0.72, 0.2, 1) 2;
+}
+
+:is(svg.t01-motion.motion-welcome, [data-motion-phase='welcome'] svg.t01-motion)
+  .t01-motion__offer {
+  animation: t01-offer-welcome 3.2s cubic-bezier(0.22, 0.72, 0.2, 1) 2;
+}
+
+:is(svg.t01-motion.motion-welcome, [data-motion-phase='welcome'] svg.t01-motion)
+  .t01-motion__offer-bridge {
+  animation: t01-offer-bridge-welcome 3.2s cubic-bezier(0.22, 0.72, 0.2, 1) 2;
+}
+
+:is(svg.t01-motion.motion-welcome, [data-motion-phase='welcome'] svg.t01-motion)
+  .t01-motion__stash {
+  animation: t01-stash-welcome 3.2s cubic-bezier(0.22, 0.72, 0.2, 1) 2;
+}
+
+:is(svg.t01-motion.motion-welcome, [data-motion-phase='welcome'] svg.t01-motion)
+  [data-source-layer='010'],
+:is(svg.t01-motion.motion-welcome, [data-motion-phase='welcome'] svg.t01-motion)
+  [data-source-layer='011'] {
+  animation: t01-eyes-welcome 3.2s linear 2;
+}
+
+:is(svg.t01-motion.motion-welcome, [data-motion-phase='welcome'] svg.t01-motion)
+  [data-source-layer='016'],
+:is(svg.t01-motion.motion-welcome, [data-motion-phase='welcome'] svg.t01-motion)
+  [data-source-layer='018'] {
+  animation: t01-brows-welcome 3.2s cubic-bezier(0.22, 0.72, 0.2, 1) 2;
+}
+
+:is(svg.t01-motion.motion-result, [data-motion-phase='result'] svg.t01-motion)
+  .t01-motion__body {
+  animation: t01-body-result 3.8s cubic-bezier(0.22, 0.72, 0.2, 1) 2;
+}
+
+:is(svg.t01-motion.motion-result, [data-motion-phase='result'] svg.t01-motion)
+  .t01-motion__offer {
+  animation: t01-offer-result 3.8s cubic-bezier(0.22, 0.72, 0.2, 1) 2;
+}
+
+:is(svg.t01-motion.motion-result, [data-motion-phase='result'] svg.t01-motion)
+  .t01-motion__offer-bridge {
+  animation: t01-offer-bridge-result 3.8s cubic-bezier(0.22, 0.72, 0.2, 1) 2;
+}
+
+:is(svg.t01-motion.motion-result, [data-motion-phase='result'] svg.t01-motion)
+  .t01-motion__stash {
+  animation: t01-stash-result 3.8s cubic-bezier(0.22, 0.72, 0.2, 1) 2;
+}
+
+:is(svg.t01-motion.motion-result, [data-motion-phase='result'] svg.t01-motion)
+  [data-source-layer='010'],
+:is(svg.t01-motion.motion-result, [data-motion-phase='result'] svg.t01-motion)
+  [data-source-layer='011'] {
+  animation: t01-eyes-result 3.8s linear 2;
+}
+
+:is(svg.t01-motion.motion-result, [data-motion-phase='result'] svg.t01-motion)
+  [data-source-layer='016'],
+:is(svg.t01-motion.motion-result, [data-motion-phase='result'] svg.t01-motion)
+  [data-source-layer='018'] {
+  animation: t01-brows-result 3.8s cubic-bezier(0.22, 0.72, 0.2, 1) 2;
+}
+
+@keyframes t01-body-intro {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(0) scale(1);
+  }
+  42% {
+    transform: translate(-0.8%, 0.35%) rotate(-0.45deg) scale(1.012);
+  }
+  62% {
+    transform: translate(-2%, 0.7%) rotate(-0.8deg) scale(1.025);
+  }
+}
+
+@keyframes t01-offer-intro {
+  0% {
+    transform: translate(0, 0) rotate(0);
+  }
+  34% {
+    transform: translate(-1.5%, 0.1%) rotate(-0.7deg);
+  }
+  58%,
+  72% {
+    transform: translate(-8%, 0.5%) rotate(-3.2deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0);
+  }
+}
+
+@keyframes t01-offer-bridge-intro {
+  0% {
+    transform: scaleX(1);
+  }
+  34% {
+    transform: scaleX(1.04);
+  }
+  58%,
+  72% {
+    transform: scaleX(1.5);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes t01-stash-intro {
+  0%,
+  54%,
+  100% {
+    transform: translate(0, 0) rotate(0);
+  }
+  76% {
+    transform: translate(1%, 1.1%) rotate(3deg);
+  }
+  88% {
+    transform: translate(1.8%, 1.8%) rotate(4.5deg);
+  }
+}
+
+@keyframes t01-eyes-intro {
+  0%,
+  77%,
+  80%,
+  100% {
+    transform: scaleY(1);
+  }
+  78%,
+  79% {
+    transform: scaleY(0.08);
+  }
+}
+
+@keyframes t01-brows-intro {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(0);
+  }
+  27%,
+  61% {
+    transform: translate(-0.6%, -0.65%) rotate(-0.45deg);
+  }
+  76% {
+    transform: translate(-0.2%, -0.2%) rotate(-0.15deg);
+  }
+}
+
+@keyframes t01-body-welcome {
+  0%,
+  70%,
+  100% {
+    transform: translate(0, 0) rotate(0) scale(1);
+  }
+  15% {
+    transform: translate(-0.8%, 0.35%) rotate(-0.45deg) scale(1.012);
+  }
+  35%,
+  45% {
+    transform: translate(-2%, 0.7%) rotate(-0.8deg) scale(1.025);
+  }
+  57% {
+    transform: translate(-0.7%, 0.4%) rotate(-0.35deg) scale(1.01);
+  }
+}
+
+@keyframes t01-offer-welcome {
+  0%,
+  70%,
+  100% {
+    transform: translate(0, 0) rotate(0);
+  }
+  16% {
+    transform: translate(-1.5%, 0.1%) rotate(-0.7deg);
+  }
+  36%,
+  46% {
+    transform: translate(-8%, 0.5%) rotate(-3.2deg);
+  }
+  59% {
+    transform: translate(-2.5%, 0.2%) rotate(-0.9deg);
+  }
+}
+
+@keyframes t01-offer-bridge-welcome {
+  0%,
+  70%,
+  100% {
+    transform: scaleX(1);
+  }
+  16% {
+    transform: scaleX(1.04);
+  }
+  36%,
+  46% {
+    transform: scaleX(1.5);
+  }
+  59% {
+    transform: scaleX(1.1);
+  }
+}
+
+@keyframes t01-stash-welcome {
+  0%,
+  42%,
+  70%,
+  100% {
+    transform: translate(0, 0) rotate(0);
+  }
+  54% {
+    transform: translate(1%, 1.1%) rotate(3deg);
+  }
+  62% {
+    transform: translate(1.8%, 1.8%) rotate(4.5deg);
+  }
+}
+
+@keyframes t01-eyes-welcome {
+  0%,
+  62%,
+  65%,
+  100% {
+    transform: scaleY(1);
+  }
+  63%,
+  64% {
+    transform: scaleY(0.08);
+  }
+}
+
+@keyframes t01-brows-welcome {
+  0%,
+  70%,
+  100% {
+    transform: translate(0, 0) rotate(0);
+  }
+  17%,
+  46% {
+    transform: translate(-0.6%, -0.65%) rotate(-0.45deg);
+  }
+  57% {
+    transform: translate(-0.2%, -0.2%) rotate(-0.15deg);
+  }
+}
+
+@keyframes t01-body-result {
+  0%,
+  78%,
+  100% {
+    transform: translate(0, 0) rotate(0) scale(1);
+  }
+  28%,
+  52% {
+    transform: translate(-2.2%, 0.8%) rotate(-0.9deg) scale(1.026);
+  }
+  66% {
+    transform: translate(-0.8%, 0.4%) rotate(-0.4deg) scale(1.012);
+  }
+}
+
+@keyframes t01-offer-result {
+  0%,
+  78%,
+  100% {
+    transform: translate(0, 0) rotate(0);
+  }
+  28%,
+  45% {
+    transform: translate(-8.5%, 0.5%) rotate(-3.6deg);
+  }
+  64% {
+    transform: translate(-3%, 0.2%) rotate(-1deg);
+  }
+}
+
+@keyframes t01-offer-bridge-result {
+  0%,
+  78%,
+  100% {
+    transform: scaleX(1);
+  }
+  28%,
+  45% {
+    transform: scaleX(1.53);
+  }
+  64% {
+    transform: scaleX(1.15);
+  }
+}
+
+@keyframes t01-stash-result {
+  0%,
+  21%,
+  78%,
+  100% {
+    transform: translate(0, 0) rotate(0);
+  }
+  42% {
+    transform: translate(1.2%, 1.1%) rotate(3deg);
+  }
+  58%,
+  66% {
+    transform: translate(2.1%, 2%) rotate(5deg);
+  }
+}
+
+@keyframes t01-eyes-result {
+  0%,
+  64%,
+  67%,
+  100% {
+    transform: scaleY(1);
+  }
+  65%,
+  66% {
+    transform: scaleY(0.08);
+  }
+}
+
+@keyframes t01-brows-result {
+  0%,
+  78%,
+  100% {
+    transform: translate(0, 0) rotate(0);
+  }
+  18%,
+  48% {
+    transform: translate(-0.45%, 0.15%) rotate(0.35deg);
+  }
+  62% {
+    transform: translate(-0.8%, -0.4%) rotate(-0.55deg);
+  }
+}
+
+/* T12: intact head nods above the collar; hand and complete chain retract
+   behind the body's silhouette. Semantic groups were verified by rendering. */
+.proto-character[data-paused='true'] svg.t12-motion * { animation-play-state: paused !important; }
+svg.t12-motion .t12-motion__head { transform-box: fill-box; transform-origin: 54% 98%; }
+svg.t12-motion .t12-motion__invite { transform-box: fill-box; transform-origin: 94% 40%; }
+.proto-character[data-motion-phase='result'][data-motion-state='playing'] svg.t12-motion .t12-motion__body { animation: t12-body-result 4.8s linear 2 both; }
+.proto-character[data-motion-phase='result'][data-motion-state='playing'] svg.t12-motion .t12-motion__head { animation: t12-head-result 4.8s ease-in-out 2 both; }
+.proto-character[data-motion-phase='result'][data-motion-state='playing'] svg.t12-motion .t12-motion__invite { animation: t12-invite-result 4.8s ease-in-out 2 both; }
+.proto-character[data-motion-phase='result'][data-motion-state='playing'] svg.t12-motion .t12-motion__hidden-hand-chain { animation: t12-conceal-result 4.8s ease-in-out 2 both; }
+@keyframes t12-body-result { 0%,100%{opacity:1} 50%{opacity:.9999} }
+@keyframes t12-head-result { 0%,100%{transform:none} 18%{transform:translateY(-2px) rotate(-.3deg)} 42%,66%{transform:translate(1px,11px) rotate(1.7deg)} 82%{transform:translateY(3px) rotate(.5deg)} }
+@keyframes t12-invite-result { 0%,100%{transform:none} 20%{transform:rotate(1deg)} 43%,66%{transform:translate(-5px,-2px) rotate(2deg)} 84%{transform:translate(-1px,0) rotate(.5deg)} }
+@keyframes t12-conceal-result { 0%,10%{transform:none} 32%{transform:translate(-18px,-8px)} 45%,99.999%{transform:translate(-70px,-22px)} 100%{transform:none} }
+
+/* Release all animated layers after two complete cycles. */
+.proto-character[data-motion-state='idle'] svg * {
+  animation: none !important;
+  will-change: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  svg.character-motion [class*='motion__'],
+  svg.t01-motion [data-source-layer='010'],
+  svg.t01-motion [data-source-layer='011'],
+  svg.t01-motion [data-source-layer='016'],
+  svg.t01-motion [data-source-layer='018'],
+  svg.t12-motion [data-module='left-hand'],
+  svg.t12-motion [data-module='face-detail'],
+  svg.t12-motion [data-source-layer='003'],
+  svg.t12-motion [data-source-layer='004'],
+  svg.t12-motion [data-source-layer='014'] {
+    animation: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+    will-change: auto;
+  }
+}

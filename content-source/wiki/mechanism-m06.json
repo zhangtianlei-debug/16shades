@@ -1,0 +1,28 @@
+{
+  "slug": "mechanism-m06",
+  "status": "published",
+  "category": "mechanisms",
+  "title": {
+    "zh": "M06｜例外与共塑",
+    "en": "M06 | Exceptions and mutual shaping"
+  },
+  "summary": {
+    "zh": "对特定对象的反应与自愿支持怎样让关系出现例外。",
+    "en": "How responses to a particular person and freely offered support create exceptions in a relationship."
+  },
+  "kind": {
+    "zh": "项目定义",
+    "en": "Project definition"
+  },
+  "body": {
+    "zh": "<a id=\"M06\"></a>\n\n**我们的观点。** 最能让人物关系留下记忆的，常是一个有具体代价的例外：愿意把真实选项说清，愿意让对方拒绝，愿意支持对方自己认可的目标。例外需要由场景中的行动建立，不能从两个类型代码自动算出。\n\n双向视角尤其重要。A可能已经为B改变惯常反应，B却只把它理解为普通合作；也可能两人都在靠近，却误读了对方的方式。共同成长要说明成长目标是谁选择的，不能把“塑造成我喜欢的样子”写成对方的自我实现。\n\n**自拟场景。** 操盘手原本习惯先安排好所有路径，面对特定的人却把选项和后果一起摆出来，接受对方选另一条路。这个动作可以成为亲密的起点，但故事还需要写对方是否愿意回应、后来是否保持这种选择空间。\n\n**写作支点：** “这个人平常会怎么做？这一次改变在哪里？对方认出了这个改变吗？”\n\n研究路径：关系特异性、独特吸引、理想自我的支持及共同新奇活动。[S14](https://doi.org/10.1016/S0065-2601(08)60144-6)、[S15](https://doi.org/10.1111/j.1467-9280.2007.01897.x)、[S16](https://doi.org/10.1037/0022-3514.77.2.293)、[S17](https://doi.org/10.1037/0022-3514.78.2.273)。共同体验可以扩展关系素材，不能代替信任、责任与对具体伤害的处理。",
+    "en": "<a id=\"M06\"></a>\n\n**Our view.** What makes a character relationship memorable is often an exception with a concrete cost: explaining the real options, allowing refusal, or supporting a goal the other person has chosen. Actions within a scene must establish the exception. It cannot be calculated from two type codes.\n\nBoth perspectives matter. A may already have changed a habitual response for B, while B sees only ordinary cooperation. Or both may be moving closer while misreading each other's approach. Mutual growth must specify who chose the goal. Shaping someone into what I like cannot be presented as that person's self-realization.\n\n**An invented scene.** The Puppet Master usually arranges every route in advance. With one particular person, they instead lay out both options and consequences, accepting that the person may choose a different route. This can begin an intimate connection, but the story must still show whether the other person wants to respond and whether that freedom of choice continues.\n\n**Writing prompts:** What would this person usually do? What changes this time? Does the other person recognize the change?\n\nResearch paths: relationship-specific effects, unique attraction, support for the ideal self, and shared novel activities. [S14](https://doi.org/10.1016/S0065-2601(08)60144-6), [S15](https://doi.org/10.1111/j.1467-9280.2007.01897.x), [S16](https://doi.org/10.1037/0022-3514.77.2.293), [S17](https://doi.org/10.1037/0022-3514.78.2.273). Shared experiences can expand what a relationship draws on; they cannot replace trust, responsibility, or addressing specific harm."
+  },
+  "related": [
+    "psychology-p10",
+    "psychology-p11",
+    "psychology-p12"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": true
+}

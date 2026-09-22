@@ -1,0 +1,343 @@
+.openness-page {
+  min-height: 100svh;
+  background: #f1f0f6;
+  color: #28242f;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'PingFang SC',
+    'Microsoft YaHei',
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.openness-page a {
+  color: inherit;
+  text-decoration: none;
+}
+.openness-page a:focus-visible {
+  outline: 3px solid #a68fca;
+  outline-offset: 5px;
+}
+.openness-header {
+  height: 76px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  border-bottom: 1px solid #dfd9e666;
+  background: #f1f0f6f0;
+  backdrop-filter: blur(16px);
+}
+.openness-header-inner {
+  max-width: 1152px;
+  width: calc(100% - 64px);
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.openness-brand {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.openness-brand > span {
+  font-family: Georgia, serif;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -3px;
+}
+.openness-brand > strong {
+  font-size: 21px;
+  letter-spacing: 0.08em;
+}
+.openness-header nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 14px;
+  color: #6b6176;
+}
+.openness-header nav a {
+  padding: 10px 0;
+  white-space: nowrap;
+}
+.openness-header nav .openness-home-link {
+  padding: 7px 14px;
+  border: 1px solid #d4cbdf;
+  border-radius: 100px;
+  color: #503080;
+}
+.openness-layout {
+  max-width: 1056px;
+  width: calc(100% - 80px);
+  margin: 0 auto;
+  padding: 36px 0 72px;
+}
+.openness-breadcrumb {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 13px;
+  font-size: 12px;
+  color: #84758f;
+}
+.openness-breadcrumb a:hover {
+  color: #503080;
+}
+.openness-heading {
+  margin: 48px 0;
+  padding-left: 222px;
+}
+.openness-heading .openness-label {
+  color: #826592;
+  font-size: 13px;
+  margin: 0 0 12px;
+}
+.openness-heading h1 {
+  font-size: 38px;
+  letter-spacing: -0.045em;
+  line-height: 1.4;
+  margin: 0 0 16px;
+  font-weight: 600;
+}
+.openness-heading > p {
+  font-size: 16px;
+  color: #695c71;
+  margin: 0;
+}
+.openness-body {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 42px;
+}
+.openness-directory {
+  position: sticky;
+  top: 111px;
+  align-self: start;
+  border-right: 1px solid #e1dbe8;
+  padding-right: 18px;
+  font-size: 14px;
+}
+.openness-directory > span {
+  display: block;
+  color: #8b7998;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.openness-directory a {
+  display: block;
+  margin-bottom: 15px;
+  color: #7b658b;
+  line-height: 1.6;
+}
+.openness-directory a:hover {
+  color: #503080;
+}
+.openness-article {
+  max-width: 724px;
+  min-width: 0;
+}
+.openness-article section {
+  padding: 0 0 32px;
+  margin: 0 0 34px;
+  border-bottom: 1px solid #ded7e5;
+  scroll-margin-top: 108px;
+}
+.openness-number {
+  display: block;
+  color: #8d769e;
+  font:
+    12px Georgia,
+    serif;
+  margin-bottom: 10px;
+}
+.openness-article h2 {
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.5;
+  margin: 0 0 18px;
+}
+.openness-article p {
+  font-size: 16px;
+  color: #74657f;
+  line-height: 2;
+  margin: 0 0 16px;
+  overflow-wrap: anywhere;
+}
+.openness-article p:last-child {
+  margin-bottom: 0;
+}
+.openness-article p a {
+  color: #503080;
+  border-bottom: 1px solid #ad98c2;
+}
+.openness-status {
+  display: flex;
+  align-items: start;
+  gap: 12px;
+  background: #ebe6f1;
+  border: 1px solid #e1d8eb;
+  border-radius: 12px;
+  padding: 19px 21px;
+  margin-top: 24px;
+}
+.openness-status-dot {
+  width: 7px;
+  height: 7px;
+  flex: 0 0 7px;
+  border-radius: 50%;
+  margin-top: 10px;
+  background: #8a72a1;
+}
+.openness-status strong {
+  font-size: 14px;
+  font-weight: 500;
+  color: #725784;
+}
+.openness-status p {
+  font-size: 14px;
+  margin: 5px 0 0;
+  line-height: 1.9;
+  color: #7c668d;
+}
+.openness-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 22px;
+  color: #735787;
+  font-size: 14px;
+}
+.openness-bottom a {
+  display: inline-flex;
+  gap: 7px;
+  align-items: center;
+}
+@media (max-width: 800px) {
+  .openness-header nav {
+    gap: 20px;
+  }
+  .openness-layout {
+    width: calc(100% - 48px);
+  }
+  .openness-heading {
+    padding-left: 0;
+  }
+  .openness-body {
+    grid-template-columns: 150px minmax(0, 1fr);
+    gap: 26px;
+  }
+}
+@media (max-width: 600px) {
+  .openness-header {
+    height: auto;
+    min-height: 66px;
+  }
+  .openness-header-inner {
+    width: calc(100% - 32px);
+    min-height: 66px;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+  .openness-brand {
+    gap: 5px;
+  }
+  .openness-brand > span {
+    font-size: 28px;
+  }
+  .openness-brand > strong {
+    font-size: 18px;
+  }
+  .openness-header nav {
+    gap: 14px;
+    font-size: 14px;
+    flex-wrap: wrap;
+  }
+  .openness-header .openness-home-link {
+    display: none;
+  }
+  .openness-layout {
+    width: calc(100% - 40px);
+    padding: 23px 0 40px;
+  }
+  .openness-breadcrumb {
+    gap: 10px;
+  }
+  .openness-heading {
+    margin: 35px 0 29px;
+  }
+  .openness-heading h1 {
+    font-size: 30px;
+    margin-bottom: 14px;
+  }
+  .openness-heading > p {
+    line-height: 1.8;
+  }
+  .openness-body {
+    display: block;
+  }
+  .openness-directory {
+    position: static;
+    border: 0;
+    border-bottom: 1px solid #ded7e5;
+    padding: 0 0 19px;
+    margin-bottom: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 19px;
+  }
+  .openness-directory > span {
+    display: none;
+  }
+  .openness-directory a {
+    margin: 0;
+  }
+  .openness-article section {
+    padding-bottom: 27px;
+    margin-bottom: 27px;
+    scroll-margin-top: 104px;
+  }
+  .openness-article h2 {
+    font-size: 21px;
+    margin-bottom: 16px;
+  }
+  .openness-status {
+    padding: 17px 16px;
+    gap: 10px;
+  }
+}
+@media print {
+  .openness-page {
+    background: white;
+  }
+  .openness-header,
+  .openness-directory,
+  .openness-breadcrumb,
+  .openness-bottom {
+    display: none;
+  }
+  .openness-layout {
+    width: 100%;
+    padding: 0;
+  }
+  .openness-heading {
+    margin: 0 0 30px;
+    padding: 0;
+  }
+  .openness-body {
+    display: block;
+  }
+  .openness-article {
+    max-width: none;
+  }
+  .openness-article h2 {
+    break-after: avoid;
+  }
+}

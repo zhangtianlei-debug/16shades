@@ -1,0 +1,28 @@
+{
+  "slug": "mbti-same-type",
+  "status": "published",
+  "category": "framework",
+  "title": {
+    "zh": "同一个MBTI，为什么会有不同阴影角色？",
+    "en": "Why can people with the same MBTI type have different shadow roles?"
+  },
+  "summary": {
+    "zh": "四字母提供一个熟悉入口，却没有覆盖利益、控制、冲突和规范处理的全部差异。",
+    "en": "The four letters offer a familiar entry point, but they do not capture every difference in how people handle gain, control, conflict, and norms."
+  },
+  "kind": {
+    "zh": "创作联想与理论参照",
+    "en": "Creative interpretation & theory reference"
+  },
+  "body": {
+    "zh": "## MBTI没有决定阴影路径\n\n同为ENFP的人，都可能喜欢连接人和可能性，但面对资源、决定权、冲突与规则时，仍会有不同选择。生活经历、关系位置、当时目标、现实约束与个人责任感都会改变表现。\n\n## 四条路径的例子\n\n同样是善于号召，ENFP × 掮客可能把人脉接成交换网；ENFP × 笑面客可能先维持气氛，再默默调整合作；ENFP × 煽动家可能把一个新点子放大成阵营；ENFP × 教主可能把愿景讲得人人想跟上。它们是四种创作方向，不是ENFP的四个固定子型。\n\n## 阅读时看场景\n\n先看短句像不像你的某个具体时刻，再看行为有没有越过知情、拒绝、退出和修复的边界。认领一个梗，不等于承认自己做过角色名称暗示的严重行为。",
+    "en": "## MBTI does not determine your shadow path\n\nTwo ENFPs may both enjoy connecting people and possibilities yet make very different choices around resources, decision power, conflict, and rules. Life experience, position within a relationship, immediate goals, real-world constraints, and personal responsibility all shape how someone behaves.\n\n## Four Possible Paths\n\nAll four may be persuasive: ENFP × Broker might turn a network into an exchange system; ENFP × Smiler might preserve the mood before quietly changing the terms of cooperation; ENFP × Agitator might amplify a new idea into rival camps; and ENFP × Cult Leader might present a vision everyone wants to follow. These are four creative directions, not four fixed ENFP subtypes.\n\n## Read each statement in context\n\nFirst ask whether the line reminds you of a specific moment. Then ask whether the behavior crossed the boundaries of informed choice, refusal, exit, and repair. Relating to a joke does not mean admitting to the serious conduct implied by a character name."
+  },
+  "related": [
+    "mbti-connection",
+    "mbti-same-role",
+    "mbti-functions"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": false
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "psychology-p11",
+  "status": "published",
+  "category": "psychology",
+  "title": {
+    "zh": "好的支持，是帮你靠近你想成为的人",
+    "en": "Good Support Helps You Move Toward the Person You Want to Become"
+  },
+  "summary": {
+    "zh": "外部研究的通俗整理：说明问题、证据与适用边界。",
+    "en": "An accessible guide to outside research: the questions it addresses, the evidence behind it, and the limits of its application."
+  },
+  "kind": {
+    "zh": "外部理论参照",
+    "en": "External theoretical reference"
+  },
+  "body": {
+    "zh": "<a id=\"P11\"></a>\n\n**通俗问题：** 伴侣帮助你改变，什么时候是支持，什么时候是控制？\n\n“米开朗基罗现象”描述一种亲密关系过程：如果伴侣对你的看法和对待方式符合**你自己认可的理想自我**，这种肯定与向理想自我移动相关。Drigotas等人的四项多方法研究发现，感受到的伴侣肯定与向理想自我移动相关，也与伴侣关系功能及稳定性相关。[S16：Drigotas et al., 1999](https://doi.org/10.1037/0022-3514.77.2.293)\n\n关键词不是“雕刻”，而是“对方自己的理想”。伴侣可以给机会、提醒、信任或实际协助，让对方更容易实践已经认领的目标；若目标由支持者强加，或支持以服从、羞辱和撤回爱为条件，就偏离了这项理论。\n\n**证据怎样来：** S16的四项研究使用不同样本和测量方法，主要提供变量之间的关联支持，不足以把伴侣肯定写成单向且必然的塑造因果。后来的研究继续发展该框架，但本目录只用原始论文支撑基本命题。\n\n**自拟例子：** B一直想在关键时刻敢于公开承担责任。A没有替B决定“你应该更强硬”，而是在B主动表态后替他挡住无关干扰，并在事后让功劳回到B名下。反过来，A若逼B变成更方便自己使用的人，即使称作“我在让你成长”，也不是这里的肯定。\n\n**能为本项目提供什么：** M06的亲密例外可以写“一个人物愿意停止控制、提供真实选择、支持对方自认目标”。这比“他为你打破原则”更有关系内容，也能让阴影角色出现不抵消责任的成长支点。\n\n**不能推出什么：** 不能把改造欲、占有欲或替对方决定人生包装成米开朗基罗现象。支持成长也不抵消欺骗、压迫或伤害；同源优势和行为责任仍要分开写。",
+    "en": "<a id=\"P11\"></a>\n\n**Plain-language question:** When a partner helps you change, when is it support, and when is it control?\n\nThe “Michelangelo phenomenon” describes a process in close relationships: when a partner’s view and treatment of you align with **the ideal self that you personally endorse**, that affirmation is associated with movement toward your ideal self. Across four studies using multiple methods, Drigotas and colleagues found that perceived partner affirmation was associated with movement toward the ideal self as well as with relationship functioning and stability. [S16: Drigotas et al., 1999](https://doi.org/10.1037/0022-3514.77.2.293)\n\nThe key word is not “sculpting,” but “the other person’s own ideal.” A partner can offer opportunities, reminders, trust, or practical assistance that make it easier for someone to pursue a goal they have already claimed as their own. If the supporter imposes the goal, or makes support conditional on obedience, humiliation, or the withdrawal of love, the process no longer fits this theory.\n\n**Where the evidence comes from:** The four studies in S16 use different samples and methods. They mainly provide evidence of associations among variables; they are not sufficient to portray partner affirmation as a one-way, inevitable cause of personal transformation. Later research further developed the framework, but this collection uses the original paper only to support the basic proposition.\n\n**Illustrative example:** B has long wanted to take public responsibility at critical moments. A does not decide on B’s behalf that “you should be tougher.” Instead, after B speaks up voluntarily, A shields B from irrelevant interference and afterward ensures that B receives the credit. Conversely, if A forces B to become more convenient for A to use, calling it “helping you grow” does not make it affirmation in this sense.\n\n**What this contributes to the project:** An intimate exception in M06 can show “one character becoming willing to stop controlling, offer real choices, and support a goal the other person claims as their own.” This gives the relationship more substance than “he broke his rules for you,” and allows a shadow character to have a foothold for growth without erasing responsibility.\n\n**What it does not show:** The urge to remake or possess someone, or to decide their life for them, cannot be packaged as the Michelangelo phenomenon. Supporting growth also does not cancel deception, oppression, or harm. Strengths that arise from the same source and responsibility for behavior must still be described separately."
+  },
+  "related": [
+    "mechanism-m06"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": true
+}

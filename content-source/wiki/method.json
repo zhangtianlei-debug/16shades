@@ -1,0 +1,27 @@
+{
+  "slug": "method",
+  "status": "published",
+  "category": "axes",
+  "title": {
+    "zh": "手段轴：谋与压",
+    "en": "Means: Strategy and Pressure"
+  },
+  "summary": {
+    "zh": "更常重排信息、关系和选项，还是直接设置条件与后果？",
+    "en": "Do you tend to rearrange information, relationships, and options, or set conditions and consequences directly?"
+  },
+  "kind": {
+    "zh": "项目定义",
+    "en": "Project definition"
+  },
+  "body": {
+    "zh": "## 项目定义\n\n**谋**是借信息、关系、叙事、利益安排或局面设计，改变对方能看到的选项与选择；它可以公开，也可以隐藏意图。**压**是通过命令、威慑、条件、资源优势或明确后果，直接收窄对方的选择空间。\n\n## 怎么观察\n\n正当协商、计划与管理能力本身不是恶性证据。要看行动怎样对待对方的知情、选择和边界。\n\n## 边界\n\n谋不等于聪明或内向，压不等于愚笨或冲动；两种路径都可能精密或粗糙。",
+    "en": "## Project definition\n\n**Strategy** uses information, relationships, narratives, incentives, or the design of a situation to change the options someone sees and the choices they make. It can be open or conceal its intent. **Pressure** directly narrows another person's room to choose through orders, intimidation, conditions, resource advantages, or explicit consequences.\n\n## What to observe\n\nLegitimate negotiation, planning, and management skills are not in themselves evidence of harmfulness. Look at how the action treats the other person's information, choices, and boundaries.\n\n## Limits\n\nStrategy does not mean intelligence or introversion, and Pressure does not mean stupidity or impulsiveness. Either approach can be sophisticated or crude."
+  },
+  "related": [
+    "model-overview",
+    "matching-boundaries"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": false
+}

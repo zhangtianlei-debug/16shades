@@ -1,0 +1,26 @@
+{
+  "slug": "psychology-p07",
+  "status": "published",
+  "category": "psychology",
+  "title": {
+    "zh": "为什么一个越追，另一个越躲",
+    "en": "Why Does One Person Pursue While the Other Withdraws?"
+  },
+  "summary": {
+    "zh": "外部研究的通俗整理：说明问题、证据与适用边界。",
+    "en": "An accessible guide to outside research: the questions it addresses, the evidence behind it, and the limits of its application."
+  },
+  "kind": {
+    "zh": "外部理论参照",
+    "en": "External theoretical reference"
+  },
+  "body": {
+    "zh": "<a id=\"P07\"></a>\n\n**通俗问题：** 是追的人太强势，还是躲的人太冷漠？\n\n需求—退缩模式把注意力从单方缺点移到循环：一方要求讨论、批评或推动改变，另一方防御、沉默、转移或退出。Christensen与Heavey让31对夫妻分别讨论“丈夫希望妻子改变”和“妻子希望丈夫改变”的议题。双方在自己想要改变对方的议题上更会要求，在伴侣想改变自己的议题上更会退缩，说明角色受到议题结构影响。[S09：Christensen & Heavey, 1990](https://doi.org/10.1037/0022-3514.59.1.73)\n\nSchrodt等人随后汇总74项研究、14255名参与者。要求、退缩及其组合与较差的个人、关系和沟通结果有中等程度总体关联；妻要求／夫退缩和夫要求／妻退缩的总体效应相近，高困扰或临床样本中的关联更强。[S10：Schrodt, Witt, & Shimkowski, 2014](https://doi.org/10.1080/03637751.2013.813632)\n\n**证据怎样来：** S09结合自评与观察，但样本小且只有异性夫妻；S10覆盖面更广，却主要汇总相关。两者共同反对把要求与退缩写成固定男女本性。它们也不能证明每一次暂离都伤害关系。\n\n**自拟例子：** A认为“现在不给答案就是拒绝负责”，于是提高音量、缩短期限；B认为“再说只会被逼着认输”，于是不回消息。B越消失，A越确定必须加压；A越加压，B越确定退出才安全。循环由双方动作共同维持，但责任不必机械对半分。\n\n**能为本项目提供什么：** M04“互激与停火”应写成回合：谁要改变什么，第一次加码是什么，对方如何解释，再下一步如何升级。谋可以通过议题顺序和第三方布局推进，压可以通过期限或后果推进；两者都可能成为“追”。退缩也可能是拖延、保住现状、争回决定权或短暂降温，动机不能只凭表面动作判断。\n\n**不能推出什么：** 不能把压型固定写成需求者、谋型固定写成退缩者，也不能把有害循环浪漫化为“越爱越追”。若退出是为了稍后返回，需要具体时间和返回条件；若沉默用于惩罚或控制，就不是中性冷静。",
+    "en": "<a id=\"P07\"></a>\n\n**Plain-language question:** Is the pursuer too forceful, or is the person withdrawing too cold?\n\nThe demand–withdraw pattern shifts attention from one person’s flaw to a cycle: one party demands discussion, criticizes, or pushes for change, while the other becomes defensive, falls silent, changes the subject, or exits. Christensen and Heavey asked 31 married couples to discuss one issue on which the husband wanted the wife to change and another on which the wife wanted the husband to change. Both spouses made more demands on the issue where they wanted their partner to change and withdrew more on the issue where their partner wanted them to change. This suggests that the structure of the issue helps shape the roles. [S09: Christensen & Heavey, 1990](https://doi.org/10.1037/0022-3514.59.1.73)\n\nSchrodt and colleagues later synthesized 74 studies with 14255 participants. Demand, withdrawal, and their combination had moderate overall associations with poorer individual, relational, and communication outcomes. The overall effects were similar for wife-demand/husband-withdraw and husband-demand/wife-withdraw, and the associations were stronger in highly distressed or clinical samples. [S10: Schrodt, Witt, & Shimkowski, 2014](https://doi.org/10.1080/03637751.2013.813632)\n\n**Where the evidence comes from:** S09 combines self-reports with observation, but its sample is small and includes only heterosexual married couples. S10 has broader coverage, but primarily synthesizes correlational evidence. Together, they argue against treating demand and withdrawal as fixed male or female natures. They also do not show that every temporary exit harms a relationship.\n\n**Illustrative example:** A believes that “refusing to answer now means refusing responsibility,” so A raises their voice and shortens the deadline. B believes that “if I keep talking, I’ll only be forced to concede,” so B stops replying. The more B disappears, the more certain A becomes that greater pressure is necessary; the more pressure A applies, the more certain B becomes that leaving is the only safe option. Both parties’ actions sustain the cycle, but responsibility need not be divided mechanically in half.\n\n**What this contributes to the project:** M04, “Mutual Escalation and Ceasefire,” should unfold in rounds: what change one person demands, how they first escalate, how the other interprets it, and how the next move escalates again. Strategy may advance through the order of issues and third-party positioning; Pressure may advance through deadlines or consequences. Either can become the “pursuer.” Withdrawal may also serve to delay, preserve the status quo, reclaim decision-making authority, or cool things down briefly. Motive cannot be inferred from the visible action alone.\n\n**What it does not show:** A Pressure-oriented character cannot be fixed in the demander role, nor a Strategy-oriented character in the withdrawer role. A harmful cycle must not be romanticized as “the more they love, the harder they pursue.” If someone exits in order to return later, the time and conditions for returning should be concrete. If silence is used to punish or control, it is not neutral calm."
+  },
+  "related": [
+    "mechanism-m04"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": true
+}

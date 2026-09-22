@@ -1,0 +1,114 @@
+html[data-language-pending] body { visibility: hidden; }
+html[data-prototype-pending] .prototype-shell { visibility: hidden; }
+.language-switcher { display: inline-flex; align-items: center; flex: 0 0 auto; color: inherit; font: inherit; }
+.language-switcher .language-trigger { box-sizing: border-box; display: inline-flex; flex: 0 0 auto; align-items: center; justify-content: center; gap: 8px; min-width: 88px; width: auto; height: 44px; padding: 0 14px; font: inherit; font-size: 12px; font-weight: 500; line-height: 1; color: #80738b; background: transparent; border: 1px solid #d4cbdf; border-radius: 12px; cursor: pointer; transition: background-color .15s, border-color .15s; }
+.language-code { display: block; min-width: 18px; text-align: center; letter-spacing: .02em; }
+.language-trigger .language-code[aria-current='true'] { color: #503080; font-weight: 750; }
+.language-divider { color: #b2a7bd; font-size: 13px; font-weight: 400; }
+@media (hover: hover) { .language-switcher .language-trigger:hover { background: #eae5f1; border-color: #b9a9ce; } }
+.language-trigger:focus-visible { outline: 2px solid #7953a0; outline-offset: 3px; }
+.language-menu [role="menuitemradio"] { min-height: 36px; cursor: pointer; }
+.proto-nav-short { display: none; }
+.prototype-shell .proto-header { flex-wrap: nowrap; }
+.prototype-shell .proto-header nav { margin-left: auto; width: auto; flex-wrap: nowrap; }
+.prototype-shell .proto-world-nav { flex-wrap: nowrap; }
+.prototype-shell .proto-world-nav a { white-space: nowrap; }
+html[lang="en"] { overflow-wrap: break-word; }
+html[lang="en"] .proto-brand strong, html[lang="en"] .openness-brand strong { font-size: 17px; letter-spacing: -.5px; }
+html[lang="en"] .proto-brand { gap: 5px; }
+html[lang="en"] .proto-header nav { gap: 18px; }
+html[lang="en"] .proto-header .proto-nav-link { font-size: 13px; }
+html[lang="en"] .proto-reading-page h1 { letter-spacing: -.035em; }
+html[lang="en"] .proto-character-name { overflow-wrap: normal; }
+html[lang="en"] .proto-choice-label { white-space: normal; }
+@media(max-width: 720px) {
+ html[lang="en"] .proto-header nav { gap: 10px; }
+ html[lang="en"] .proto-header .proto-nav-link { font-size: 11px; }
+ html[lang="en"] .proto-brand strong { font-size: 12px; }
+ html[lang="en"] .proto-brand span { font-size: 25px; }
+}
+
+html[lang="en"] .proto-hero:not(.proto-result-hero) h1 { font-size: clamp(46px, 5vw, 72px); line-height: 1.12; letter-spacing: -.045em; }
+html[lang="en"] .proto-result-hero h1 em { font-family: Georgia, serif; font-size: clamp(36px, 4.5vw, 64px); letter-spacing: -.025em; white-space: normal; }
+
+html[lang="en"] .proto-speech { white-space: normal; max-width: 300px; line-height: 1.4; }
+html[lang="en"] .proto-answer { text-align: center; }
+@media(max-width: 700px) {
+  .prototype-shell:not(.prototype-shell--fullscreen-quiz) { --header-height: 104px; }
+  .prototype-shell[data-view] { --header-height: 64px; }
+  .prototype-shell .proto-header { height: 64px; padding: 0 12px; gap: 10px; align-content: normal; }
+  .prototype-shell .proto-header nav { gap: 12px; justify-content: flex-end; min-width: 0; }
+  .prototype-shell .proto-header .proto-nav-link { font-size: 12px !important; }
+  .prototype-shell .proto-header .proto-brand { gap: 4px; }
+  .prototype-shell .proto-header .proto-brand strong { font-size: 14px; letter-spacing: 0; }
+  .prototype-shell .proto-header .proto-brand > span { font-size: 25px; }
+  .prototype-shell .proto-header .proto-account { padding: 4px; }
+  .prototype-shell .proto-header .proto-nav-result { padding: 7px; font-size: 12px !important; }
+  .proto-nav-short { display: inline; }
+  .proto-nav-full { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+  html[lang="en"] .proto-speech { max-width: 200px; }
+  html[lang="en"] .proto-answer-dots { min-height: 86px; align-items: flex-start; }
+  html[lang="en"] .proto-answer { flex: 1; min-width: 0; padding: 2px; font-size: 12px; }
+  html[lang="en"] .proto-answer > span { min-height: 34px; display: flex; align-items: center; justify-content: center; }
+  html[lang="en"] .prototype-shell .proto-result-hero h1 em { font-size: clamp(26px, 5.7vw, 40px); overflow-wrap: normal; word-break: normal; }
+  html[lang="en"] .proto-insight-identity { grid-template-columns: 72px minmax(0, 1fr); gap: 12px; }
+  html[lang="en"] .proto-insight-identity > img { width: 72px; height: 72px; }
+  html[lang="en"] .proto-insight-heading .proto-insight-identity h2 { font-size: clamp(22px, 5.8vw, 28px); overflow-wrap: normal; word-break: normal; }
+}
+@media(max-width: 380px) {
+  .prototype-shell .proto-header { padding-inline: 10px; gap: 7px; }
+  .prototype-shell .proto-header nav { gap: 8px; }
+  .prototype-shell .proto-header .proto-brand strong { font-size: 12px; }
+  .prototype-shell .proto-header .proto-nav-result { padding-inline: 5px; }
+}
+
+/* Keep every primary destination visible after adding the About page. */
+@media (max-width: 480px) {
+  .prototype-shell[data-view]:not(.prototype-shell--fullscreen-quiz) { --header-height: 104px; }
+  .prototype-shell:not(.prototype-shell--fullscreen-quiz) .proto-header {
+    height: var(--header-height);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas: "brand language" "navigation navigation";
+    padding: 10px 16px;
+    gap: 4px 14px;
+  }
+  .prototype-shell:not(.prototype-shell--fullscreen-quiz) .proto-brand { grid-area: brand; justify-self: start; }
+  .prototype-shell:not(.prototype-shell--fullscreen-quiz) .proto-header > .language-switcher { grid-area: language; }
+  .prototype-shell:not(.prototype-shell--fullscreen-quiz) .proto-header nav {
+    grid-area: navigation;
+    width: 100%;
+    margin-left: 0;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .prototype-shell:not(.prototype-shell--fullscreen-quiz) .proto-header .proto-nav-link { font-size: 13px !important; }
+}
+
+/* The shared primary navigation deliberately uses two rows on compact screens.
+   These selectors follow the earlier prototype-only header rules. */
+@media (max-width: 640px) {
+  .prototype-shell[data-view]:not(.prototype-shell--fullscreen-quiz) { --header-height: 104px; }
+  .prototype-shell[data-view]:not(.prototype-shell--fullscreen-quiz) .shared-header.proto-header {
+    height: 104px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas: 'brand actions' 'nav nav';
+    padding: 8px 12px;
+    gap: 5px 12px;
+  }
+  .prototype-shell[data-view]:not(.prototype-shell--fullscreen-quiz) .shared-header__brand { grid-area: brand; }
+  .prototype-shell[data-view]:not(.prototype-shell--fullscreen-quiz) .shared-header__actions { grid-area: actions; }
+  .prototype-shell[data-view]:not(.prototype-shell--fullscreen-quiz) .shared-header__nav {
+    grid-area: nav;
+    width: 100%;
+    margin-left: 0;
+    justify-content: space-between;
+    gap: 6px;
+  }
+  .prototype-shell[data-view]:not(.prototype-shell--fullscreen-quiz) .shared-header__link { font-size: 12px; }
+}
+@media (max-width: 359px) {
+  .prototype-shell[data-view]:not(.prototype-shell--fullscreen-quiz) .shared-header__nav { gap: 4px; }
+  .prototype-shell[data-view]:not(.prototype-shell--fullscreen-quiz) .shared-header__link { font-size: 11px; }
+}

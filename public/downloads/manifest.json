@@ -1,0 +1,170 @@
+{
+  "cards": {
+    "alpha": false,
+    "count": 16,
+    "height": 1440,
+    "width": 1080
+  },
+  "items": [
+    {
+      "card": "cards/t01.png",
+      "family": "利谋·猎手系",
+      "id": "T01",
+      "name": "掮客",
+      "portrait": "portraits/t01.png",
+      "slug": "t01",
+      "structure": "利谋用饰"
+    },
+    {
+      "card": "cards/t02.png",
+      "family": "利谋·猎手系",
+      "id": "T02",
+      "name": "投机客",
+      "portrait": "portraits/t02.png",
+      "slug": "t02",
+      "structure": "利谋用蔑"
+    },
+    {
+      "card": "cards/t03.png",
+      "family": "利谋·猎手系",
+      "id": "T03",
+      "name": "笑面客",
+      "portrait": "portraits/t03.png",
+      "slug": "t03",
+      "structure": "利谋惩饰"
+    },
+    {
+      "card": "cards/t04.png",
+      "family": "利谋·猎手系",
+      "id": "T04",
+      "name": "追猎者",
+      "portrait": "portraits/t04.png",
+      "slug": "t04",
+      "structure": "利谋惩蔑"
+    },
+    {
+      "card": "cards/t05.png",
+      "family": "利压·掠夺系",
+      "id": "T05",
+      "name": "收割者",
+      "portrait": "portraits/t05.png",
+      "slug": "t05",
+      "structure": "利压用饰"
+    },
+    {
+      "card": "cards/t06.png",
+      "family": "利压·掠夺系",
+      "id": "T06",
+      "name": "掠夺者",
+      "portrait": "portraits/t06.png",
+      "slug": "t06",
+      "structure": "利压用蔑"
+    },
+    {
+      "card": "cards/t07.png",
+      "family": "利压·掠夺系",
+      "id": "T07",
+      "name": "清算者",
+      "portrait": "portraits/t07.png",
+      "slug": "t07",
+      "structure": "利压惩饰"
+    },
+    {
+      "card": "cards/t08.png",
+      "family": "利压·掠夺系",
+      "id": "T08",
+      "name": "悍客",
+      "portrait": "portraits/t08.png",
+      "slug": "t08",
+      "structure": "利压惩蔑"
+    },
+    {
+      "card": "cards/t09.png",
+      "family": "权谋·操盘系",
+      "id": "T09",
+      "name": "操盘手",
+      "portrait": "portraits/t09.png",
+      "slug": "t09",
+      "structure": "权谋用饰"
+    },
+    {
+      "card": "cards/t10.png",
+      "family": "权谋·操盘系",
+      "id": "T10",
+      "name": "煽动家",
+      "portrait": "portraits/t10.png",
+      "slug": "t10",
+      "structure": "权谋用蔑"
+    },
+    {
+      "card": "cards/t11.png",
+      "family": "权谋·操盘系",
+      "id": "T11",
+      "name": "权术家",
+      "portrait": "portraits/t11.png",
+      "slug": "t11",
+      "structure": "权谋惩饰"
+    },
+    {
+      "card": "cards/t12.png",
+      "family": "权谋·操盘系",
+      "id": "T12",
+      "name": "教主",
+      "portrait": "portraits/t12.png",
+      "slug": "t12",
+      "structure": "权谋惩蔑"
+    },
+    {
+      "card": "cards/t13.png",
+      "family": "权压·霸主系",
+      "id": "T13",
+      "name": "铁腕者",
+      "portrait": "portraits/t13.png",
+      "slug": "t13",
+      "structure": "权压用饰"
+    },
+    {
+      "card": "cards/t14.png",
+      "family": "权压·霸主系",
+      "id": "T14",
+      "name": "定局者",
+      "portrait": "portraits/t14.png",
+      "slug": "t14",
+      "structure": "权压用蔑"
+    },
+    {
+      "card": "cards/t15.png",
+      "family": "权压·霸主系",
+      "id": "T15",
+      "name": "裁决者",
+      "portrait": "portraits/t15.png",
+      "slug": "t15",
+      "structure": "权压惩饰"
+    },
+    {
+      "card": "cards/t16.png",
+      "family": "权压·霸主系",
+      "id": "T16",
+      "name": "暴君",
+      "portrait": "portraits/t16.png",
+      "slug": "t16",
+      "structure": "权压惩蔑"
+    }
+  ],
+  "portraits": {
+    "alpha": true,
+    "count": 16,
+    "height": 1024,
+    "width": 1024
+  },
+  "version": "resource-download-candidates-2026-09-07",
+  "zip": {
+    "path": "shadow16-all-characters.zip",
+    "contents": [
+      "portraits/",
+      "cards/",
+      "manifest.json",
+      "使用说明.md"
+    ]
+  }
+}

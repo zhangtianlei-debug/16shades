@@ -1,0 +1,28 @@
+{
+  "slug": "mbti-functions",
+  "status": "published",
+  "category": "framework",
+  "title": {
+    "zh": "认知功能与我们的四轴，能怎样对话？",
+    "en": "How can cognitive functions relate to our four axes?"
+  },
+  "summary": {
+    "zh": "可以把认知功能当作‘如何注意与判断’的语言，把四轴当作‘阴影局面中优先追求和采用什么’的语言。",
+    "en": "Think of cognitive functions as a language for how someone attends to information and makes judgments, and our four axes as a language for what someone prioritizes and does in a shadow situation."
+  },
+  "kind": {
+    "zh": "创作联想与理论参照",
+    "en": "Creative interpretation & theory reference"
+  },
+  "body": {
+    "zh": "## 对话，不是翻译\n\nMBTI类型动力学会讨论感觉、直觉、思考、情感等心理过程及其使用顺序。本项目四轴讨论利益或决定权、间接设计或直接施压、止于目标或追加代价、包装规范或公开轻蔑。两套概念没有官方换算关系。\n\n## 一个轻量例子\n\n以常被称为外倾直觉的Ne为例，产品创作可以把‘看到外部可能和连接’写成掮客的资源连线，也可以写成煽动家的话题扩散。差别来自角色路径和具体选择，不是Ne自带操纵或煽动属性。\n\n## 普通用户不必学习功能堆栈\n\n结果卡只需要‘MBTI × 角色’、一句短句和一个场景。认知功能只放在自愿展开的深层解释中，并始终标明是创作视角、待观察，不作为测评结论或伤害预测。\n\n## 先分清几套常被混用的语言\n\n八种‘功能＋态度’有荣格理论的来源；把功能位置进一步配上英雄、父母等角色，是John Beebe的八功能八原型模型等后续解释。MBTI官方也有类型动力学，不能把所有功能讨论都说成网络发明。16Personalities则使用参考大五构建的NERIS五维模型，不采用认知功能排序。这些体系可以帮助提出不同问题，不提供到本项目四轴的换算表。",
+    "en": "## Dialogue, not translation\n\nMBTI type dynamics discusses mental processes such as Sensing, Intuition, Thinking, and Feeling, including the order in which they are used. Our four axes address different questions: tangible gain or decision power, indirect strategy or direct pressure, stopping once the goal or repair is achieved or imposing an extra cost, and seeking publicly defensible norms or relying on one’s own judgment despite disapproval. There is no official conversion between the two systems.\n\n## A quick example\n\nTake Ne, often called Extraverted Intuition. In a creative portrayal, its eye for external possibilities and connections might color a Broker’s networking or an Agitator’s ability to spread an idea. The difference comes from the shadow role and the person’s choices; Ne itself is neither manipulative nor inflammatory.\n\n## You Don't Need to Learn the Cognitive-Function Stack\n\nA result card needs only an 'MBTI × Role' label, one line, and one scene. Cognitive functions appear only in optional deeper context, clearly labeled as a creative lens and a possibility to observe—never as an assessment conclusion or a prediction of harm.\n\n## First, separate the frameworks people often conflate\n\nThe eight function–attitude combinations have roots in Jungian theory. Assigning roles such as Hero or Parent to function positions comes from later interpretations, including John Beebe’s eight-function, eight-archetype model. Official MBTI materials also discuss type dynamics, so cognitive-function discourse cannot all be dismissed as an online invention. 16Personalities, by contrast, uses its Big Five–inspired five-dimensional NERIS model rather than a cognitive-function order. These frameworks can prompt different questions, but none supplies a conversion table for our four axes."
+  },
+  "related": [
+    "mbti-connection",
+    "mbti-same-type",
+    "mbti-same-role"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": false
+}

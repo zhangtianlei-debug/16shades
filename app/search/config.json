@@ -1,0 +1,15 @@
+{
+  "indexingEnabled": false,
+  "canonicalOrigin": "",
+  "siteVerification": {},
+  "knowledgeCandidates": [
+    "model-overview", "relationships-method", "type-share-estimation",
+    "mechanism-m01", "mechanism-m02", "mechanism-m03", "mechanism-m04", "mechanism-m05", "mechanism-m06",
+    "psychology-p01", "psychology-p02", "psychology-p03", "psychology-p04", "psychology-p05", "psychology-p06",
+    "psychology-p07", "psychology-p08", "psychology-p09", "psychology-p10", "psychology-p11", "psychology-p12"
+  ],
+  "relationshipCandidates": [
+    "T01-T09", "T01-T03", "T02-T06", "T03-T11", "T04-T08", "T05-T07",
+    "T06-T14", "T09-T13", "T10-T12", "T11-T15", "T13-T16", "T14-T14"
+  ]
+}

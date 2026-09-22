@@ -1,0 +1,27 @@
+{
+  "slug": "mechanism-m01",
+  "status": "published",
+  "category": "mechanisms",
+  "title": {
+    "zh": "M01｜共谋与争位",
+    "en": "M01 | Alliances and contests for position"
+  },
+  "summary": {
+    "zh": "共同目标、依赖与替代选择怎样形成结盟和争位。",
+    "en": "How shared goals, dependence, and alternatives create alliances and struggles for position."
+  },
+  "kind": {
+    "zh": "项目定义",
+    "en": "Project definition"
+  },
+  "body": {
+    "zh": "<a id=\"M01\"></a>\n\n**我们的观点。** 一对人物能不能并肩，先看共同结果怎样产生、结果由谁分配。相同目标可能让人同路，也可能让人争抢唯一位置；不同目标有时反而允许交换。我们把“目标能否一起满足”和“谁控制达成目标的条件”放在人物相似度之前。\n\n值得观察四件事：共同任务是否真实存在；收益与决定权能否拆分；双方各自掌握什么；一方失去另一方后有多少替代选择。实际关系权力由这些条件形成，不能从“权型”这个字直接读出。\n\n**自拟场景。** 掮客提供渠道，操盘手协调各方。约定的收益和决策范围都得到承认时，他们可以相互需要；当渠道变得可替代，原来的分配也可能受到挑战。关系的反转来自筹码变化，不需要任何人突然换型。\n\n**写作支点：** “我们在一起能做成什么？”“做成以后，谁还有必要留下？”\n\n研究路径：相互依赖理论与权力—依赖分析。[S01](https://doi.org/10.1146/annurev.psych.54.101601.145059)、[S02](https://doi.org/10.2307/2089716)。研究支持从情境和依赖关系分析互动；上述角色情节是本稿创作。",
+    "en": "<a id=\"M01\"></a>\n\n**Our view.** To understand whether two characters can stand together, first examine how they produce a shared outcome and who distributes it. The same goal can put them on the same path or make them compete for a single position. Different goals can sometimes make exchange possible. We place two questions before similarity: can their goals be met together, and who controls the conditions for meeting them?\n\nObserve four things: whether a real shared task exists; whether benefits and decision-making authority can be separated; what each controls; and what alternatives each would have without the other. These conditions create actual relational power. It cannot be read directly from a Control-oriented type label.\n\n**An invented scene.** The Broker supplies access while the Puppet Master coordinates the parties. They may need each other when the agreed benefits and decision boundaries are respected. Once that access becomes replaceable, the original distribution may be challenged. The reversal comes from changing bargaining power; neither character needs to suddenly change type.\n\n**Writing prompts:** What can we accomplish together? Once it is done, who still needs to stay?\n\nResearch paths: interdependence theory and power-dependence analysis. [S01](https://doi.org/10.1146/annurev.psych.54.101601.145059), [S02](https://doi.org/10.2307/2089716). The research supports examining interaction through situations and dependence. The character plot above is this draft's creative work."
+  },
+  "related": [
+    "psychology-p01",
+    "psychology-p02"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": true
+}

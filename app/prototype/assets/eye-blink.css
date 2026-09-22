@@ -1,0 +1,65 @@
+/* 眼神细节候选：仅在结果态播放，所有 ID 采用实例前缀后的后缀匹配。 */
+@keyframes t02-eye-blink { 0%, 46%, 54%, 100% { transform: scaleY(1); } 49%, 51% { transform: scaleY(.12); } }
+@keyframes t03-eye-blink { 0%, 46%, 54%, 100% { transform: scaleY(1); } 49%, 51% { transform: scaleY(.12); } }
+@keyframes t04-eye-blink { 0%, 46%, 54%, 100% { transform: scaleY(1); } 49%, 51% { transform: scaleY(.12); } }
+@keyframes t05-eye-blink { 0%, 46%, 54%, 100% { transform: scaleY(1); } 49%, 51% { transform: scaleY(.12); } }
+@keyframes t06-eye-blink { 0%, 46%, 54%, 100% { transform: scaleY(1); } 49%, 51% { transform: scaleY(.12); } }
+@keyframes t07-eye-blink { 0%, 46%, 54%, 100% { transform: scaleY(1); } 49%, 51% { transform: scaleY(.12); } }
+@keyframes t08-eye-blink { 0%, 46%, 54%, 100% { transform: scaleY(1); } 49%, 51% { transform: scaleY(.12); } }
+
+.proto-character[data-motion-phase='result'][data-motion-state='playing'] [id$='t02-web-layer-020'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'] [id$='t02-web-layer-021'] { transform-box: fill-box; transform-origin: center; animation: t02-eye-blink 4.8s ease-in-out 2 both; }
+.proto-character[data-motion-phase='result'][data-motion-state='playing'] [id$='t03-web-layer-021'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'] [id$='t03-web-layer-027'] { transform-box: fill-box; transform-origin: center; animation: t03-eye-blink 4.8s ease-in-out 2 both; }
+.proto-character[data-motion-phase='result'][data-motion-state='playing'] [id$='t04-web-layer-039'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'] [id$='t04-web-layer-043'] { transform-box: fill-box; transform-origin: center; animation: t04-eye-blink 4.8s ease-in-out 2 both; }
+.proto-character[data-motion-phase='result'][data-motion-state='playing'] [id$='t05-web-layer-019'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'] [id$='t05-web-layer-020'] { transform-box: fill-box; transform-origin: center; animation: t05-eye-blink 4.8s ease-in-out 2 both; }
+.proto-character[data-motion-phase='result'][data-motion-state='playing'] [id$='t06-web-layer-020'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'] [id$='t06-web-layer-021'] { transform-box: fill-box; transform-origin: center; animation: t06-eye-blink 4.8s ease-in-out 2 both; }
+.proto-character[data-motion-phase='result'][data-motion-state='playing'] [id$='t07-web-layer-025'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'] [id$='t07-web-layer-026'] { transform-box: fill-box; transform-origin: center; animation: t07-eye-blink 4.8s ease-in-out 2 both; }
+.proto-character[data-motion-phase='result'][data-motion-state='playing'] [id$='t08-web-layer-018'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'] [id$='t08-web-layer-019'] { transform-box: fill-box; transform-origin: center; animation: t08-eye-blink 4.8s ease-in-out 2 both; }
+
+/* data-paused 只冻结当前帧，绝不移除 animation 声明。 */
+.proto-character[data-motion-phase='result'][data-motion-state='playing'][data-paused='true'] [id$='t02-web-layer-020'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'][data-paused='true'] [id$='t02-web-layer-021'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'][data-paused='true'] [id$='t03-web-layer-021'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'][data-paused='true'] [id$='t03-web-layer-027'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'][data-paused='true'] [id$='t04-web-layer-039'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'][data-paused='true'] [id$='t04-web-layer-043'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'][data-paused='true'] [id$='t05-web-layer-019'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'][data-paused='true'] [id$='t05-web-layer-020'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'][data-paused='true'] [id$='t06-web-layer-020'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'][data-paused='true'] [id$='t06-web-layer-021'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'][data-paused='true'] [id$='t07-web-layer-025'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'][data-paused='true'] [id$='t07-web-layer-026'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'][data-paused='true'] [id$='t08-web-layer-018'],
+.proto-character[data-motion-phase='result'][data-motion-state='playing'][data-paused='true'] [id$='t08-web-layer-019'] { animation-play-state: paused; }
+
+/* idle 与系统减少动态效果时不应用 transform，保留 SVG 路径自身的 native transform。 */
+.proto-character[data-motion-phase='result'][data-motion-state='idle'] [id$='t02-web-layer-020'],
+.proto-character[data-motion-phase='result'][data-motion-state='idle'] [id$='t02-web-layer-021'],
+.proto-character[data-motion-phase='result'][data-motion-state='idle'] [id$='t03-web-layer-021'],
+.proto-character[data-motion-phase='result'][data-motion-state='idle'] [id$='t03-web-layer-027'],
+.proto-character[data-motion-phase='result'][data-motion-state='idle'] [id$='t04-web-layer-039'],
+.proto-character[data-motion-phase='result'][data-motion-state='idle'] [id$='t04-web-layer-043'],
+.proto-character[data-motion-phase='result'][data-motion-state='idle'] [id$='t05-web-layer-019'],
+.proto-character[data-motion-phase='result'][data-motion-state='idle'] [id$='t05-web-layer-020'],
+.proto-character[data-motion-phase='result'][data-motion-state='idle'] [id$='t06-web-layer-020'],
+.proto-character[data-motion-phase='result'][data-motion-state='idle'] [id$='t06-web-layer-021'],
+.proto-character[data-motion-phase='result'][data-motion-state='idle'] [id$='t07-web-layer-025'],
+.proto-character[data-motion-phase='result'][data-motion-state='idle'] [id$='t07-web-layer-026'],
+.proto-character[data-motion-phase='result'][data-motion-state='idle'] [id$='t08-web-layer-018'],
+.proto-character[data-motion-phase='result'][data-motion-state='idle'] [id$='t08-web-layer-019'] { animation: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .proto-character[data-motion-phase='result'] [id$='t02-web-layer-020'], .proto-character[data-motion-phase='result'] [id$='t02-web-layer-021'],
+  .proto-character[data-motion-phase='result'] [id$='t03-web-layer-021'], .proto-character[data-motion-phase='result'] [id$='t03-web-layer-027'],
+  .proto-character[data-motion-phase='result'] [id$='t04-web-layer-039'], .proto-character[data-motion-phase='result'] [id$='t04-web-layer-043'],
+  .proto-character[data-motion-phase='result'] [id$='t05-web-layer-019'], .proto-character[data-motion-phase='result'] [id$='t05-web-layer-020'],
+  .proto-character[data-motion-phase='result'] [id$='t06-web-layer-020'], .proto-character[data-motion-phase='result'] [id$='t06-web-layer-021'],
+  .proto-character[data-motion-phase='result'] [id$='t07-web-layer-025'], .proto-character[data-motion-phase='result'] [id$='t07-web-layer-026'],
+  .proto-character[data-motion-phase='result'] [id$='t08-web-layer-018'], .proto-character[data-motion-phase='result'] [id$='t08-web-layer-019'] { animation: none; }
+}

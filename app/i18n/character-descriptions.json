@@ -1,0 +1,66 @@
+{
+  "t01": {
+    "name": "Broker",
+    "description": "A reserved, smiling broker offers one token while hiding more tokens in a pocket."
+  },
+  "t02": {
+    "name": "Opportunist",
+    "description": "An opportunist steps through an opening in a boundary and takes a resource token."
+  },
+  "t03": {
+    "name": "Smiler",
+    "description": "A smiling figure offers a friendly gesture while quietly keeping a separate account."
+  },
+  "t04": {
+    "name": "Pursuer",
+    "description": "A pursuer crosses a stop boundary while following a trail with a magnifying glass."
+  },
+  "t05": {
+    "name": "Harvester",
+    "description": "A harvester twists a wage bag with both hands, squeezing out coins."
+  },
+  "t06": {
+    "name": "Raider",
+    "description": "A raider carries away a resource chest with a broken seal and crosses a boundary."
+  },
+  "t07": {
+    "name": "Collector",
+    "description": "A collector holds official papers while taking the last savings jar from an empty cabinet."
+  },
+  "t08": {
+    "name": "Bruiser",
+    "description": "A bruiser holds a money bag while kicking over a small stall."
+  },
+  "t09": {
+    "name": "Puppet Master",
+    "description": "A puppet master holds a crossbar and adjusts one of three control strings."
+  },
+  "t10": {
+    "name": "Agitator",
+    "description": "An agitator speaks through a megaphone, sending sharp sound waves in both directions."
+  },
+  "t11": {
+    "name": "Power Broker",
+    "description": "A power broker holds a red zero score above and a green ten score below."
+  },
+  "t12": {
+    "name": "Cult Leader",
+    "description": "A smiling leader in round glasses offers a welcoming hand while hiding a short chain behind the body."
+  },
+  "t13": {
+    "name": "Enforcer",
+    "description": "An enforcer with eyes hidden by a low cap closes handcuffs, with keys at the waist."
+  },
+  "t14": {
+    "name": "Decider",
+    "description": "A decider stamps one decision while sweeping other papers aside."
+  },
+  "t15": {
+    "name": "Arbiter",
+    "description": "A masked arbiter tears a blank sheet of paper in two."
+  },
+  "t16": {
+    "name": "Tyrant",
+    "description": "A calm tyrant in a laurel crown sits on a throne and presses its single large button."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "model-overview",
+  "status": "published",
+  "category": "framework",
+  "title": {
+    "zh": "模型总览：四轴定型，五维定恶",
+    "en": "Model overview: four axes describe style, five dimensions describe harmfulness"
+  },
+  "summary": {
+    "zh": "这套框架关心人在利益、竞争、控制与冲突中更容易怎样行动。",
+    "en": "This framework explores how people tend to act around gain, competition, control, and conflict."
+  },
+  "kind": {
+    "zh": "项目定义",
+    "en": "Project definition"
+  },
+  "body": {
+    "zh": "## 它要回答什么\n\n坏人16型是一套关于“人会怎么坏”的类型系统：通过自测或对他人的观察，描述人在利益、竞争、控制与冲突情境中，更容易采取哪一种阴影行为风格。它问的不是“这个人是不是坏人”。\n\n## 四轴与16型\n\n四轴按固定顺序组成类型：目标（利／权）、手段（谋／压）、伤害（用／惩）、规范（饰／蔑）。每轴取一个相对优先端，形成16种组合；前两轴分为猎手、掠夺、操盘、霸主四族。\n\n## 五维不等于类型\n\n四轴回答“以什么方式行动”，五维回答恶性体现在哪里、达到什么程度：自我中心性、伤害取向、工具化操纵性、支配报复性、规范免疫度。类型不是坏度，风格也不是命运。\n\n## 使用边界\n\n本项目是自定义的行为风格与阴影模式框架，未宣称已经过心理测量学验证；不用于临床诊断、法律定性或对一个人的总体价值作最终裁决。",
+    "en": "## What it asks\n\n16 Shades is a system of types describing the forms harmful behavior can take. Through self-reflection or observation of others, it describes which shadow behavior style someone may lean toward in situations involving gain, competition, control, and conflict. It does not ask whether someone is a bad person.\n\n## Four axes and 16 types\n\nThe four axes form a type in a fixed order: Goal (Gain / Control), Means (Strategy / Pressure), Harm (Instrumental / Punitive), and Norms (Justification / Disregard). Choosing one relatively preferred end on each axis produces 16 combinations. The first two axes define four families: Hunters, Raiders, Controllers, and Rulers.\n\n## Five dimensions are separate from type\n\nThe four axes describe how someone acts. The five dimensions describe where harmfulness appears and to what degree: self-centeredness, orientation toward harm, instrumental manipulation, domination and retaliation, and resistance to normative restraint. Type is not a measure of how bad someone is, and style is not destiny.\n\n## Limits of use\n\nThis is a custom framework for behavior styles and shadow patterns. It does not claim psychometric validation and is not intended for clinical diagnosis, legal classification, or a final judgment of anyone's overall worth."
+  },
+  "related": [
+    "goal",
+    "method",
+    "conflict",
+    "norm",
+    "matching-boundaries"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": true
+}

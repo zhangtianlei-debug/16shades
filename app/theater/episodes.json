@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "demoMode": false,
+  "pageSize": 3,
+  "stories": [
+    {
+      "id": "cover-battle",
+      "title": {
+        "zh": "封面争夺战",
+        "en": "The Cover Battle"
+      },
+      "summary": {
+        "zh": "一张封面，四个主意。最后上镜的，谁也没猜到。",
+        "en": "One cover. Four opinions. Nobody saw the final choice coming."
+      },
+      "cast": [
+        "T01",
+        "T09",
+        "T10",
+        "T14"
+      ],
+      "panels": [
+        {
+          "id": "01",
+          "title": {
+            "zh": "封面还空着",
+            "en": "The cover is still blank"
+          },
+          "alt": {
+            "zh": "办公室里，四个人讨论谁上封面。掮客守着借来的摄影灯，煽动家举起自己的提案。",
+            "en": "At an office meeting, four colleagues discuss the cover. Broker guards a borrowed light while Agitator reveals his proposal."
+          },
+          "src": {
+            "zh": "/theater/001/zh/01.webp",
+            "en": "/theater/001/en/01.webp"
+          },
+          "width": 1086,
+          "height": 1448,
+          "lines": {
+            "zh": [
+              "定局者：封面谁上？",
+              "掮客：先说好，灯是借的。押金我付的。",
+              "煽动家：我已经做好了。"
+            ],
+            "en": [
+              "Decider: Who gets the cover?",
+              "Broker: Just so we're clear, that light is borrowed. I paid the deposit.",
+              "Agitator: I've already made one."
+            ]
+          }
+        },
+        {
+          "id": "02",
+          "title": {
+            "zh": "大脸提案",
+            "en": "The giant-face proposal"
+          },
+          "alt": {
+            "zh": "煽动家的华丽大脸肖像占满封面，测试标题被挤到右下角。提案遭到否决。",
+            "en": "Agitator’s beautiful self-portrait fills the cover. The test heading is tiny. His proposal is rejected."
+          },
+          "src": {
+            "zh": "/theater/001/zh/02.webp",
+            "en": "/theater/001/en/02.webp"
+          },
+          "width": 1086,
+          "height": 1448,
+          "lines": {
+            "zh": [
+              "煽动家：封面，就要让人一眼记住。",
+              "操盘手：测试呢？",
+              "煽动家：右下角。",
+              "掮客、定局者：否决。"
+            ],
+            "en": [
+              "Agitator: A cover should be unforgettable at first glance.",
+              "Puppetmaster: Where's the test?",
+              "Agitator: Bottom right.",
+              "Broker and Decider: Rejected."
+            ]
+          }
+        },
+        {
+          "id": "03",
+          "title": {
+            "zh": "三个方案",
+            "en": "Three options"
+          },
+          "alt": {
+            "zh": "操盘手拿出三个方案，都是自己的不同角度。定局者扫开提案，决定合影。",
+            "en": "Puppetmaster offers three views of himself. Decider sweeps the proposals aside and calls for a group photo."
+          },
+          "src": {
+            "zh": "/theater/001/zh/03.webp",
+            "en": "/theater/001/en/03.webp"
+          },
+          "width": 1086,
+          "height": 1448,
+          "lines": {
+            "zh": [
+              "操盘手：那就投票，三个方案。",
+              "掮客：怎么全是你？",
+              "操盘手：三个角度。很公平。",
+              "定局者：别投了，拍一张。"
+            ],
+            "en": [
+              "Puppetmaster: Let's vote. Three options.",
+              "Broker: Why are they all you?",
+              "Puppetmaster: Three angles. Perfectly fair.",
+              "Decider: Forget the vote. Let's take a photo."
+            ]
+          }
+        },
+        {
+          "id": "04",
+          "title": {
+            "zh": "我的押金",
+            "en": "My deposit"
+          },
+          "alt": {
+            "zh": "定局者挤到中间碰倒灯架。掮客扑去接灯，快门恰好按下。",
+            "en": "Decider pushes into the middle and knocks the light off balance. Broker catches it just as the shutter clicks."
+          },
+          "src": {
+            "zh": "/theater/001/zh/04.webp",
+            "en": "/theater/001/en/04.webp"
+          },
+          "width": 1086,
+          "height": 1448,
+          "lines": {
+            "zh": [
+              "定局者：站好。我在中间。",
+              "掮客：我的押金！",
+              "快门：咔嚓。"
+            ],
+            "en": [
+              "Decider: Get in position. I'm in the middle.",
+              "Broker: My deposit!",
+              "Shutter: Click."
+            ]
+          }
+        },
+        {
+          "id": "05",
+          "title": {
+            "zh": "封面定了",
+            "en": "The cover is settled"
+          },
+          "alt": {
+            "zh": "唯一清晰的照片是掮客抱灯的瞬间，被选作封面。煽动家抱着自己的华丽肖像回家。",
+            "en": "Broker holding the light is the only sharp photo, so it becomes the cover. Agitator takes his portrait home."
+          },
+          "src": {
+            "zh": "/theater/001/zh/05.webp",
+            "en": "/theater/001/en/05.webp"
+          },
+          "width": 1086,
+          "height": 1448,
+          "lines": {
+            "zh": [
+              "操盘手：只有这张没糊。",
+              "定局者：就这张。",
+              "掮客：灯没事就行。",
+              "煽动家：那这张，我先带回家。"
+            ],
+            "en": [
+              "Puppetmaster: This is the only sharp one.",
+              "Decider: Use it.",
+              "Broker: As long as the light's okay.",
+              "Agitator: I'll take this one home, then."
+            ]
+          }
+        },
+        {
+          "id": "06",
+          "title": {
+            "zh": "散会，来玩一会儿",
+            "en": "Meeting over. Come hang out."
+          },
+          "alt": {
+            "zh": "四人走出会议室：操盘手拿着方案，煽动家抱着自画像，掮客带走摄影灯，定局者最后迈出门。上方邀请读者来16暗影玩一会儿。",
+            "en": "The four leave the meeting room. Puppetmaster holds his proposals, Agitator carries his self-portrait, Broker takes the light, and Decider steps through the door. The heading invites readers to hang out at 16 Shades."
+          },
+          "src": {
+            "zh": "/theater/001/zh/06.webp",
+            "en": "/theater/001/en/06.webp"
+          },
+          "width": 1086,
+          "height": 1448,
+          "lines": {
+            "zh": [
+              "来16暗影玩一会儿。",
+              "测测你的暗影人格，也来认识这16个人物。",
+              "先答16题 · 完整解读免费 · 无需注册"
+            ],
+            "en": [
+              "Come hang out at 16 Shades.",
+              "Explore your shadow personality. Meet all 16 characters.",
+              "Start with 16 questions · Full insights, free · No sign-up"
+            ]
+          }
+        },
+        {
+          "id": "07",
+          "title": {
+            "zh": "这就是我们的封面",
+            "en": "And here is our cover"
+          },
+          "alt": {
+            "zh": "小红书封面成图：掮客抱着摄影灯，标题为“我们做了个暗影人格测试”，旁边写着无广告、不收费。",
+            "en": "The finished cover: Broker holds a photography light beneath the headline “We made a shadow-personality test”, with “No ads” and “No fees” beside him."
+          },
+          "src": {
+            "zh": "/theater/001/zh/07.webp",
+            "en": "/theater/001/en/07.webp"
+          },
+          "width": 1086,
+          "height": 1448,
+          "lines": {
+            "zh": [
+              "我们做了个暗影人格测试。",
+              "看看你坏起来是哪一型。",
+              "利益、竞争、控制与冲突里的你。",
+              "无广告，不收费。"
+            ],
+            "en": [
+              "We made a shadow-personality test.",
+              "Which type are you at your worst?",
+              "You, facing interests, competition, control and conflict.",
+              "No ads. No fees."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "episodes": [
+    {
+      "id": "001",
+      "number": 1,
+      "storyId": "cover-battle",
+      "demo": false,
+      "coverPanel": 0
+    }
+  ]
+}

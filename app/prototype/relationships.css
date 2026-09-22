@@ -1,0 +1,278 @@
+.rel-page,
+.rel-preview {
+  color: #33273e;
+}
+.rel-page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 28px 18px 64px;
+}
+.rel-back,
+.rel-method,
+.rel-detail-toggle {
+  border: 0;
+  background: transparent;
+  color: #644372;
+  font: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+.rel-eyebrow {
+  color: #765487;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 0 0 8px;
+}
+.rel-page h1,
+.rel-preview h2 {
+  font-family: Georgia, 'Songti SC', serif;
+  line-height: 1.15;
+}
+.rel-page h1 {
+  font-size: 42px;
+  margin: 18px 0 9px;
+}
+.rel-selectors {
+  display: flex;
+  gap: 12px;
+  margin: 18px 0;
+}
+.rel-selectors label {
+  flex: 1;
+  color: #6e6078;
+  font-size: 13px;
+}
+.rel-selectors select {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+  padding: 9px;
+  border: 1px solid #ded2e2;
+  border-radius: 8px;
+  background: #fff;
+  color: #33273e;
+}
+.rel-people {
+  display: grid;
+  grid-template-columns: 1fr 26px 1fr;
+  align-items: center;
+  gap: 12px;
+}
+.rel-person {
+  border: 0;
+  background: #fff;
+  border-radius: 15px;
+  padding: 10px;
+  color: #33273e;
+  font: inherit;
+  cursor: pointer;
+}
+.rel-person img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  display: block;
+}
+.rel-person span {
+  display: block;
+  text-align: center;
+  font:
+    22px Georgia,
+    'Songti SC',
+    serif;
+}
+.rel-times {
+  text-align: center;
+  color: #a387b1;
+  font-size: 24px;
+}
+.rel-hook {
+  font:
+    21px Georgia,
+    'Songti SC',
+    serif;
+  line-height: 1.6;
+}
+.rel-note,
+.rel-same {
+  font-size: 13px;
+  color: #756979;
+  line-height: 1.65;
+}
+.rel-mode-tabs {
+  display: flex;
+  gap: 7px;
+  margin: 23px 0 11px;
+}
+.rel-mode-tabs button {
+  border: 1px solid #d9cbe0;
+  border-radius: 999px;
+  background: #fff;
+  color: #634873;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+.rel-mode-tabs .is-active {
+  background: #56365f;
+  color: #fff;
+  border-color: #56365f;
+}
+.rel-branch,
+.rel-views article,
+.rel-details,
+.rel-preview-card {
+  background: #fff;
+  border: 1px solid #e8deeb;
+  border-radius: 14px;
+  padding: 16px;
+}
+.rel-branch p:last-child,
+.rel-views p {
+  margin: 0;
+  line-height: 1.75;
+}
+.rel-branch-label {
+  font-size: 12px;
+  color: #765487;
+  margin: 0 0 6px;
+}
+.rel-views {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+.rel-views h2 {
+  font-size: 18px;
+  margin: 0 0 7px;
+}
+.rel-detail-toggle {
+  margin: 18px 0 10px;
+  font-weight: 700;
+}
+.rel-details {
+  line-height: 1.75;
+}
+.rel-method {
+  margin-top: 22px;
+  font-weight: 700;
+}
+.rel-preview {
+  background: #f4eff6;
+  padding: 20px;
+  border-radius: 18px;
+}
+.rel-preview h2 {
+  margin: 0 0 13px;
+  font-size: 26px;
+}
+.rel-preview-card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+  margin-top: 9px;
+}
+.rel-preview-main {
+  border: 0;
+  background: transparent;
+  text-align: left;
+  color: #33273e;
+  padding: 0;
+  cursor: pointer;
+}
+.rel-preview-main span,
+.rel-preview-main strong,
+.rel-preview-main small {
+  display: block;
+}
+.rel-preview-main span {
+  color: #765487;
+  font-size: 12px;
+}
+.rel-preview-main strong {
+  font-size: 17px;
+  margin: 3px 0;
+}
+.rel-preview-main small {
+  color: #756979;
+  line-height: 1.5;
+}
+.rel-expand {
+  border: 0;
+  background: transparent;
+  color: #644372;
+  cursor: pointer;
+}
+.rel-preview-detail {
+  grid-column: 1/-1;
+  margin: 3px 0 0;
+  color: #756979;
+  line-height: 1.65;
+  font-size: 13px;
+}
+.population-estimate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  background: #fff;
+  border: 1px solid #e5d9e8;
+  border-radius: 14px;
+  padding: 16px;
+}
+.population-estimate p {
+  margin: 0;
+  color: #624970;
+  font-size: 13px;
+}
+.population-estimate strong {
+  display: block;
+  font:
+    28px Georgia,
+    'Songti SC',
+    serif;
+  margin: 4px 0;
+}
+.population-estimate span {
+  display: block;
+  color: #756979;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.population-estimate button {
+  width: 29px;
+  height: 29px;
+  border: 1px solid #8b6b98;
+  border-radius: 50%;
+  background: #fff;
+  color: #634873;
+  font-weight: 700;
+  cursor: pointer;
+}
+@media (max-width: 360px) {
+  .rel-page {
+    padding: 20px 12px;
+  }
+  .rel-page h1 {
+    font-size: 34px;
+  }
+  .rel-people {
+    gap: 7px;
+  }
+  .rel-person img {
+    height: 135px;
+  }
+  .rel-views {
+    grid-template-columns: 1fr;
+  }
+  .rel-selectors {
+    gap: 7px;
+  }
+  .population-estimate {
+    padding: 13px;
+  }
+  .population-estimate strong {
+    font-size: 25px;
+  }
+}

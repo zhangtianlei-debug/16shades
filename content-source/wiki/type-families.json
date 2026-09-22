@@ -1,0 +1,30 @@
+{
+  "slug": "type-families",
+  "status": "published",
+  "category": "framework",
+  "title": {
+    "zh": "16型与四大族",
+    "en": "16 types and four families"
+  },
+  "summary": {
+    "zh": "先用人物原型认领，再用四轴结构理解行动逻辑。",
+    "en": "Start with a recognizable character archetype, then use the four axes to understand the logic of its actions."
+  },
+  "kind": {
+    "zh": "项目定义",
+    "en": "Project definition"
+  },
+  "body": {
+    "zh": "## 四族不是四档危险等级\n\n前两轴分族：利谋为猎手系，利压为掠夺系，权谋为操盘系，权压为霸主系；后两轴再分出每族四型。四族用于理解和视觉归类，不是危险程度排序。\n\n## 连接人物图鉴\n\n人物名称承载记忆，四字结构负责解释。点击上方人物可以进入图鉴；名称是原型，不等于真实职业、社会阶层或犯罪分类。\n\n## 读法\n\n同一类型的具体行动与影响可以相差很大；不同类型也可能有相近的恶性强度。不要从名称或组合推导一个人的价值、能力或伤害程度。",
+    "en": "## Four families are not four danger levels\n\nThe first two axes define the families: Gain + Strategy forms the Hunters, Gain + Pressure the Raiders, Control + Strategy the Controllers, and Control + Pressure the Rulers. The last two axes split each family into four types. Families help organize understanding and visual presentation; they do not rank danger.\n\n## Connecting to the character guide\n\nCharacter names make the profiles memorable; the four-axis structure explains them. Select a character above to open the guide. Each name is an archetype, not a real occupation, social class, or criminal category.\n\n## How to read the profiles\n\nActions and impacts can vary widely within one type, while different types can show similar degrees of harmfulness. Do not infer someone's worth, ability, or level of harm from a name or combination."
+  },
+  "related": [
+    "model-overview",
+    "goal",
+    "method",
+    "conflict",
+    "norm"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": false
+}

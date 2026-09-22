@@ -1,0 +1,29 @@
+{
+  "slug": "situations",
+  "status": "published",
+  "category": "axes",
+  "title": {
+    "zh": "三个现实情境：把类型放回选择",
+    "en": "Three everyday situations: putting choice back into type"
+  },
+  "summary": {
+    "zh": "从项目、补救与分工中，看四轴怎样帮助提出问题。",
+    "en": "See how the four axes help frame questions about a project, making amends, and dividing responsibilities."
+  },
+  "kind": {
+    "zh": "人物演绎",
+    "en": "Character interpretation"
+  },
+  "body": {
+    "zh": "## 一起做一个项目\n\n分成和方案不能都由同一人决定时，先问更想保住实际所得还是决定权；再问会安排信息和选项，还是明确期限与后果。这里的回答是观察入口，不是道德判决。\n\n## 对方已经补回少付款项\n\n款项补齐之后，有人认为事情可以结束；有人仍在意对方是否为这次失误付出代价。把补救是否完成和是否追加代价分开，能避免把合理追责直接写成报复。\n\n## 团队需要重新分工\n\n有人优先寻找大家能理解的标准，有人会先按自己的判断分配。接着要看谁能拒绝、理由是否可核对、结果是否可修复。情境与选择决定后果，四轴不替代它们。",
+    "en": "## Working on a project together\n\nWhen one person cannot decide both the division of proceeds and the plan, first ask whether the practical benefit or the final say matters more. Then ask whether they would arrange information and options or state deadlines and consequences directly. These answers are a starting point for observation, not a moral verdict.\n\n## The other person has repaid the missing amount\n\nOnce the payment is complete, some consider the issue closed. Others still care whether the person pays a price for the mistake. Separating completed repair from added costs helps avoid calling legitimate accountability retaliation.\n\n## A team needs to divide the work again\n\nSome first look for standards everyone can understand; others allocate tasks according to their own judgment. Next, ask who can refuse, whether the reasons can be checked, and whether the outcome can be repaired. Situations and choices determine consequences; the four axes do not replace them."
+  },
+  "related": [
+    "goal",
+    "method",
+    "conflict",
+    "norm"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": false
+}

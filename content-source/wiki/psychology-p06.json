@@ -1,0 +1,26 @@
+{
+  "slug": "psychology-p06",
+  "status": "published",
+  "category": "psychology",
+  "title": {
+    "zh": "为什么同一份帮助会被记成两种账",
+    "en": "Why Can the Same Help Be Entered in Two Different Ledgers?"
+  },
+  "summary": {
+    "zh": "外部研究的通俗整理：说明问题、证据与适用边界。",
+    "en": "An accessible guide to outside research: the questions it addresses, the evidence behind it, and the limits of its application."
+  },
+  "kind": {
+    "zh": "外部理论参照",
+    "en": "External theoretical reference"
+  },
+  "body": {
+    "zh": "<a id=\"P06\"></a>\n\n**通俗问题：** A觉得“我照顾你是应该的”，B却觉得“你在等我还债”，到底谁误会了谁？\n\nClark与Mills区分交换关系和共同关系。交换关系强调获得具体利益后返还可比较利益；共同关系更按对方需要提供帮助，并借此表达对对方福祉的关心。两项实验考察了回赠利益、在获得帮助后请求利益等情形。研究发现，回赠或请求回报的意义随关系期待变化：在交换情境中可能适合，在共同关系期待中却可能使人将原先的帮助理解为交易，从而降低吸引。[S07：Clark & Mills, 1979](https://doi.org/10.1037/0022-3514.37.1.12)\n\nFiske的关系模式理论提供更宽的词典：人可能把互动组织为共同分享、权威排序、对等匹配或市场定价。不同关系领域可以采用不同模式，同一段关系也能混合使用；文化再规定“家人应怎样分享”“上级拥有什么权限”“怎样才算还清”。[S08：Fiske, 1992](https://doi.org/10.1037/0033-295X.99.4.689)\n\n**证据怎样来：** S07是关于新关系期待的两项实验；S08是跨文化理论整合，并引用民族志与多项实验支持。前者能说明规范错配如何改变吸引，后者提供关系协调的分类语言。两者都不是四类人格理论。\n\n**自拟例子：** 一人替朋友垫钱后精确记账，认为这样最公平；朋友却认为请客不用逐笔清算，精确账单反而表示“你没把我当自己人”。另一个场景里，朋友擅自替人做决定，声称这是照顾；对方却不承认亲密关系赋予这种权限。\n\n**能为本项目提供什么：** M03“关系错账”可以问四个具体问题：利益按需要还是按回报分？服从来自职责还是交换？公平是逐笔相等还是长期大致平衡？一次帮助创造感谢、债务还是决定权？利／权会影响角色争什么，饰／蔑会影响怎样讲这本账，但账本规则仍须由关系情境给出。\n\n**不能推出什么：** 共同关系不是无条件付出，交换关系也不是冷酷算计。任何模式都不能替越界开脱；“我们是一家人”不自动赋予控制权，“我付过钱”也不自动买到服从。",
+    "en": "<a id=\"P06\"></a>\n\n**Plain-language question:** A thinks, “Of course I should take care of you,” while B thinks, “You’re waiting for me to repay the debt.” Who has misunderstood whom?\n\nClark and Mills distinguish exchange relationships from communal relationships. Exchange relationships emphasize returning a comparable benefit after receiving a specific benefit. Communal relationships provide help in response to the other person’s needs and use that help to express concern for their welfare. Two experiments examined situations such as reciprocating a benefit and requesting a benefit after receiving help. They found that the meaning of repayment or a request for repayment changes with relationship expectations: it may be appropriate in an exchange context, yet in a context where a communal relationship is expected, it may recast the original help as a transaction and reduce attraction. [S07: Clark & Mills, 1979](https://doi.org/10.1037/0022-3514.37.1.12)\n\nFiske’s relational models theory supplies a broader vocabulary. People may organize interactions through communal sharing, authority ranking, equality matching, or market pricing. Different domains within a relationship can use different models, and one relationship can mix them. Culture further specifies “how family members should share,” “what authority a superior has,” and “what counts as settling a debt.” [S08: Fiske, 1992](https://doi.org/10.1037/0033-295X.99.4.689)\n\n**Where the evidence comes from:** S07 consists of two experiments on expectations in new relationships. S08 is a cross-cultural theoretical synthesis drawing on ethnography and multiple experiments. The former shows how a mismatch of norms can change attraction; the latter provides a taxonomy for coordinating relationships. Neither is a theory of four personality types.\n\n**Illustrative example:** After covering a friend’s expense, one person records the exact amount, believing that this is fairest. The friend believes that treats between friends need not be settled line by line, so the precise bill instead communicates, “You don’t consider me one of your own.” In another situation, a friend makes a decision on someone’s behalf and calls it care; the other person does not accept that intimacy grants such authority.\n\n**What this contributes to the project:** M03, “Mismatched Relationship Ledgers,” can ask four concrete questions: Are benefits allocated by need or by repayment? Does compliance come from duty or exchange? Does fairness mean exact equality transaction by transaction, or rough balance over time? Does one act of help create gratitude, debt, or decision-making authority? Gain/Control can influence what the characters fight over, and Justification/Disregard can influence how they narrate the ledger, but the rules of that ledger still have to come from the relationship context.\n\n**What it does not show:** A communal relationship is not unconditional giving, and an exchange relationship is not cold calculation. No model excuses a boundary violation. “We are family” does not automatically confer control, and “I paid for it” does not automatically purchase compliance."
+  },
+  "related": [
+    "mechanism-m03"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": true
+}

@@ -1,0 +1,682 @@
+{
+  "slug": "theory-sources",
+  "status": "published",
+  "category": "boundaries",
+  "title": {
+    "zh": "理论来源与使用边界",
+    "en": "Theoretical sources and limits of use"
+  },
+  "summary": {
+    "zh": "项目借鉴相关理论来提出问题，不把外部研究包装成16型的验证。",
+    "en": "The project draws on related theories to ask questions, without presenting external research as validation of its 16 types."
+  },
+  "kind": {
+    "zh": "外部理论参照",
+    "en": "External theoretical reference"
+  },
+  "body": {
+    "zh": "## 外部理论参照\n\n本项目参考黑暗人格、道德脱离、相互依赖、权力—依赖、关系模式等研究，用来说明可观察的关系和行为问题。它们不是对本项目四轴、16型映射或人物配对的直接验证。\n\n## 项目定义与人物演绎\n\n四轴、16型名称与关系机制编排属于项目定义或创作方法；人物场景属于人物演绎。每篇关系文章会标出研究能支持什么、不能推出什么。\n\n## 谨慎使用\n\n研究相关不等于因果，单次事件或单方主张也不足以判断稳定人格。信息不足时保留不知道。",
+    "en": "## External theoretical references\n\nThe project draws on research on dark personality, moral disengagement, interdependence, power and dependence, and relational models to explain observable questions about relationships and behavior. These sources do not directly validate its four axes, mapping of 16 types, or character pairings.\n\n## Project definitions and character interpretations\n\nThe four axes, type names, and arrangement of relationship mechanisms are project definitions or creative methods. Character scenes are interpretations. Each relationship article states what research can support and what cannot be inferred from it.\n\n## Use with care\n\nA research association is not causation. A single incident or one person's account is also insufficient to establish a stable personality. When information is insufficient, leave room for not knowing."
+  },
+  "related": [
+    "relationships-method",
+    "psychology-p01"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": false,
+  "sources": [
+    {
+      "id": "S01",
+      "authors": "Caryl E. Rusbult; Paul A. M. Van Lange",
+      "year": 2003,
+      "title": {
+        "zh": "Interdependence, Interaction, and Relationships",
+        "en": "Interdependence, Interaction, and Relationships"
+      },
+      "url": "https://doi.org/10.1146/annurev.psych.54.101601.145059",
+      "open_access_url": "https://research.vu.nl/ws/portalfiles/portal/1898345/Rusbult%20Annual%20Review%20of%20Psychology%2054%202003%20u.pdf",
+      "kind": {
+        "zh": "理论综述",
+        "en": "Theoretical review"
+      },
+      "findings": {
+        "zh": [
+          "相互依赖理论把互动理解为双方结果如何共同受彼此选择影响的情境结构，而不是两项人格特征的静态相加。",
+          "长期目标、对伴侣福祉的关切与反复互动形成的关系特异动机，会改变人对眼前得失的反应。"
+        ],
+        "en": [
+          "Interdependence theory treats interaction as a situation in which each person's choices jointly shape both people's outcomes, rather than as the static sum of two personality traits.",
+          "Long-term goals, concern for a partner's well-being, and relationship-specific motives formed through repeated interaction can change how people respond to immediate gains and losses."
+        ]
+      },
+      "limits": {
+        "zh": [
+          "这是理论综述，不是对本项目四轴或16型组合的直接检验。",
+          "相互依赖能解释合作与冲突条件，不能单独判定关系健康、道德或注定结局。"
+        ],
+        "en": [
+          "This is a theoretical review, not a direct test of this project's four axes or 16 type combinations.",
+          "Interdependence can help explain the conditions for cooperation and conflict, but cannot by itself establish whether a relationship is healthy or moral, or how it is destined to end."
+        ]
+      },
+      "supports_mechanisms": [
+        "M01",
+        "M06"
+      ]
+    },
+    {
+      "id": "S02",
+      "authors": "Richard M. Emerson",
+      "year": 1962,
+      "title": {
+        "zh": "Power-Dependence Relations",
+        "en": "Power-Dependence Relations"
+      },
+      "url": "https://doi.org/10.2307/2089716",
+      "open_access_url": "https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Power/Emerson_1962_Power-dependence_relations.pdf",
+      "kind": {
+        "zh": "理论论文",
+        "en": "Theoretical paper"
+      },
+      "findings": {
+        "zh": [
+          "A对B的权力来自B对A所控制资源或结果的依赖；依赖与目标的重要性、可替代来源的多少有关。",
+          "关系中的权力可以通过降低目标重要性、寻找替代、改变投入或形成联盟等过程重新平衡。"
+        ],
+        "en": [
+          "A's power over B comes from B's dependence on resources or outcomes that A controls; that dependence varies with the importance of the goal and the availability of alternatives.",
+          "Power in a relationship can be rebalanced by reducing a goal's importance, finding alternatives, changing investments, or forming coalitions."
+        ]
+      },
+      "limits": {
+        "zh": [
+          "论文提出关系层面的权力—依赖理论，主要不是人格测量研究。",
+          "理论中的权力不等同于本项目的权端；利型与权型都可能因控制稀缺资源而拥有关系权力。"
+        ],
+        "en": [
+          "The paper presents a relationship-level theory of power and dependence; it is not primarily a study of personality measurement.",
+          "Power in this theory is not the same as the Control pole in this project. Both Gain and Control types may hold relational power by controlling scarce resources."
+        ]
+      },
+      "supports_mechanisms": [
+        "M01"
+      ]
+    },
+    {
+      "id": "S03",
+      "authors": "D. Christopher Dryer; Leonard M. Horowitz",
+      "year": 1997,
+      "title": {
+        "zh": "When Do Opposites Attract? Interpersonal Complementarity Versus Similarity",
+        "en": "When Do Opposites Attract? Interpersonal Complementarity Versus Similarity"
+      },
+      "url": "https://doi.org/10.1037/0022-3514.72.3.592",
+      "open_access_url": "https://research.ibm.com/publications/when-do-opposites-attract-interpersonal-complementarity-versus-similarity",
+      "kind": {
+        "zh": "两项短时互动实验",
+        "en": "Two experiments on brief interactions"
+      },
+      "findings": {
+        "zh": [
+          "在支配—顺从维度上，一人的互动目标被另一人的行为满足时，前者对短时互动更满意。",
+          "行为—行为的表面互补或目标—目标的互补都不如目标—行为匹配；满意者还倾向把搭档知觉成与自己相似。",
+          "互补带来的主观满意没有自动转化为更高任务绩效。"
+        ],
+        "en": [
+          "On the dominance-submission dimension, people were more satisfied with a brief interaction when the other person's behavior fulfilled their interaction goal.",
+          "Surface complementarity between two people's behaviors, or between their goals, mattered less than a match between one person's goal and the other's behavior. More satisfied participants also tended to perceive their partners as similar to themselves.",
+          "The subjective satisfaction associated with complementarity did not automatically translate into better task performance."
+        ]
+      },
+      "limits": {
+        "zh": [
+          "样本与任务范围窄，主要是女大学生的实验室互动，不能直接外推长期亲密关系。",
+          "人际环形中的支配—顺从不等于利／权或谋／压；结果不能支持反类型固定配对。"
+        ],
+        "en": [
+          "The samples and tasks were narrow, consisting mainly of female undergraduates interacting in a laboratory, so the findings cannot be directly generalized to long-term intimate relationships.",
+          "Dominance-submission in the interpersonal circumplex is not equivalent to Gain / Control or Strategy / Pressure. The findings do not support fixed pairings of opposite types."
+        ]
+      },
+      "supports_mechanisms": [
+        "M02",
+        "M04"
+      ]
+    },
+    {
+      "id": "S04",
+      "authors": "Pamela Sadler; Nicole Ethier; Gregory R. Gunn; David Duong; Erik Woody",
+      "year": 2009,
+      "title": {
+        "zh": "Are We on the Same Wavelength? Interpersonal Complementarity as Shared Cyclical Patterns During Interactions",
+        "en": "Are We on the Same Wavelength? Interpersonal Complementarity as Shared Cyclical Patterns During Interactions"
+      },
+      "url": "https://doi.org/10.1037/a0016232",
+      "open_access_url": "https://uwaterloo.ca/psychology/sites/default/files/uploads/documents/Sadler_et_al_2009_JPSP_Are_We_On_the_Same_Wavelength.pdf",
+      "kind": {
+        "zh": "50组双人互动的连续行为编码与时间序列分析",
+        "en": "Continuous behavioral coding and time-series analysis of 50 dyadic interactions"
+      },
+      "findings": {
+        "zh": [
+          "多数双人互动中，亲和行为的周期变化高度同相，支配行为的周期变化高度反相。",
+          "人际互补可以表现为逐刻相互调整，而不只是两个人各自平均特征的差异。"
+        ],
+        "en": [
+          "In most dyadic interactions, cyclical changes in affiliative behavior were closely in phase, while cyclical changes in dominant behavior were closely out of phase.",
+          "Interpersonal complementarity can appear as moment-to-moment mutual adjustment, rather than only as a difference between each person's average traits."
+        ]
+      },
+      "limits": {
+        "zh": [
+          "观察到行为耦合不等于证明这种耦合使人更喜欢彼此或使关系更长久。",
+          "研究使用亲和与支配两维，不能把本项目四轴直接旋转成人际环形。"
+        ],
+        "en": [
+          "Observing behavioral coupling does not prove that the coupling makes people like each other more or keeps a relationship together longer.",
+          "The study used the dimensions of affiliation and dominance; this project's four axes cannot simply be mapped onto the interpersonal circumplex."
+        ]
+      },
+      "supports_mechanisms": [
+        "M02",
+        "M04"
+      ]
+    },
+    {
+      "id": "S05",
+      "authors": "Jenny M. Cundiff; Timothy W. Smith; Jonathan Butner; Kenneth L. Critchfield; Jill Nealey-Moore",
+      "year": 2015,
+      "title": {
+        "zh": "Affiliation and Control in Marital Interaction: Interpersonal Complementarity Is Present but Is Not Associated With Affect or Relationship Quality",
+        "en": "Affiliation and Control in Marital Interaction: Interpersonal Complementarity Is Present but Is Not Associated With Affect or Relationship Quality"
+      },
+      "url": "https://doi.org/10.1177/0146167214557002",
+      "open_access_url": null,
+      "kind": {
+        "zh": "两项婚姻互动研究",
+        "en": "Two studies of marital interaction"
+      },
+      "findings": {
+        "zh": [
+          "婚姻互动中亲和维的互补是稳健的常见模式，控制维的互补会随情境变化。",
+          "较少负面情绪与较高关系质量主要和双方总体更亲和、较少控制有关，并非和互补程度本身有关。"
+        ],
+        "en": [
+          "In marital interactions, complementarity on the affiliation dimension was a robust, common pattern, while complementarity on the control dimension varied by context.",
+          "Less negative emotion and higher relationship quality were associated mainly with both partners being more affiliative and less controlling overall, rather than with the degree of complementarity itself."
+        ]
+      },
+      "limits": {
+        "zh": [
+          "结果说明互补的功能依赖操作化和情境，不能据此否定所有互补作用，也不能把出现互补当成关系质量证据。",
+          "婚姻互动研究不验证本项目类型配对。"
+        ],
+        "en": [
+          "The findings show that the role of complementarity depends on how it is measured and on the context. They neither rule out every benefit of complementarity nor make its presence evidence of relationship quality.",
+          "Research on marital interaction does not validate this project's type pairings."
+        ]
+      },
+      "supports_mechanisms": [
+        "M02",
+        "M04"
+      ]
+    },
+    {
+      "id": "S06",
+      "authors": "R. Matthew Montoya; Robert S. Horton; Jeffrey Kirchner",
+      "year": 2008,
+      "title": {
+        "zh": "Is Actual Similarity Necessary for Attraction? A Meta-Analysis of Actual and Perceived Similarity",
+        "en": "Is Actual Similarity Necessary for Attraction? A Meta-Analysis of Actual and Perceived Similarity"
+      },
+      "url": "https://doi.org/10.1177/0265407508096700",
+      "open_access_url": null,
+      "kind": {
+        "zh": "元分析：313项研究、460个效应量",
+        "en": "Meta-analysis: 313 studies and 460 effect sizes"
+      },
+      "findings": {
+        "zh": [
+          "实际相似与知觉相似总体都和吸引有关，但实际相似效应主要见于未互动或短时互动研究。",
+          "在既有关系中，实际相似的总体效应不显著；知觉相似在未互动、短时互动和既有关系中都能预测吸引。"
+        ],
+        "en": [
+          "Both actual and perceived similarity were associated with attraction overall, but effects of actual similarity appeared mainly in studies of people who had not interacted or had interacted only briefly.",
+          "In established relationships, the overall effect of actual similarity was not significant. Perceived similarity predicted attraction among people who had not interacted, in brief interactions, and in established relationships."
+        ]
+      },
+      "limits": {
+        "zh": [
+          "大量纳入结果是相关，喜欢可能促进相似感，相似感也可能促进喜欢。",
+          "研究中的态度或人格相似不能自动替代本项目四字类型相同。"
+        ],
+        "en": [
+          "Many of the included findings were correlational: liking may increase perceived similarity, and perceived similarity may also increase liking.",
+          "Similarity in attitudes or personality as measured in these studies cannot be treated as equivalent to sharing the same four-character type in this project."
+        ]
+      },
+      "supports_mechanisms": [
+        "M02"
+      ]
+    },
+    {
+      "id": "S07",
+      "authors": "Margaret S. Clark; Judson Mills",
+      "year": 1979,
+      "title": {
+        "zh": "Interpersonal Attraction in Exchange and Communal Relationships",
+        "en": "Interpersonal Attraction in Exchange and Communal Relationships"
+      },
+      "url": "https://doi.org/10.1037/0022-3514.37.1.12",
+      "open_access_url": "https://clarkrelationshiplab.yale.edu/sites/default/files/files/Interpersonal%20attraction%20in%20exchance%20and%20commual%20relationships.pdf",
+      "kind": {
+        "zh": "两项实验",
+        "en": "Two experiments"
+      },
+      "findings": {
+        "zh": [
+          "交换关系按已获得的具体利益期待可比较回报；共同关系更按对方需要提供利益，并表达对其福祉的关心。",
+          "同样的回报请求，在期待交换关系时可能合适，在期待共同关系时却可能被理解为原先帮助只是交易，从而降低吸引。"
+        ],
+        "en": [
+          "In exchange relationships, people expect comparable repayment for specific benefits received. In communal relationships, they provide benefits more in response to the other person's needs and express concern for that person's well-being.",
+          "The same request for repayment may seem appropriate when an exchange relationship is expected, but under an expectation of a communal relationship it may imply that the original help was merely transactional, reducing attraction."
+        ]
+      },
+      "limits": {
+        "zh": [
+          "实验操纵的是对新关系的期待，不能把现实中的每段关系永久归入单一模式。",
+          "共同关系不是无边界付出，交换关系也不等于冷酷算计。"
+        ],
+        "en": [
+          "The experiments manipulated expectations about a new relationship; they do not justify permanently assigning every real relationship to a single mode.",
+          "A communal relationship does not require giving without boundaries, and an exchange relationship is not the same as cold calculation."
+        ]
+      },
+      "supports_mechanisms": [
+        "M03"
+      ]
+    },
+    {
+      "id": "S08",
+      "authors": "Alan Page Fiske",
+      "year": 1992,
+      "title": {
+        "zh": "The Four Elementary Forms of Sociality: Framework for a Unified Theory of Social Relations",
+        "en": "The Four Elementary Forms of Sociality: Framework for a Unified Theory of Social Relations"
+      },
+      "url": "https://doi.org/10.1037/0033-295X.99.4.689",
+      "open_access_url": "https://www.researchgate.net/publication/21700623_The_four_elementary_forms_of_sociality_Framework_for_a_unified_theory_of_social_relations",
+      "kind": {
+        "zh": "跨文化理论整合与既有证据综述",
+        "en": "Cross-cultural theoretical integration and review of existing evidence"
+      },
+      "findings": {
+        "zh": [
+          "社会协调可用四种基本关系模式理解：共同分享、权威排序、对等匹配和市场定价。",
+          "人们可以在不同领域或情境使用不同模式，文化规则决定每种模式如何具体落实。"
+        ],
+        "en": [
+          "Social coordination can be understood through four basic relational models: communal sharing, authority ranking, equality matching, and market pricing.",
+          "People can use different models in different domains or situations, while cultural rules shape how each model is put into practice."
+        ]
+      },
+      "limits": {
+        "zh": [
+          "四模式是关系协调理论，不是四类人格，也不与本项目四轴一一对应。",
+          "用该框架解释错账属于机制分析，不能据此判定哪一方客观正确。"
+        ],
+        "en": [
+          "The four models form a theory of relational coordination, not four personality types, and they do not correspond one-to-one with this project's four axes.",
+          "Using this framework to explain a disputed account is an analysis of the interaction mechanism; it cannot determine which party is objectively correct."
+        ]
+      },
+      "supports_mechanisms": [
+        "M03",
+        "M05"
+      ]
+    },
+    {
+      "id": "S09",
+      "authors": "Andrew Christensen; Christopher L. Heavey",
+      "year": 1990,
+      "title": {
+        "zh": "Gender and Social Structure in the Demand/Withdraw Pattern of Marital Conflict",
+        "en": "Gender and Social Structure in the Demand/Withdraw Pattern of Marital Conflict"
+      },
+      "url": "https://doi.org/10.1037/0022-3514.59.1.73",
+      "open_access_url": null,
+      "kind": {
+        "zh": "31对夫妻、两个冲突议题的自评与观察编码研究",
+        "en": "A study of 31 married couples using self-reports and observational coding across two conflict topics"
+      },
+      "findings": {
+        "zh": [
+          "双方讨论谁希望对方改变的议题，会显著影响谁要求、谁退缩；人们在自己要求改变的议题上更会要求，在伴侣要求改变的议题上更会退缩。",
+          "研究同时观察到性别差异，但结构效应说明角色不能只归因于男女本性。"
+        ],
+        "en": [
+          "Which partner wanted the other to change on the topic under discussion significantly affected who demanded and who withdrew. People demanded more on topics where they wanted change and withdrew more on topics where their partner wanted change.",
+          "The study also observed gender differences, but the structural effect shows that these roles cannot be attributed solely to inherent differences between women and men."
+        ]
+      },
+      "limits": {
+        "zh": [
+          "样本小且只含异性婚姻，不能把需求—退缩写成固定性别、类型或攻受角色。",
+          "相关互动循环不能仅由单方性格解释。"
+        ],
+        "en": [
+          "The sample was small and included only different-sex marriages, so demand-withdraw patterns cannot be cast as fixed gender, type, or dominant-submissive roles.",
+          "A reciprocal interaction cycle cannot be explained solely by one person's personality."
+        ]
+      },
+      "supports_mechanisms": [
+        "M04"
+      ]
+    },
+    {
+      "id": "S10",
+      "authors": "Paul Schrodt; Paul L. Witt; Jenna R. Shimkowski",
+      "year": 2014,
+      "title": {
+        "zh": "A Meta-Analytical Review of the Demand/Withdraw Pattern of Interaction and Its Associations with Individual, Relational, and Communicative Outcomes",
+        "en": "A Meta-Analytical Review of the Demand/Withdraw Pattern of Interaction and Its Associations with Individual, Relational, and Communicative Outcomes"
+      },
+      "url": "https://doi.org/10.1080/03637751.2013.813632",
+      "open_access_url": null,
+      "kind": {
+        "zh": "元分析：74项研究、14255名参与者",
+        "en": "Meta-analysis: 74 studies and 14,255 participants"
+      },
+      "findings": {
+        "zh": [
+          "要求／退缩行为及其组合与较差的个人、关系和沟通结果存在中等程度总体关联。",
+          "妻要求／夫退缩和夫要求／妻退缩的总体效应相近，临床或高困扰样本中的关联更强。"
+        ],
+        "en": [
+          "Demand and withdrawal behaviors, both separately and in combination, showed a moderate overall association with poorer individual, relationship, and communication outcomes.",
+          "Wife-demand / husband-withdraw and husband-demand / wife-withdraw patterns had similar overall effects, with stronger associations in clinical or highly distressed samples."
+        ]
+      },
+      "limits": {
+        "zh": [
+          "元分析主要汇总关联，不能证明某一次退出必然导致关系恶化；暂离现场也可能是防止升级的策略。",
+          "模式是否有害取决于持续性、议题、返回沟通的安排和双方理解。"
+        ],
+        "en": [
+          "The meta-analysis primarily synthesized associations. It cannot show that any single withdrawal inevitably worsens a relationship; briefly leaving may also be a strategy to prevent escalation.",
+          "Whether the pattern is harmful depends on its persistence, the issue involved, plans for resuming communication, and both partners' understanding of it."
+        ]
+      },
+      "supports_mechanisms": [
+        "M04"
+      ]
+    },
+    {
+      "id": "S11",
+      "authors": "Caryl E. Rusbult; Julie Verette; Gregory A. Whitney; Linda F. Slovik; Isaac Lipkus",
+      "year": 1991,
+      "title": {
+        "zh": "Accommodation Processes in Close Relationships: Theory and Preliminary Empirical Evidence",
+        "en": "Accommodation Processes in Close Relationships: Theory and Preliminary Empirical Evidence"
+      },
+      "url": "https://doi.org/10.1037/0022-3514.60.1.53",
+      "open_access_url": "https://faculty.wcas.northwestern.edu/eli-finkel/documents/32_RusbultVeretteWhitneySlovikLipkus1991_JournalOfPersonalityAndSocialPsychology.pdf",
+      "kind": {
+        "zh": "六项研究：实验、自评与双人资料",
+        "en": "Six studies using experiments, self-reports, and dyadic data"
+      },
+      "findings": {
+        "zh": [
+          "调适指伴侣做出可能破坏关系的行为时，抑制立即破坏性反应并转向建设性反应。",
+          "较高承诺、满意、投入、换位思考与较少优质替代选择，和更多调适相关；双人共同抑制破坏性反应也与较好伴侣功能相关。"
+        ],
+        "en": [
+          "Accommodation means inhibiting an immediate destructive response and shifting toward a constructive one when a partner behaves in a way that could harm the relationship.",
+          "Greater commitment, satisfaction, investment, and perspective-taking, along with fewer high-quality alternatives, were associated with more accommodation. Both partners' inhibition of destructive responses was also associated with better couple functioning."
+        ]
+      },
+      "limits": {
+        "zh": [
+          "调适不是无限忍受，也不说明遭受控制或伤害的人有义务继续关系。",
+          "研究包含实验与相关证据，但不能把某个停火动作当成关系一定修复的保证。"
+        ],
+        "en": [
+          "Accommodation does not mean tolerating harm without limit, nor does it imply that someone facing control or harm has an obligation to remain in the relationship.",
+          "The research includes experimental and correlational evidence, but a single de-escalating act cannot guarantee that a relationship will recover."
+        ]
+      },
+      "supports_mechanisms": [
+        "M04"
+      ]
+    },
+    {
+      "id": "S12",
+      "authors": "Delroy L. Paulhus",
+      "year": 1984,
+      "title": {
+        "zh": "Two-Component Models of Socially Desirable Responding",
+        "en": "Two-Component Models of Socially Desirable Responding"
+      },
+      "url": "https://doi.org/10.1037/0022-3514.46.3.598",
+      "open_access_url": "https://www2.psych.ubc.ca/~dpaulhus/research/SDR/downloads/ARTICLES/JPSP.1984.pdf",
+      "kind": {
+        "zh": "三项量表结构与公开／匿名情境研究",
+        "en": "Three studies of scale structure and public versus anonymous response settings"
+      },
+      "findings": {
+        "zh": [
+          "社会赞许反应至少应区分自我欺骗与印象管理，而不是当成一个单一的说谎倾向。",
+          "在公开作答条件下，主要载荷于印象管理的量表得分比匿名条件上升更多。"
+        ],
+        "en": [
+          "Socially desirable responding should at least be divided into self-deception and impression management, rather than treated as a single tendency to lie.",
+          "Scores on scales loading primarily on impression management rose more under public response conditions than under anonymous conditions."
+        ]
+      },
+      "limits": {
+        "zh": [
+          "量表反应研究不能证明某句体面说法一定是有意识伪装。",
+          "印象管理与本项目饰端有关联，但饰／蔑还包含如何为具体阴影行为争取规范认可，二者不等同。"
+        ],
+        "en": [
+          "Research on scale responses cannot prove that any particular respectable-sounding statement is a deliberate disguise.",
+          "Impression management is related to this project's Justification pole, but Justification / Disregard also concerns how people seek normative approval for specific shadow behaviors. The concepts are not equivalent."
+        ]
+      },
+      "supports_mechanisms": [
+        "M05"
+      ]
+    },
+    {
+      "id": "S13",
+      "authors": "Albert Bandura; Claudio Barbaranelli; Gian Vittorio Caprara; Concetta Pastorelli",
+      "year": 1996,
+      "title": {
+        "zh": "Mechanisms of Moral Disengagement in the Exercise of Moral Agency",
+        "en": "Mechanisms of Moral Disengagement in the Exercise of Moral Agency"
+      },
+      "url": "https://doi.org/10.1037/0022-3514.71.2.364",
+      "open_access_url": "https://www.sfu.ca/~kathleea/docs/Mechanisms%20of%20Moral%20Disengagement.pdf",
+      "kind": {
+        "zh": "青少年横断面多来源测量与路径模型研究",
+        "en": "A cross-sectional, multi-informant study of adolescents using path modeling"
+      },
+      "findings": {
+        "zh": [
+          "人可以通过道德正当化、委婉命名、责任转移或扩散、淡化后果、责怪和非人化受害者等方式解除自我谴责。",
+          "道德脱离与攻击、违规等有害行为存在关系，并通过较少亲社会取向、较多攻击倾向等路径关联行为。"
+        ],
+        "en": [
+          "People can disengage self-censure through moral justification, euphemistic labeling, displacement or diffusion of responsibility, minimizing consequences, blaming victims, and dehumanizing them.",
+          "Moral disengagement was associated with harmful behaviors such as aggression and rule-breaking, through pathways involving less prosocial orientation and greater aggressive tendencies."
+        ]
+      },
+      "limits": {
+        "zh": [
+          "核心研究是横断面，作者也要求谨慎解释路径模型的因果方向。",
+          "道德脱离不是饰端专属；公开蔑视规则的人也可能使用其中的责怪、非人化或淡化后果。"
+        ],
+        "en": [
+          "The core study was cross-sectional, and the authors also urged caution in interpreting the causal direction of its path model.",
+          "Moral disengagement is not exclusive to the Justification pole. People who openly disregard rules may also blame or dehumanize victims, or minimize consequences."
+        ]
+      },
+      "supports_mechanisms": [
+        "M05"
+      ]
+    },
+    {
+      "id": "S14",
+      "authors": "David A. Kenny; Lawrence La Voie",
+      "year": 1984,
+      "title": {
+        "zh": "The Social Relations Model",
+        "en": "The Social Relations Model"
+      },
+      "url": "https://doi.org/10.1016/S0065-2601(08)60144-6",
+      "open_access_url": "https://davidakenny.net/ip/srmip.htm",
+      "kind": {
+        "zh": "双人资料的理论与统计方法章节",
+        "en": "A chapter on theory and statistical methods for dyadic data"
+      },
+      "findings": {
+        "zh": [
+          "一人对另一人的知觉或行为可分为行动者／知觉者的一般倾向、对象的一般效应和这一对人特有的关系效应。",
+          "一般互惠与特定两人之间的双人互惠是不同问题。"
+        ],
+        "en": [
+          "One person's perception of or behavior toward another can be separated into the actor's or perceiver's general tendency, the target's general effect, and a relationship effect unique to that particular pair.",
+          "Generalized reciprocity and dyadic reciprocity between two specific people are distinct questions."
+        ]
+      },
+      "limits": {
+        "zh": [
+          "这是分析框架，不会自行证明灵魂伴侣、宿命吸引或某种类型组合。",
+          "没有重复测量或多指标时，关系效应可能混入测量误差。"
+        ],
+        "en": [
+          "This is an analytical framework; by itself, it cannot establish soulmates, fated attraction, or any particular type combination.",
+          "Without repeated measurements or multiple indicators, estimates of relationship effects may include measurement error."
+        ]
+      },
+      "supports_mechanisms": [
+        "M06"
+      ]
+    },
+    {
+      "id": "S15",
+      "authors": "Paul W. Eastwick; Eli J. Finkel; Daniel Mochon; Dan Ariely",
+      "year": 2007,
+      "title": {
+        "zh": "Selective Versus Unselective Romantic Desire: Not All Reciprocity Is Created Equal",
+        "en": "Selective Versus Unselective Romantic Desire: Not All Reciprocity Is Created Equal"
+      },
+      "url": "https://doi.org/10.1111/j.1467-9280.2007.01897.x",
+      "open_access_url": "https://faculty.wcas.northwestern.edu/eli-finkel/documents/ReciprocityRevisionFinal_000.pdf",
+      "kind": {
+        "zh": "速配研究：156名大学生，另有职业速配样本检验是否愿意再见",
+        "en": "Speed-dating study: 156 university students, with willingness to meet again also tested in a professional speed-dating sample"
+      },
+      "findings": {
+        "zh": [
+          "对某一特定对象的独特浪漫欲望有小幅正向互惠，也与对方报告的独特化学感正相关。",
+          "普遍对许多人表达浪漫欲望的倾向则与被他人欲望负相关；特异互惠和一般互惠方向不同。"
+        ],
+        "en": [
+          "Unique romantic desire for a particular person showed a small positive reciprocal effect and was positively correlated with that person's reported sense of unique chemistry.",
+          "By contrast, a general tendency to express romantic desire toward many people was negatively associated with being desired by others. Dyad-specific and generalized reciprocity ran in different directions."
+        ]
+      },
+      "limits": {
+        "zh": [
+          "四分钟速配测量的是初始吸引，不能推出长期关系质量或稳定性。",
+          "特异吸引无法从四字类型直接推算；研究中的中介解释也不是确定因果。"
+        ],
+        "en": [
+          "Four-minute speed dates measure initial attraction; they cannot establish long-term relationship quality or stability.",
+          "Dyad-specific attraction cannot be calculated directly from four-character types, and the study's mediation account does not establish causality."
+        ]
+      },
+      "supports_mechanisms": [
+        "M06"
+      ]
+    },
+    {
+      "id": "S16",
+      "authors": "Stephen M. Drigotas; Caryl E. Rusbult; Jennifer Wieselquist; Sarah W. Whitton",
+      "year": 1999,
+      "title": {
+        "zh": "Close Partner as Sculptor of the Ideal Self: Behavioral Affirmation and the Michelangelo Phenomenon",
+        "en": "Close Partner as Sculptor of the Ideal Self: Behavioral Affirmation and the Michelangelo Phenomenon"
+      },
+      "url": "https://doi.org/10.1037/0022-3514.77.2.293",
+      "open_access_url": "https://faculty.wcas.northwestern.edu/eli-finkel/documents/69_DrigotasRusbultWieselquistWhitton1999_JournalOfPersonalityAndSocialPsychology.pdf",
+      "kind": {
+        "zh": "四项多方法亲密关系研究",
+        "en": "Four multimethod studies of intimate relationships"
+      },
+      "findings": {
+        "zh": [
+          "当伴侣对一个人的看法和行为符合这个人自己认可的理想自我时，这个人更可能向该理想自我移动。",
+          "感受到的伴侣肯定与向理想自我移动相关，也与伴侣关系功能及稳定性相关。"
+        ],
+        "en": [
+          "When a partner's perceptions and behavior affirm a person's own ideal self, that person is more likely to move toward that ideal.",
+          "Perceived partner affirmation was associated with movement toward the ideal self, as well as with relationship functioning and stability."
+        ]
+      },
+      "limits": {
+        "zh": [
+          "四项研究主要提供关联支持，不能把伴侣肯定写成单向、必然的塑造因果。",
+          "理想目标属于被支持者本人；该理论不支持把人改造成伴侣想要的样子，也不为控制披上成长外衣。"
+        ],
+        "en": [
+          "The four studies provide mainly correlational support; partner affirmation should not be described as a one-way process that inevitably shapes a person.",
+          "The ideal belongs to the person being supported. The theory does not endorse remaking someone into what a partner wants or dressing up control as personal growth."
+        ]
+      },
+      "supports_mechanisms": [
+        "M06"
+      ]
+    },
+    {
+      "id": "S17",
+      "authors": "Arthur Aron; Christina C. Norman; Elaine N. Aron; Colin McKenna; Richard E. Heyman",
+      "year": 2000,
+      "title": {
+        "zh": "Couples' Shared Participation in Novel and Arousing Activities and Experienced Relationship Quality",
+        "en": "Couples' Shared Participation in Novel and Arousing Activities and Experienced Relationship Quality"
+      },
+      "url": "https://doi.org/10.1037/0022-3514.78.2.273",
+      "open_access_url": "https://files.blogs.baruch.cuny.edu/wp-content/blogs.dir/7309/files/2019/11/Aron_Norman_Aron_McKenna_Heyman_2000.pdf",
+      "kind": {
+        "zh": "两项调查与三项实验",
+        "en": "Two surveys and three experiments"
+      },
+      "findings": {
+        "zh": [
+          "调查中，共同参与令人兴奋的活动与关系满意相关，这一关系与较少无聊感相联系。",
+          "三项实验中，情侣共同完成七分钟新奇且唤醒度高的任务后，报告的即时关系质量比完成普通任务者提升更多。"
+        ],
+        "en": [
+          "In the surveys, taking part in exciting activities together was associated with relationship satisfaction, and this association was linked to lower boredom.",
+          "Across three experiments, couples who completed a novel, highly arousing seven-minute task together reported a greater immediate improvement in relationship quality than couples who completed an ordinary task."
+        ]
+      },
+      "limits": {
+        "zh": [
+          "实验说明短时共同体验可改变即时感受，不能保证长期关系修复或稳定。",
+          "新奇不是危险、伤害或越界；不能用共同冒险美化控制、报复或虐待。"
+        ],
+        "en": [
+          "The experiments show that a brief shared experience can change immediate feelings; they do not guarantee long-term relationship repair or stability.",
+          "Novelty does not mean danger, harm, or boundary violations. Shared risk-taking must not be used to romanticize control, retaliation, or abuse."
+        ]
+      },
+      "supports_mechanisms": [
+        "M06"
+      ]
+    }
+  ]
+}

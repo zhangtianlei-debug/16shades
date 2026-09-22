@@ -1,0 +1,26 @@
+{
+  "slug": "psychology-p01",
+  "status": "published",
+  "category": "psychology",
+  "title": {
+    "zh": "为什么不能只看“两个人各是什么样”",
+    "en": "Why We Cannot Look Only at “What Each Person Is Like”"
+  },
+  "summary": {
+    "zh": "外部研究的通俗整理：说明问题、证据与适用边界。",
+    "en": "An accessible guide to outside research: the questions it addresses, the evidence behind it, and the limits of its application."
+  },
+  "kind": {
+    "zh": "外部理论参照",
+    "en": "External theoretical reference"
+  },
+  "body": {
+    "zh": "<a id=\"P01\"></a>\n\n**通俗问题：** 两个人明明性格没变，为什么换个局面就能从同盟变成对手？\n\n相互依赖理论的出发点不是先给人贴标签，而是先问：A的结果在多大程度上由B控制，B的结果又在多大程度上由A控制？双方结果是同涨同跌，还是一方多拿就意味着另一方少拿？一次选择会不会改变下一回合？人还会把长远目标、对对方的关心、规则和身份带进眼前选择，所以同样的短期得失结构，也可能被转换成合作、克制或占便宜。[S01：Rusbult & Van Lange, 2003](https://doi.org/10.1146/annurev.psych.54.101601.145059)\n\n**证据怎样来：** S01是对相互依赖理论及大量既有研究的理论综述。它提供分析语言，不是一次证明“某种配对最好”的实验。它特别适合解释为什么人的一般倾向、关系中特有的动机和具体局势会同时起作用。\n\n**自拟例子：** 两个都想拿下项目的人，在竞标阶段共享情报，因为只有合力才有入场券；中标后只剩一个署名位，原来的共同结果变成零和分配。同样两个人、同样的能力，关系方向因为依赖结构变化而翻转。\n\n**能为本项目提供什么：** M01“共谋与争位”应先写共同目标、稀缺物、双方各自控制的筹码和替代选择，再写四轴如何影响出招。它还能支持“转折点”：新资源出现、第三方退出、独占名额落定，都可能让同盟变争位。\n\n**不能推出什么：** 不能仅凭两个角色同为利型就判定他们一定逐利相杀，也不能凭一个利、一个权就说目标天然错开。四轴给出相对优先，局面决定这些优先是否真的发生碰撞。",
+    "en": "<a id=\"P01\"></a>\n\n**Plain-language question:** How can the same two people, with the same personalities, go from allies to rivals when the situation changes?\n\nInterdependence theory does not begin by labeling people. It begins by asking: To what extent does B control A’s outcomes, and to what extent does A control B’s? Do their outcomes rise and fall together, or does one person gaining more mean the other gets less? Will one choice change the next round? People also bring long-term goals, concern for the other person, rules, and identities into the choice at hand. The same short-term payoff structure can therefore be transformed into cooperation, restraint, or exploitation. [S01: Rusbult & Van Lange, 2003](https://doi.org/10.1146/annurev.psych.54.101601.145059)\n\n**Where the evidence comes from:** S01 is a theoretical review of interdependence theory and a large body of prior research. It offers a language for analysis; it is not an experiment proving that “a certain pairing is best.” It is especially useful for explaining why people’s general tendencies, relationship-specific motives, and the immediate situation can all matter at once.\n\n**Illustrative example:** Two people who both want to win a project share intelligence during the bidding stage because they can qualify only by working together. Once they win, however, there is only one name slot, and what had been a shared outcome becomes a zero-sum allocation. The people and their abilities have not changed; the direction of the relationship flips because the structure of dependence has changed.\n\n**What this contributes to the project:** M01, “Collusion and the Contest for Position,” should establish the shared goal, the scarce resource, the leverage each side controls, and their alternatives before describing how the four axes shape their moves. It also supports writing turning points: a new resource appearing, a third party withdrawing, or an exclusive slot being finalized can all turn allies into rivals.\n\n**What it does not show:** We cannot conclude that two Gain-oriented characters will inevitably destroy each other in pursuit of profit, or that a Gain-oriented and a Control-oriented character naturally want different things. The four axes describe relative priorities; the situation determines whether those priorities actually collide."
+  },
+  "related": [
+    "mechanism-m01"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": true
+}

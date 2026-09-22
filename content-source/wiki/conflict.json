@@ -1,0 +1,27 @@
+{
+  "slug": "conflict",
+  "status": "published",
+  "category": "axes",
+  "title": {
+    "zh": "伤害轴：用与惩",
+    "en": "Harm: Instrumental and Punitive"
+  },
+  "summary": {
+    "zh": "外部目标已完成或补救已发生后，冲突在什么时候结束？",
+    "en": "Once the external goal is achieved or the damage is repaired, when does the conflict end?"
+  },
+  "kind": {
+    "zh": "项目定义",
+    "en": "Project definition"
+  },
+  "body": {
+    "zh": "## 项目定义\n\n**用**指伤害服务于外部目标；目标达成后，原则上没有额外伤害的必要。**惩**指让拒绝、冒犯、背叛或挑战者付出代价本身也有价值，即使目标已经实现，也可能继续追加。\n\n## 怎么观察\n\n先区分仍未完成的补救，和已经解决后仍想让对方难受的持续追击。惩可以冷静、长期，也可以借程序执行。\n\n## 边界\n\n用不表示伤害较小或有同情心；惩不等于失控暴怒。正当追责、止损和维护边界不自动构成恶性。",
+    "en": "## Project definition\n\n**Instrumental** harm serves an external goal. In principle, once that goal is reached, no additional harm is needed. **Punitive** harm treats making someone pay for refusal, offense, betrayal, or a challenge as valuable in itself. Further costs may follow even after the goal is achieved.\n\n## What to observe\n\nDistinguish unfinished repair from continued pursuit meant to cause discomfort after the issue is resolved. Punishment can be calm, sustained, and carried out through procedures.\n\n## Limits\n\nInstrumental does not mean less harm or greater compassion. Punitive does not mean uncontrolled rage. Legitimate accountability, limiting losses, and protecting boundaries do not automatically constitute harmfulness."
+  },
+  "related": [
+    "model-overview",
+    "matching-boundaries"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": false
+}

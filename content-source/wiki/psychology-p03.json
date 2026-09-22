@@ -1,0 +1,26 @@
+{
+  "slug": "psychology-p03",
+  "status": "published",
+  "category": "psychology",
+  "title": {
+    "zh": "“互补”到底互补什么",
+    "en": "What Exactly Does “Complementarity” Mean?"
+  },
+  "summary": {
+    "zh": "外部研究的通俗整理：说明问题、证据与适用边界。",
+    "en": "An accessible guide to outside research: the questions it addresses, the evidence behind it, and the limits of its application."
+  },
+  "kind": {
+    "zh": "外部理论参照",
+    "en": "External theoretical reference"
+  },
+  "body": {
+    "zh": "<a id=\"P03\"></a>\n\n**通俗问题：** 所谓“一进一退才合拍”，究竟是人格相反，还是当下动作接得上？\n\n人际环形模型中的互补有严格含义：亲和维通常同向，友好更容易接出友好、敌意更容易接出敌意；支配维通常反向，一方提高控制，另一方可能退让。Dryer与Horowitz的两项研究更进一步：短时互动满意度最能由**一个人的互动目标是否被另一个人的行为满足**来解释。只看到行为上一主一从，或只看到两人的目标相反，都不够。[S03：Dryer & Horowitz, 1997](https://doi.org/10.1037/0022-3514.72.3.592)\n\nSadler等人把互动逐刻编码，发现在50组双人互动中，亲和行为的周期变化高度同相，支配行为的周期变化高度反相。这说明互补可以是几秒钟内“你进一步、我退一点”的联动，而不是两张固定人格卡的拼图。[S04：Sadler et al., 2009](https://doi.org/10.1037/a0016232)\n\n**证据怎样来：** S03包含实验操纵和双人任务，能够支持有限的短时因果判断；S04是连续行为观察与时间序列分析，支持互动耦合的存在。二者都没有证明人格相反的人更适合长期相处。S03还发现，互补互动虽更令人满意，却没有带来更高任务绩效。\n\n**自拟例子：** 讨论逃生路线时，一人想快速拍板，另一人恰好愿意先执行，于是十分钟内极顺；到了分配责任时，执行者也想参与决定，原来的节奏便失效。互补的是上一幕的目标和动作，不是两个人永远的身份。\n\n**能为本项目提供什么：** M02“镜像与互补”应写具体位置：谁此刻要掌舵，谁愿意交出哪一部分决定，谁负责重排选项，谁负责把拒绝成本摆到台面。可以写“谋重排选项、压明确拒绝后果”这样的剧情分工，但要明确这是基于项目语义的创作，不是人际环形研究验证过的谋压配方。\n\n**不能推出什么：** 权不等同于支配行为，压也不等同于稳定的支配人格；饰不等同于温暖，蔑不等同于敌意。不能把四轴画成人际环形，也不能把四字全反称为科学互补。",
+    "en": "<a id=\"P03\"></a>\n\n**Plain-language question:** When people say “one advances and the other retreats—that is why they click,” do they mean opposite personalities, or actions that fit together in the moment?\n\nComplementarity has a precise meaning in the interpersonal circumplex. On the affiliation dimension, responses tend to move in the same direction: friendliness more readily elicits friendliness, and hostility elicits hostility. On the dominance dimension, responses tend to move in opposite directions: when one person increases control, the other may yield. Two studies by Dryer and Horowitz went further: satisfaction in brief interactions was best explained by **whether one person’s interaction goal was fulfilled by the other person’s behavior**. It is not enough merely to observe one person dominating and the other submitting, or merely to see that their goals are opposite. [S03: Dryer & Horowitz, 1997](https://doi.org/10.1037/0022-3514.72.3.592)\n\nSadler and colleagues coded interactions moment by moment. Across 50 dyads, cyclical changes in affiliative behavior were strongly in phase, while cyclical changes in dominant behavior were strongly out of phase. Complementarity, then, can be the second-by-second coordination of “you step forward, I give a little ground,” rather than two fixed personality cards fitting together. [S04: Sadler et al., 2009](https://doi.org/10.1037/a0016232)\n\n**Where the evidence comes from:** S03 includes experimental manipulations and dyadic tasks, supporting limited short-term causal inferences. S04 uses continuous behavioral observation and time-series analysis, supporting the existence of interactional coupling. Neither study shows that people with opposite personalities are better suited to long-term relationships. S03 also found that complementary interactions were more satisfying but did not produce better task performance.\n\n**Illustrative example:** While discussing an escape route, one person wants a quick decision and the other happens to be willing to act first, so the next ten minutes go smoothly. When it is time to assign responsibility, the person who had been executing also wants a voice in the decision, and the old rhythm stops working. What complemented each other were the goals and actions in the previous scene, not the two people’s permanent identities.\n\n**What this contributes to the project:** M02, “Mirroring and Complementarity,” should specify positions: who wants to take the helm now, who is willing to surrender which part of the decision, who rearranges the options, and who makes the cost of refusal explicit. A story can assign roles such as “Strategy rearranges the options; Pressure spells out the consequences of refusal,” but this is a creative application of the project’s semantics, not a Strategy–Pressure formula validated by interpersonal circumplex research.\n\n**What it does not show:** Control is not equivalent to dominant behavior, and Pressure is not equivalent to a stable dominant personality. Justification is not equivalent to warmth, and Disregard is not equivalent to hostility. The four axes cannot be plotted as an interpersonal circumplex, nor can a complete reversal of all four letters be called scientifically established complementarity."
+  },
+  "related": [
+    "mechanism-m02"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": true
+}

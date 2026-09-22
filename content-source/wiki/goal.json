@@ -1,0 +1,27 @@
+{
+  "slug": "goal",
+  "status": "published",
+  "category": "axes",
+  "title": {
+    "zh": "目标轴：利与权",
+    "en": "Goal: Gain and Control"
+  },
+  "summary": {
+    "zh": "当实际所得与决定权不能同时保留时，更想保住什么？",
+    "en": "When you cannot keep both the practical benefit and the final say, which matters more?"
+  },
+  "kind": {
+    "zh": "项目定义",
+    "en": "Project definition"
+  },
+  "body": {
+    "zh": "## 项目定义\n\n目标轴描述相关情境中的相对优先：**利**指可占有、交换或使用的收益；**权**指谁说了算、谁服从谁，以及决定权与地位是否被承认。它不把正常维护利益或承担管理职责当作阴影证据。\n\n## 怎么观察\n\n不要只看表面对象。控制可能服务于收益，收益也可能服务于控制；更有帮助的问题是：两者冲突时，这个人愿意放弃哪一个？\n\n## 边界\n\n这是一条行动风格轴，不是价值等级，也不能推出恶性程度。",
+    "en": "## Project definition\n\nThe Goal axis describes relative priorities in relevant situations. **Gain** means benefits that can be owned, exchanged, or used. **Control** concerns who has the final say, who follows whom, and whether authority and standing are recognized. Ordinary protection of one's interests or fulfillment of management responsibilities is not treated as evidence of a shadow pattern.\n\n## What to observe\n\nLook beyond the apparent object. Control can serve gain, and gain can serve control. A more useful question is: when they conflict, which is the person willing to give up?\n\n## Limits\n\nThis is an axis of action style, not a hierarchy of values. It does not establish the degree of harmfulness."
+  },
+  "related": [
+    "model-overview",
+    "matching-boundaries"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": false
+}

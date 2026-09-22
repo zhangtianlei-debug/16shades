@@ -1,0 +1,28 @@
+{
+  "slug": "mbti-connection",
+  "status": "published",
+  "category": "framework",
+  "title": {
+    "zh": "我们与MBTI是什么关系？",
+    "en": "How does this relate to MBTI?"
+  },
+  "summary": {
+    "zh": "两套标签放在一起，是为了增加表达层次，不是把一套测试换算成另一套。",
+    "en": "The two labels add layers to the portrayal; they do not convert one test into the other."
+  },
+  "kind": {
+    "zh": "创作联想与理论参照",
+    "en": "Creative interpretation & theory reference"
+  },
+  "body": {
+    "zh": "## 它们回答不同问题\n\nMBTI常用四组偏好描述注意方向、信息偏好、决策偏好和对外部生活的组织方式。‘坏人16型’则用利／权、谋／压、用／惩、饰／蔑，描述本次日常作答连接到哪一种阴影行为风格。两者没有一一对应表。\n\n## 产品怎么使用\n\n你的阴影角色仍由本项目题库独立计算；四字母类型由你自愿选择，只用于生成组合标题、短句和场景。没测过、不确定或不想填，都可以跳过。它不会改变角色、四轴比例或结果把握度。\n\n## 组合意味着什么\n\n‘ENFP × 笑面客’是一种创作表达：它尝试描绘一个既有熟悉偏好、又可能在某些场景进入特定阴影路径的人。它不表示ENFP更可能报复，也不测量一个人有多坏。正常偏好、健康边界和伤害行为必须分开看。",
+    "en": "## They answer different questions\n\nMBTI uses four preference pairs to describe where attention goes, how people take in information and make decisions, and how they organize their outer lives. 16 Shades uses four different axes—Gain/Control, Strategy/Pressure, Instrumental/Punitive, and Justification/Disregard—to describe the shadow behavior pattern reflected in your answers here. There is no one-to-one conversion between the two systems.\n\n## How the Product Uses Them\n\nYour shadow role is calculated independently from your answers to the 16 Shades questions. You may optionally choose a four-letter type to generate a pairing title, tagline, and scene. Skip it if you have never taken an MBTI-style test, are unsure, or prefer not to answer. It does not change your role, four-axis profile, or result confidence.\n\n## What does this combination mean?\n\n“ENFP × Smiler” is a creative character pairing: it imagines how familiar preferences might color a particular shadow pattern in certain situations. It does not mean ENFPs are more likely to retaliate, and it does not measure how “bad” someone is. Ordinary preferences, healthy boundaries, and harmful behavior should be considered separately."
+  },
+  "related": [
+    "mbti-same-type",
+    "mbti-same-role",
+    "mbti-functions"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": false
+}

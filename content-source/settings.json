@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    {
+      "id": "framework",
+      "label": {
+        "zh": "模型与分类",
+        "en": "Framework & classification"
+      },
+      "order": 1
+    },
+    {
+      "id": "axes",
+      "label": {
+        "zh": "四轴与情境",
+        "en": "Axes & situations"
+      },
+      "order": 2
+    },
+    {
+      "id": "boundaries",
+      "label": {
+        "zh": "边界与依据",
+        "en": "Limits & evidence"
+      },
+      "order": 3
+    },
+    {
+      "id": "relationships",
+      "label": {
+        "zh": "关系方法",
+        "en": "Relationships"
+      },
+      "order": 4
+    },
+    {
+      "id": "mechanisms",
+      "label": {
+        "zh": "互动机制",
+        "en": "Interaction mechanisms"
+      },
+      "order": 5
+    },
+    {
+      "id": "psychology",
+      "label": {
+        "zh": "心理学参照",
+        "en": "Psychology references"
+      },
+      "order": 6
+    }
+  ],
+  "featuredWiki": [
+    "model-overview",
+    "relationships-method",
+    "type-share-estimation",
+    "situations",
+    "matching-boundaries",
+    "theory-sources"
+  ],
+  "wikiDirectory": [
+    "model-overview",
+    "type-families",
+    "mbti-connection",
+    "situations",
+    "relationships-overview",
+    "relationships-method",
+    "theory-sources",
+    "type-share-estimation"
+  ]
+}

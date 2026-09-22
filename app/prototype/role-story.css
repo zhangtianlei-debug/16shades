@@ -1,0 +1,52 @@
+.proto-role-story {
+  margin: 30px 0;
+  padding: 22px 0;
+  border-top: 1px solid var(--proto-line);
+  border-bottom: 1px solid var(--proto-line);
+}
+
+.proto-role-story-title {
+  margin: 0 0 16px;
+  color: var(--proto-purple);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.proto-role-story p,
+.proto-role-story li {
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--proto-body);
+}
+
+.proto-role-story-lead {
+  margin: 0;
+}
+
+.proto-role-story-toggle {
+  appearance: none;
+  border: 0;
+  margin: 0 0 0 8px;
+  padding: 0;
+  background: transparent;
+  color: var(--proto-purple);
+  font: inherit;
+  font-weight: 600;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+.proto-role-story-toggle:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+.proto-role-story ul {
+  padding-left: 23px;
+}
+
+.proto-role-story h3 {
+  margin: 25px 0 10px;
+  font-size: 18px;
+}

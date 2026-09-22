@@ -1,0 +1,28 @@
+{
+  "slug": "mechanism-m02",
+  "status": "published",
+  "category": "mechanisms",
+  "title": {
+    "zh": "M02｜镜像与互补",
+    "en": "M02 | Mirrors and complementarity"
+  },
+  "summary": {
+    "zh": "共同语言、共同盲点和当下分工怎样发生作用。",
+    "en": "How shared language, shared blind spots, and the current division of work shape interaction."
+  },
+  "kind": {
+    "zh": "项目定义",
+    "en": "Project definition"
+  },
+  "body": {
+    "zh": "<a id=\"M02\"></a>\n\n**我们的观点。** 相似的行为语言容易制造“你懂我”的感觉，也容易使两人抢占同一位置。不同手段能成为分工，也能产生方法之争。我们同时保留“共同语言”“共同盲点”“可以分工的差异”“彼此踩到的差异”，不给相同或相反预设一个总评价。\n\n要把三件事分开：双方事实上有多像；双方觉得彼此有多像；当前行为能否配合。人际互补研究讨论的支配与亲和，也不等于我们四轴中的权与饰。\n\n**自拟场景。** 两位掮客都听得懂交易中的保留条件，谈判可以很省话；如果两人都希望对方先亮出真实份额，共同语言又会变成相互防备。操盘手与铁腕者则可能分别安排路径、推进执行，但也可能争论谁有资格改变计划。\n\n**写作支点：** “你做得到我做不到的部分，还是你正在占我的位置？”\n\n研究路径：目标与行为互补、互动节奏及实际／知觉相似。[S03](https://doi.org/10.1037/0022-3514.72.3.592)、[S04](https://doi.org/10.1037/a0016232)、[S05](https://doi.org/10.1177/0146167214557002)、[S06](https://doi.org/10.1177/0265407508096700)。这些研究也提示：互动配合、主观满意和长期关系质量要分别讨论。",
+    "en": "<a id=\"M02\"></a>\n\n**Our view.** Similar ways of acting can create a feeling of being understood, or make two people compete for the same position. Different methods can become a division of work or a dispute about how to act. We keep four possibilities in view: shared language, shared blind spots, differences that allow cooperation, and differences that cause friction. Neither similarity nor opposition receives a blanket verdict.\n\nSeparate three things: how similar people actually are, how similar they think they are, and whether their current actions work together. Dominance and affiliation in interpersonal complementarity research are not the same as Control and Justification on our four axes.\n\n**An invented scene.** Two Brokers both understand the unstated conditions of a deal, making negotiation economical. If each wants the other to reveal their real share first, that shared language can become mutual wariness. A Puppet Master and an Enforcer might plan the route and drive implementation respectively, or argue over who has the right to change the plan.\n\n**Writing prompt:** Can you do the part I cannot, or are you taking my place?\n\nResearch paths: goal-behavior complementarity, interaction rhythms, and actual and perceived similarity. [S03](https://doi.org/10.1037/0022-3514.72.3.592), [S04](https://doi.org/10.1037/a0016232), [S05](https://doi.org/10.1177/0146167214557002), [S06](https://doi.org/10.1177/0265407508096700). These studies also suggest that coordination, subjective satisfaction, and long-term relationship quality need separate discussion."
+  },
+  "related": [
+    "psychology-p03",
+    "psychology-p04",
+    "psychology-p05"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": true
+}

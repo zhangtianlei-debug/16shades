@@ -1,0 +1,26 @@
+{
+  "slug": "psychology-p09",
+  "status": "published",
+  "category": "psychology",
+  "title": {
+    "zh": "台前说法为什么会变，自己又怎样相信它",
+    "en": "Why Does the Public Story Change—and How Does Someone Come to Believe It?"
+  },
+  "summary": {
+    "zh": "外部研究的通俗整理：说明问题、证据与适用边界。",
+    "en": "An accessible guide to outside research: the questions it addresses, the evidence behind it, and the limits of its application."
+  },
+  "kind": {
+    "zh": "外部理论参照",
+    "en": "External theoretical reference"
+  },
+  "body": {
+    "zh": "<a id=\"P09\"></a>\n\n**通俗问题：** 一个人在私下承认“我就是想赢”，到了众人面前却说“这都是为了规则”，只是撒谎吗？\n\nPaulhus把社会赞许反应区分为自我欺骗与印象管理。三项研究对常用量表做结构检验，并比较匿名与公开作答；主要反映印象管理的量表在公开条件下上升更多。也就是说，观众会改变呈现，但体面回答不全是同一种有意识欺骗。[S12：Paulhus, 1984](https://doi.org/10.1037/0022-3514.46.3.598)\n\nBandura等人的道德脱离研究解释另一层：人可以把伤害连接到高尚目的，用委婉词重命名行为，把责任转给上级或群体，淡化后果，责怪或贬低受害者，从而暂时解除自我谴责。其青少年多来源横断面研究发现，道德脱离与攻击、违规等有害行为存在关联；作者也明确提醒路径模型的因果方向需谨慎。[S13：Bandura et al., 1996](https://doi.org/10.1037/0022-3514.71.2.364)\n\n**证据怎样来：** S12是量表结构和公开／匿名情境研究；S13是横断面测量与路径模型。前者支持观众影响呈现，后者支持多种自我正当化机制与有害行为相关。二者不能让我们仅凭一句话读出真实动机。\n\n**自拟例子：** 私下分资源时，A说“我拿走是因为我能拿”；发布会上却说“集中资源是为了团队稳定”。B则公开承认偏私，却把受损者说成“本来就没资格”。两人呈现不同，但都可能在降低自身责任感。\n\n**能为本项目提供什么：** M05“台前与后台”应同时记录观众是谁、公开说法解决什么形象风险、私下是否仍用同一标准、行为后是否承担后果。饰端更依赖规范包装，蔑端更少需要规范认可；但饰不等于真的守规则，蔑也不等于诚实。道德脱离不是饰端专属，蔑端同样可以责怪、非人化或淡化伤害。\n\n**不能推出什么：** 不能看到规则语言就断定伪善，也不能看到直白自利就赞美真实。饰／蔑描述呈现策略；规范实际能否阻止、纠正行为，属于另一个问题。",
+    "en": "<a id=\"P09\"></a>\n\n**Plain-language question:** Someone admits in private, “I just want to win,” but tells an audience, “This is all about the rules.” Are they simply lying?\n\nPaulhus distinguishes two forms of socially desirable responding: self-deception and impression management. Three studies tested the structure of widely used scales and compared anonymous with public responding. Scores on the scale that primarily reflected impression management increased more under public conditions. In other words, an audience changes how people present themselves, but respectable answers are not all the same kind of conscious deception. [S12: Paulhus, 1984](https://doi.org/10.1037/0022-3514.46.3.598)\n\nResearch on moral disengagement by Bandura and colleagues explains another layer. People can connect harm to a noble purpose, rename conduct with euphemisms, shift responsibility to a superior or group, minimize the consequences, and blame or devalue the victim, temporarily disengaging self-condemnation. Their multisource, cross-sectional study of adolescents found associations between moral disengagement and harmful conduct such as aggression and rule-breaking; the authors also explicitly cautioned against strong claims about causal direction from the path model. [S13: Bandura et al., 1996](https://doi.org/10.1037/0022-3514.71.2.364)\n\n**Where the evidence comes from:** S12 studies scale structure and public versus anonymous response settings. S13 uses cross-sectional measures and a path model. The former supports the effect of audiences on self-presentation; the latter supports associations between several self-justifying mechanisms and harmful behavior. Neither lets us read someone’s true motive from a single sentence.\n\n**Illustrative example:** While allocating resources in private, A says, “I’m taking it because I can.” At the press conference, A says, “Concentrating resources protects team stability.” B openly admits favoritism but describes the harmed party as “never qualified in the first place.” Their presentations differ, but both may be reducing their own sense of responsibility.\n\n**What this contributes to the project:** M05, “Frontstage and Backstage,” should record who the audience is, which reputational risk the public account addresses, whether the same standard is still applied in private, and whether the character accepts consequences afterward. The Justification pole relies more heavily on normative framing, while the Disregard pole has less need for normative approval. But Justification does not mean actually following rules, and Disregard does not mean honesty. Moral disengagement is not exclusive to Justification: Disregard can also blame, dehumanize, or minimize harm.\n\n**What it does not show:** The language of rules does not by itself prove hypocrisy, and blunt self-interest should not be praised as authenticity. Justification/Disregard describes a presentation strategy. Whether norms actually prevent or correct behavior is a separate question."
+  },
+  "related": [
+    "mechanism-m05"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": true
+}

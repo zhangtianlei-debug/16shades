@@ -1,0 +1,27 @@
+{
+  "slug": "norm",
+  "status": "published",
+  "category": "axes",
+  "title": {
+    "zh": "规范轴：饰与蔑",
+    "en": "Norms: Justification and Disregard"
+  },
+  "summary": {
+    "zh": "面对不光彩的行动，怎样处理体面、规则与旁观者评价？",
+    "en": "When acting in a questionable way, how do you handle respectability, rules, and the judgment of onlookers?"
+  },
+  "kind": {
+    "zh": "项目定义",
+    "en": "Project definition"
+  },
+  "body": {
+    "zh": "## 项目定义\n\n**饰**重视合理、合法、道德、程序或身份的外衣，希望行为能被公开辩护。**蔑**较少依赖主流规范的认可，可能直接展示越界、强势或不在乎评价。\n\n## 怎么观察\n\n问行动如何呈现，而不是只听一句解释。谁是观众？公开说法解决了什么形象风险？实际行为是否承担后果？\n\n## 边界\n\n饰不等于真正守规则，蔑不等于完全不用叙事。规范究竟能否阻止、纠正行为，属于五维中的规范免疫度，不能由本轴代算。",
+    "en": "## Project definition\n\n**Justification** values an appearance of reasonableness, legality, morality, procedure, or legitimate status, seeking a public defense for the behavior. **Disregard** relies less on approval from prevailing norms and may openly display boundary crossing, forcefulness, or indifference to judgment.\n\n## What to observe\n\nAsk how the action is presented, rather than relying on a single explanation. Who is the audience? What reputational risk does the public account address? Does the actual behavior bear its consequences?\n\n## Limits\n\nJustification does not mean genuinely following rules, and Disregard does not mean never using a narrative. Whether norms can actually stop or correct behavior belongs to the five-dimensional concept of resistance to normative restraint; this axis cannot stand in for it."
+  },
+  "related": [
+    "model-overview",
+    "matching-boundaries"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": false
+}

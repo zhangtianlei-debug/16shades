@@ -1,0 +1,34 @@
+/* Reading surfaces have one quiet arrival, then stay still. */
+.proto-profile-story h1:focus { outline: none; }
+
+:is(.proto-dialog, .account-dialog, .proto-resource-dialog)[data-open] {
+  animation: proto-surface-in 180ms cubic-bezier(.2, .8, .2, 1) both;
+}
+:is(.proto-dialog, .account-dialog, .proto-resource-dialog)[data-closed] {
+  animation: proto-surface-out 130ms cubic-bezier(.4, 0, 1, 1) both;
+}
+@keyframes proto-surface-in {
+  from { opacity: 0; transform: translateY(8px) scale(.985); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes proto-surface-out {
+  from { opacity: 1; transform: translateY(0) scale(1); }
+  to { opacity: 0; transform: translateY(5px) scale(.99); }
+}
+:is(.proto-dialog, .account-dialog, .proto-resource-dialog) button:not(:disabled) {
+  transition: background-color 140ms ease-out, border-color 140ms ease-out,
+    box-shadow 140ms ease-out, scale 140ms cubic-bezier(.2, .8, .2, 1);
+}
+:is(.proto-dialog, .account-dialog, .proto-resource-dialog) button:not(:disabled):active {
+  scale: .98;
+  transition-duration: 70ms;
+}
+@media (prefers-reduced-motion: reduce) {
+  :is(.proto-dialog, .account-dialog, .proto-resource-dialog),
+  :is(.proto-dialog, .account-dialog, .proto-resource-dialog) *,
+  [data-slot='dialog-overlay'] {
+    animation: none !important;
+    transition: none !important;
+    scale: none !important;
+  }
+}

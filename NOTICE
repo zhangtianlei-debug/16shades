@@ -1,0 +1,42 @@
+16暗影 / 16 Shades — licensing notice
+=================================
+
+This repository uses more than one license. Read this notice before copying,
+modifying, redistributing, or using its contents.
+
+1. MIT — source code
+   The original software source in `app/`, `components/`, `hooks/`, `lib/`,
+   `server/`, and `scripts/`, along with root build/configuration files, is
+   licensed under the MIT License in `LICENSE`. This grant does not cover any
+   file or material identified below as excluded or separately licensed.
+
+2. CC BY 4.0 — framework, item bank, and documentation
+   The materials enumerated in `LICENSES/CC-BY-4.0-SCOPE.md` are licensed
+   under CC BY 4.0. This includes the framework document, the fixed website
+   form, the item-bank fields it contains, and the matching English question
+   and option translations. Attribution must identify the 16暗影 / 16 Shades
+   project and link to this repository. The designation and license links are
+   in `LICENSES/CC-BY-4.0.txt`.
+
+3. All rights reserved — creative and identity materials
+   All other text/content, names, logos, trademarks, character identities,
+   character artwork and animation, illustrations, theatre images, question
+   images, portraits, download assets, and other visual or brand materials are
+   not granted under MIT or CC BY 4.0. This includes material in `public/`,
+   `app/prototype/assets/`, `app/data.ts`, and content-source files except for
+   the CC BY 4.0 materials expressly named above. They remain all rights
+   reserved. Do not infer permission to reuse, redistribute, adapt, endorse,
+   or create a confusingly similar product from their presence in this
+   repository. Existing explicit permissions in asset-specific usage notes
+   continue to apply.
+
+   The bundled public/open/16shades-open-1.0.0.zip is governed by the
+   LICENSE.md and license texts inside that archive; this notice does not
+   narrow its MIT and CC BY 4.0 grants.
+
+4. Third-party packages
+   Dependencies retain their own licenses. See `THIRD_PARTY_NOTICES.md` and
+   the package metadata recorded in `pnpm-lock.yaml`.
+
+The repository is an open-source code release; it does not grant a trademark,
+brand, character, artwork, or publicity license.

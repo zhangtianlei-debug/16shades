@@ -1,0 +1,102 @@
+{
+  "language": "en",
+  "brand": "16 Shades",
+  "characters": [
+    {
+      "id": "T01",
+      "name": "Broker",
+      "portrait": "portraits/t01.png",
+      "card": "cards/t01.png"
+    },
+    {
+      "id": "T02",
+      "name": "Opportunist",
+      "portrait": "portraits/t02.png",
+      "card": "cards/t02.png"
+    },
+    {
+      "id": "T03",
+      "name": "Smiler",
+      "portrait": "portraits/t03.png",
+      "card": "cards/t03.png"
+    },
+    {
+      "id": "T04",
+      "name": "Pursuer",
+      "portrait": "portraits/t04.png",
+      "card": "cards/t04.png"
+    },
+    {
+      "id": "T05",
+      "name": "Harvester",
+      "portrait": "portraits/t05.png",
+      "card": "cards/t05.png"
+    },
+    {
+      "id": "T06",
+      "name": "Raider",
+      "portrait": "portraits/t06.png",
+      "card": "cards/t06.png"
+    },
+    {
+      "id": "T07",
+      "name": "Collector",
+      "portrait": "portraits/t07.png",
+      "card": "cards/t07.png"
+    },
+    {
+      "id": "T08",
+      "name": "Bruiser",
+      "portrait": "portraits/t08.png",
+      "card": "cards/t08.png"
+    },
+    {
+      "id": "T09",
+      "name": "Puppet Master",
+      "portrait": "portraits/t09.png",
+      "card": "cards/t09.png"
+    },
+    {
+      "id": "T10",
+      "name": "Agitator",
+      "portrait": "portraits/t10.png",
+      "card": "cards/t10.png"
+    },
+    {
+      "id": "T11",
+      "name": "Power Broker",
+      "portrait": "portraits/t11.png",
+      "card": "cards/t11.png"
+    },
+    {
+      "id": "T12",
+      "name": "Cult Leader",
+      "portrait": "portraits/t12.png",
+      "card": "cards/t12.png"
+    },
+    {
+      "id": "T13",
+      "name": "Enforcer",
+      "portrait": "portraits/t13.png",
+      "card": "cards/t13.png"
+    },
+    {
+      "id": "T14",
+      "name": "Decider",
+      "portrait": "portraits/t14.png",
+      "card": "cards/t14.png"
+    },
+    {
+      "id": "T15",
+      "name": "Arbiter",
+      "portrait": "portraits/t15.png",
+      "card": "cards/t15.png"
+    },
+    {
+      "id": "T16",
+      "name": "Tyrant",
+      "portrait": "portraits/t16.png",
+      "card": "cards/t16.png"
+    }
+  ]
+}

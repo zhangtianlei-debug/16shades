@@ -1,0 +1,26 @@
+{
+  "slug": "mechanism-m05",
+  "status": "published",
+  "category": "mechanisms",
+  "title": {
+    "zh": "M05｜台前与后台",
+    "en": "M05 | Frontstage and backstage"
+  },
+  "summary": {
+    "zh": "观众、规范认可和责任怎样改变公开与私下的互动。",
+    "en": "How audiences, approval from norms, and responsibility change public and private interaction."
+  },
+  "kind": {
+    "zh": "项目定义",
+    "en": "Project definition"
+  },
+  "body": {
+    "zh": "<a id=\"M05\"></a>\n\n**我们的观点。** 两个人之间可能还站着一个看不见的第三方：同事、朋友、组织、围观者，或者双方自己认可的规则。饰／蔑提供对这些认可的不同依赖方式；观众、证据和行动后果又会改变两人的表达。\n\n我们关心：谁需要一个说得过去的版本；谁替谁背书；谁会在公开场合拆台；两人私下的共识能否承担公开后的后果。共同口径可以服务协调，也可能成为遮蔽事实的工具，需要把实际行为一并写清。\n\n**自拟场景。** 掮客准备了一套各方都能接受的分配说法，投机客直接说出谁拿得更多。这可以是拆台的笑点，也可以成为追问不对等分配的起点。若没有需要辩护的行为，不能仅凭一个人措辞直接就把其判成蔑。\n\n**写作支点：** “他们私下知道什么？公开时又各自愿意承认多少？”\n\n研究路径：印象管理与道德脱离。[S12](https://doi.org/10.1037/0022-3514.46.3.598)、[S13](https://doi.org/10.1037/0022-3514.71.2.364)。二者分别涉及呈现与自我约束，本方法没有把它们合并为饰／蔑的现成测量证据。",
+    "en": "<a id=\"M05\"></a>\n\n**Our view.** An invisible third party may stand between two people: colleagues, friends, an organization, onlookers, or rules both accept. Justification and Disregard describe different ways of relying on that approval. Audiences, evidence, and consequences can in turn change how the pair express themselves.\n\nWe ask who needs a defensible account, who vouches for whom, who undercuts the other in public, and whether their private agreement can bear the consequences of becoming public. A shared account can aid coordination or conceal facts. The actual behavior must be described alongside it.\n\n**An invented scene.** The Broker prepares an explanation of the distribution that every party can accept. The Opportunist bluntly names who receives more. This can be a comic interruption or the start of questions about an unequal allocation. Without behavior that needs defending, direct wording alone cannot establish Disregard.\n\n**Writing prompts:** What do they know privately? How much is each willing to admit publicly?\n\nResearch paths: impression management and moral disengagement. [S12](https://doi.org/10.1037/0022-3514.46.3.598), [S13](https://doi.org/10.1037/0022-3514.71.2.364). These concern presentation and self-restraint respectively. This method does not combine them into ready-made measurement evidence for Justification and Disregard."
+  },
+  "related": [
+    "psychology-p09"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": true
+}

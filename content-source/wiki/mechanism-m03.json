@@ -1,0 +1,26 @@
+{
+  "slug": "mechanism-m03",
+  "status": "published",
+  "category": "mechanisms",
+  "title": {
+    "zh": "M03｜关系错账",
+    "en": "M03 | Different accounts of a relationship"
+  },
+  "summary": {
+    "zh": "双方如何理解帮助、交换、服从、公平和欠债。",
+    "en": "How each person understands help, exchange, obedience, fairness, and debts."
+  },
+  "kind": {
+    "zh": "项目定义",
+    "en": "Project definition"
+  },
+  "body": {
+    "zh": "<a id=\"M03\"></a>\n\n**我们的观点。** 很多冲突发生在双方对“这段关系应该怎么算”没有达成一致时。一个人把帮助理解为交换，另一个人当作自己人之间的照应；一个人在谈平分，另一个人在谈资历；一个人以为钱付清了，另一个人还在等被承认。\n\n我们用四种通俗问题检查当前规则：是否按需要互助；是否按身份排序；是否要求一人一次、等量回报；是否按投入和回报比例计算。这些问法借鉴关系模式理论，但现实关系可以在不同议题上采用不同规则。不能把利型固定成只懂交换，也不能把权型固定成永远要求服从。\n\n**自拟场景。** 掮客以为已经按约补足损失，笑面客认为那只还了利益账，没有回应被轻慢的一笔。同一份补偿，可能被一方当作结束，被另一方当作敷衍。\n\n**写作支点：** “你以为你已经还了什么？对方以为你还欠什么？”\n\n研究路径：交换关系与共同关系、关系模式理论。[S07](https://doi.org/10.1037/0022-3514.37.1.12)、[S08](https://doi.org/10.1037/0033-295X.99.4.689)。“错账”是我们的通俗整理名，没有另设心理量表。",
+    "en": "<a id=\"M03\"></a>\n\n**Our view.** Many conflicts arise when two people have not agreed on how their relationship should work. One treats help as an exchange; the other sees care among people close to each other. One discusses equal shares while the other invokes seniority. One thinks the money is paid in full while the other is still waiting for recognition.\n\nWe use four everyday questions to examine the current rules: is help based on need? Does status determine the order? Are people expected to take turns or repay equally? Are contributions and returns compared proportionally? These questions draw on relational models theory, but real relationships can use different rules for different issues. Gain-oriented types cannot be fixed as understanding only exchange, nor Control-oriented types as always demanding obedience.\n\n**An invented scene.** The Broker believes the loss has been fully repaid as agreed. The Smiler thinks that settles the material account but leaves the slight unanswered. The same compensation can mean closure to one and a brush-off to the other.\n\n**Writing prompts:** What do you think you have already repaid? What does the other person think you still owe?\n\nResearch paths: exchange and communal relationships, and relational models theory. [S07](https://doi.org/10.1037/0022-3514.37.1.12), [S08](https://doi.org/10.1037/0033-295X.99.4.689). Different accounts is our everyday organizing label, not a separate psychological scale."
+  },
+  "related": [
+    "psychology-p06"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": true
+}

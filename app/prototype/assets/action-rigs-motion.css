@@ -1,0 +1,55 @@
+/* Original-artwork rigs: T05 / T08 / T15. */
+.proto-character[data-paused='true'] :is(.t05-motion,.t08-motion,.t15-motion) * {animation-play-state:paused!important}
+.proto-character[data-character='T05'][data-motion-phase='result'][data-motion-state='playing'] [id$='t05-web-artwork']{animation:t05-body-result 4.8s linear 2 both}
+@keyframes t05-body-result{0%,100%{opacity:1}50%{opacity:.9999}}
+.proto-character[data-character='T08'][data-motion-phase='result'][data-motion-state='playing'] [id$='t08-web-artwork']{animation:t08-body-result 4.8s linear 2 both}
+@keyframes t08-body-result{0%,100%{opacity:1}50%{opacity:.9999}}
+.proto-character[data-character='T15'][data-motion-phase='result'][data-motion-state='playing'] [id$='t15-web-artwork']{animation:t15-body-result 4.8s linear 2 both}
+@keyframes t15-body-result{0%,100%{opacity:1}50%{opacity:.9999}}
+.proto-character[data-character='T15'][data-motion-phase='result'][data-motion-state='playing'] .t15-rig-left{animation:t15-left 4.8s cubic-bezier(.35,.05,.28,1) 2 both}
+.proto-character[data-character='T15'][data-motion-phase='result'][data-motion-state='playing'] .t15-rig-right{animation:t15-right 4.8s cubic-bezier(.35,.05,.28,1) 2 both}
+.proto-character[data-character='T08'][data-motion-phase='result'][data-motion-state='playing'] .t08-rig-leg{animation:t08-leg 4.8s cubic-bezier(.35,.05,.28,1) 2 both}
+.proto-character[data-character='T08'][data-motion-phase='result'][data-motion-state='playing'] .t08-rig-stool{animation:t08-stool 4.8s cubic-bezier(.35,.05,.28,1) 2 both}
+.proto-character[data-character='T08'][data-motion-phase='result'][data-motion-state='playing'] .t08-rig-splinter{animation:t08-splinter 4.8s cubic-bezier(.35,.05,.28,1) 2 both}
+.proto-character[data-character='T05'][data-motion-phase='result'][data-motion-state='playing'] .t05-rig-left{animation:t05-left 4.8s cubic-bezier(.35,.05,.28,1) 2 both}
+.proto-character[data-character='T05'][data-motion-phase='result'][data-motion-state='playing'] .t05-rig-right{animation:t05-right 4.8s cubic-bezier(.35,.05,.28,1) 2 both}
+.proto-character[data-character='T05'][data-motion-phase='result'][data-motion-state='playing'] .t05-rig-bag{animation:t05-bag 4.8s cubic-bezier(.35,.05,.28,1) 2 both}
+.proto-character[data-character='T05'][data-motion-phase='result'][data-motion-state='playing'] .t05-rig-coin-1{animation:t05-coin-1 4.8s cubic-bezier(.35,.05,.28,1) 2 both}
+.proto-character[data-character='T05'][data-motion-phase='result'][data-motion-state='playing'] .t05-rig-coin-2{animation:t05-coin-2 4.8s cubic-bezier(.35,.05,.28,1) 2 both}
+.proto-character[data-character='T05'][data-motion-phase='result'][data-motion-state='playing'] .t05-rig-coin-3{animation:t05-coin-3 4.8s cubic-bezier(.35,.05,.28,1) 2 both}
+
+.t15-rig-left,.t15-rig-right{transform-box:fill-box;transform-origin:50% 50%}
+.proto-character[data-character='T15'][data-motion-state='playing'] .t15-whole-sheet{animation:t15-whole-sheet 4.8s steps(1,end) 2 both}
+@keyframes t15-whole-sheet{0%,20%,100%{opacity:1}21%,99.999%{opacity:0}}
+@keyframes t15-left{0%,18%,100%{transform:none}28%{transform:translate(4px,-2px)}48%,99.999%{transform:translate(-37px,-6px) rotate(-4deg)}}
+@keyframes t15-right{0%,18%,100%{transform:none}28%{transform:translate(-4px,-2px)}48%,99.999%{transform:translate(37px,6px) rotate(4deg)}}
+/* View-box origins are offsets from its min-x/min-y, supplied below. */
+.t08-rig-leg{transform-box:view-box;transform-origin:var(--t08-hip);transform:rotate(55deg)}
+.t08-rig-stool{transform-box:view-box;transform-origin:var(--t08-stool-pivot);transform:translateY(24px) rotate(-25deg)}
+.t08-rig-splinter{opacity:0;transform-box:fill-box;transform-origin:center}
+/* The kick finishes before the leg lowers; the stool keeps its fallen outcome. */
+@keyframes t08-leg{0%,18%,100%{transform:rotate(55deg)}28%{transform:rotate(62deg)}45%{transform:rotate(-2deg)}58%{transform:rotate(0)}76%{transform:rotate(51deg)}86%,99.999%{transform:rotate(55deg)}}
+@keyframes t08-stool{0%,40%,100%{transform:translateY(24px) rotate(-25deg)}48%{transform:translate(2px,9px) rotate(-14deg)}58%{transform:translate(8px,-28px) rotate(5deg)}68%,99.999%{transform:translate(15px,-71.5px) rotate(25deg)}}
+@keyframes t08-splinter{0%,47%,100%{opacity:0;transform:translate(-42px,-52px) rotate(-20deg)}50%{opacity:1;transform:translate(-40px,-40px) rotate(-5deg)}72%,99.999%{opacity:1;transform:translate(15px,3px) rotate(22deg)}}
+.t05-rig-left,.t05-rig-right,.t05-rig-bag{transform-box:fill-box;transform-origin:center}
+@keyframes t05-left{0%,14%,100%{transform:none}30%{transform:translate(3px,-2px) rotate(-3deg)}48%,60%{transform:translate(10px,6px) rotate(8deg)}78%,99.999%{transform:translate(3px,2px) rotate(1deg)}}
+@keyframes t05-right{0%,14%,100%{transform:none}30%{transform:translate(-3px,2px) rotate(3deg)}48%,60%{transform:translate(-10px,-6px) rotate(-8deg)}78%,99.999%{transform:translate(-3px,-2px) rotate(-1deg)}}
+@keyframes t05-bag{0%,14%,100%{transform:none}30%{transform:skewY(2deg)}48%,60%{transform:scaleY(.76) skewY(-5deg)}78%,99.999%{transform:scaleY(.95) skewY(-1deg)}}
+.t05-rig-coin-1,.t05-rig-coin-2,.t05-rig-coin-3{transform-box:fill-box;transform-origin:50% 100%;opacity:0}
+@keyframes t05-coin-1{0%,40%,100%{opacity:0;transform:translate(0,-40px)}42%{opacity:1;transform:translate(0,-36px)}61%{opacity:1;transform:translate(25px,202px) scaleY(1)}65%{opacity:1;transform:translate(25px,202px) scaleY(.25)}71%{opacity:1;transform:translate(35px,190px) scaleY(.8)}81%,99.999%{opacity:1;transform:translate(54px,202px) scale(1.8,.42)}}
+@keyframes t05-coin-2{0%,47%,100%{opacity:0;transform:translate(-18px,-76px)}49%{opacity:1;transform:translate(-18px,-70px)}69%{opacity:1;transform:translate(30px,164px) scaleY(1)}73%{opacity:1;transform:translate(30px,164px) scale(1.8,.42)}79%,99.999%{opacity:1;transform:translate(75px,164px) scale(1.8,.42)}}
+@keyframes t05-coin-3{0%,55%,100%{opacity:0;transform:translate(-32px,-112px)}57%{opacity:1;transform:translate(-32px,-102px)}77%{opacity:1;transform:translate(3px,127px) scaleY(1)}88%,99.999%{opacity:1;transform:translate(112px,127px) scale(1.8,.42)}}
+@media(prefers-reduced-motion:reduce){.proto-character :is(.t05-motion,.t08-motion,.t15-motion) *{animation:none!important}}
+.t08-motion{--t08-hip:627px 713px;--t08-stool-pivot:876px 902px}
+
+/* T13: the moving cuff jaw closes behind the original, intact hands. */
+.t13-cuff-jaw{transform-box:view-box;transform-origin:631px 732px;transform:rotate(57deg)}
+.t13-cuff-click{opacity:0}
+.proto-character[data-character='T13'][data-motion-phase='result'][data-motion-state='playing'] [id$='t13-web-artwork']{animation:t13-body-result 4.8s linear 2 both}
+.proto-character[data-character='T13'][data-motion-phase='result'][data-motion-state='playing'] .t13-cuff-jaw{animation:t13-cuff-close 4.8s cubic-bezier(.32,.06,.24,1) 2 both}
+.proto-character[data-character='T13'][data-motion-phase='result'][data-motion-state='playing'] .t13-cuff-click{animation:t13-cuff-click 4.8s linear 2 both}
+.proto-character[data-character='T13'][data-paused='true'] svg *{animation-play-state:paused!important}
+@keyframes t13-body-result{0%,100%{opacity:1}50%{opacity:.9999}}
+@keyframes t13-cuff-close{0%,18%,100%{transform:rotate(57deg)}27%{transform:rotate(63deg)}45%,99.999%{transform:rotate(0)}}
+@keyframes t13-cuff-click{0%,42%,57%,100%{opacity:0}45%,49%{opacity:1}}
+@media(prefers-reduced-motion:reduce){.proto-character svg.t13-motion *{animation:none!important}}

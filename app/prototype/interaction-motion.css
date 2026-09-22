@@ -1,0 +1,109 @@
+/* The assessment card keeps its geometry. Only the changing prompt content
+   acknowledges a move between questions. */
+
+.prototype-shell .personal-report-tools > .proto-save-result {
+  inline-size: min(100%, 13rem);
+  justify-content: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .prototype-shell
+    .proto-question-prompt[data-motion-direction='forward']
+    .proto-question-copy,
+  .prototype-shell
+    .proto-question-prompt[data-motion-direction='forward']
+    .proto-question-illustration {
+    animation: proto-question-enter-forward 160ms cubic-bezier(0.2, 0.7, 0.3, 1)
+      both;
+  }
+
+  .prototype-shell
+    .proto-question-prompt[data-motion-direction='backward']
+    .proto-question-copy,
+  .prototype-shell
+    .proto-question-prompt[data-motion-direction='backward']
+    .proto-question-illustration {
+    animation: proto-question-enter-backward 160ms
+      cubic-bezier(0.2, 0.7, 0.3, 1) both;
+  }
+
+  .prototype-shell .proto-answer {
+    transition: color 120ms ease-out;
+  }
+
+  .prototype-shell .proto-answer [data-slot='radio-group-item'] {
+    transition:
+      background-color 120ms ease-out,
+      border-color 120ms ease-out,
+      transform 120ms ease-out;
+  }
+
+  .prototype-shell .proto-answer.is-selected [data-slot='radio-group-item'] {
+    transform: scale(1.05);
+  }
+
+  .prototype-shell .proto-answer:active [data-slot='radio-group-item'] {
+    transform: scale(0.96);
+  }
+
+  .prototype-shell
+    .proto-answer.is-selected:active
+    [data-slot='radio-group-item'] {
+    transform: scale(1.02);
+  }
+
+  .prototype-shell .proto-question-actions .proto-primary,
+  .prototype-shell .personal-report-tools > .proto-save-result,
+  .proto-dialog .proto-share-actions > .proto-copy-link {
+    transition:
+      background-color 120ms ease-out,
+      border-color 120ms ease-out,
+      color 120ms ease-out,
+      transform 120ms ease-out;
+  }
+
+  .prototype-shell .proto-question-actions .proto-primary:not(:disabled):active,
+  .prototype-shell
+    .personal-report-tools
+    > .proto-save-result:not(:disabled):active,
+  .proto-dialog .proto-share-actions > .proto-copy-link:active {
+    transform: translateY(1px);
+  }
+
+  .prototype-shell.proto-result-settling .proto-result-hero .proto-hero-copy {
+    animation: proto-result-settle 200ms cubic-bezier(0.2, 0.7, 0.3, 1) both;
+  }
+}
+
+@keyframes proto-question-enter-forward {
+  from {
+    opacity: 0.76;
+    transform: translateX(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes proto-question-enter-backward {
+  from {
+    opacity: 0.76;
+    transform: translateX(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes proto-result-settle {
+  from {
+    opacity: 0.88;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

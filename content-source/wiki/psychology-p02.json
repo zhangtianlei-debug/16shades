@@ -1,0 +1,26 @@
+{
+  "slug": "psychology-p02",
+  "status": "published",
+  "category": "psychology",
+  "title": {
+    "zh": "关系里的权力来自哪里",
+    "en": "Where Does Power in a Relationship Come From?"
+  },
+  "summary": {
+    "zh": "外部研究的通俗整理：说明问题、证据与适用边界。",
+    "en": "An accessible guide to outside research: the questions it addresses, the evidence behind it, and the limits of its application."
+  },
+  "kind": {
+    "zh": "外部理论参照",
+    "en": "External theoretical reference"
+  },
+  "body": {
+    "zh": "<a id=\"P02\"></a>\n\n**通俗问题：** 为什么没有头衔的人反而能让全场等他点头？\n\nEmerson的权力—依赖理论把权力放在关系里理解：如果B非常需要A控制的结果，又没有好替代，A对B就更有权力。依赖不仅取决于资源多少，也取决于目标对B有多重要、别处能否取得、离开要付什么成本。权力失衡也不是永久的；寻找替代、降低投入、发展联盟或改变目标，都可能重新平衡关系。[S02：Emerson, 1962](https://doi.org/10.2307/2089716)\n\n**证据怎样来：** S02是经典理论论文，重点是从交换关系推导权力、平衡与联盟，不是人格实验。它解释权力的结构来源，不能单独判断权力使用是否合理。\n\n**自拟例子：** 一位台前负责人职位更高，但关键名单只掌握在幕后联络人手里，而且没有第二个人能及时补上。负责人可以下命令，联络人却能用“我不接这通电话”改变整盘局。等替代联络人出现，权力差会立刻缩小。\n\n**能为本项目提供什么：** M01可把“谁说了算”拆成正式位置、实际依赖和可替代性。一个人物想要决定权，不代表他已经有权力；一个只看收益的人，也可能因垄断稀缺资源而拥有巨大关系权力。好看的争位故事通常会让筹码发生变化，而不只是让两个人重复吵谁更强。\n\n**不能推出什么：** S02的关系权力不等于项目的“权”端。权端描述目标冲突时更想保住决定权；关系权力描述谁能影响谁。利型完全可能有权，权型也可能在结构上依赖对方。",
+    "en": "<a id=\"P02\"></a>\n\n**Plain-language question:** Why can someone with no title make the whole room wait for their approval?\n\nEmerson’s power-dependence theory locates power within a relationship: if B greatly needs an outcome controlled by A and has no good alternative, A has more power over B. Dependence is shaped not only by how many resources exist, but also by how important the goal is to B, whether it can be obtained elsewhere, and what it would cost to leave. Power imbalances are not permanent, either. Finding alternatives, reducing investment, building alliances, or changing the goal can rebalance a relationship. [S02: Emerson, 1962](https://doi.org/10.2307/2089716)\n\n**Where the evidence comes from:** S02 is a classic theoretical paper that derives power, balance, and coalition formation from exchange relations; it is not a personality experiment. It explains the structural sources of power but cannot, by itself, tell us whether a particular use of power is justified.\n\n**Illustrative example:** The public-facing lead holds the higher-ranking position, but a behind-the-scenes liaison alone controls the critical list, and nobody else can step in quickly. The lead can issue orders, yet the liaison can change the entire game by saying, “I’m not taking that call.” The moment a substitute liaison becomes available, the power gap shrinks.\n\n**What this contributes to the project:** M01 can break “who calls the shots” into formal position, actual dependence, and replaceability. Wanting decision-making authority does not mean a character already has power. A character focused only on Gain may still wield enormous relational power by monopolizing a scarce resource. Compelling contests for position usually change the leverage at stake rather than merely having two people repeat arguments about who is stronger.\n\n**What it does not show:** Relational power in S02 is not the same as the project’s Control pole. The Control pole describes a stronger priority for retaining decision-making authority when goals conflict; relational power describes who can influence whom. A Gain-oriented character may hold substantial power, while a Control-oriented character may be structurally dependent on someone else."
+  },
+  "related": [
+    "mechanism-m01"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": true
+}

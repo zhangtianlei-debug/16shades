@@ -1,0 +1,26 @@
+{
+  "slug": "psychology-p10",
+  "status": "published",
+  "category": "psychology",
+  "title": {
+    "zh": "为什么“唯独是你”不能由类型表算出来",
+    "en": "Why “Only You” Cannot Be Calculated from a Type Chart"
+  },
+  "summary": {
+    "zh": "外部研究的通俗整理：说明问题、证据与适用边界。",
+    "en": "An accessible guide to outside research: the questions it addresses, the evidence behind it, and the limits of its application."
+  },
+  "kind": {
+    "zh": "外部理论参照",
+    "en": "External theoretical reference"
+  },
+  "body": {
+    "zh": "<a id=\"P10\"></a>\n\n**通俗问题：** 有些人对所有人都一样，为什么偏偏对某个人破例？\n\n社会关系模型把A对B的知觉或行为拆成三部分：A对别人通常怎样、B通常怎样被别人对待、A对B这一个组合独有的关系效应。它还区分一般互惠和双人互惠：“我通常喜欢别人，也通常被喜欢”与“我唯独喜欢你，你也唯独喜欢我”不是同一统计问题。[S14：Kenny & La Voie, 1984](https://doi.org/10.1016/S0065-2601(08)60144-6)\n\nEastwick等人的速配研究提供了直观实例。156名大学生分别进行四分钟见面后，对某一特定对象的独特浪漫欲望有小幅正向互惠，也与对方报告的独特化学感相关；普遍对很多人都有浪漫兴趣的倾向，反而与被欲望负相关。另一职业速配样本的“是否愿意再见”结果方向相近。[S15：Eastwick et al., 2007](https://doi.org/10.1111/j.1467-9280.2007.01897.x)\n\n**证据怎样来：** S14首先是双人数据的理论与统计框架，不自行证明关系有神秘本质；没有重复测量或多指标时，关系效应可能混入误差。S15观察初始浪漫吸引，效应并不大，不能代表长期稳定。\n\n**自拟例子：** A平时遇到挑战就压回去，却在B提出异议时第一次追问理由；B对别人都能迅速算清交换，面对A却迟迟不肯把帮助记成债。这样的“例外”属于这一对人的关系材料，不能从A和B各自的四字直接读出。\n\n**能为本项目提供什么：** M06“例外与共塑”必须保留方向：A→B和B→A分别写。可以出现双向例外、单箭头、误以为双向、只在某个场景成立，以及第三次事件后消失。这样，CP、搭档和宿敌可以在同一对人物身上重叠，而不必由一张对称适配表裁决。\n\n**不能推出什么：** 不能把“唯独对你狠”自动写成爱，也不能把一次破例写成宿命。特异性只说明需要关系层资料；它不替伤害赋予浪漫含义。",
+    "en": "<a id=\"P10\"></a>\n\n**Plain-language question:** Some people treat everyone the same. Why do they make an exception for one particular person?\n\nThe Social Relations Model separates A’s perception of or behavior toward B into three components: how A generally treats other people, how B is generally treated by other people, and the relationship effect unique to the A–B pairing. It also distinguishes generalized reciprocity from dyadic reciprocity. “I generally like others and am generally liked” and “I uniquely like you, and you uniquely like me” are not the same statistical question. [S14: Kenny & La Voie, 1984](https://doi.org/10.1016/S0065-2601(08)60144-6)\n\nA speed-dating study by Eastwick and colleagues offers an intuitive example. After 156 university students each had four-minute meetings, unique romantic desire for a particular person showed a small positive degree of reciprocity and was associated with the unique chemistry reported by the other person. A general tendency to feel romantic interest in many people was, by contrast, negatively associated with being desired. A separate sample of working professionals showed a similar pattern for willingness to meet again. [S15: Eastwick et al., 2007](https://doi.org/10.1111/j.1467-9280.2007.01897.x)\n\n**Where the evidence comes from:** S14 is first a theoretical and statistical framework for dyadic data; it does not itself prove that relationships have some mysterious essence. Without repeated measures or multiple indicators, a relationship effect may be mixed with error. S15 observes initial romantic attraction, and its effects are small; it cannot stand for long-term stability.\n\n**Illustrative example:** A normally pushes back whenever challenged, yet when B objects, A asks for the reason for the first time. B can quickly calculate exchanges with everyone else, yet with A hesitates to record help as a debt. These “exceptions” are information about this particular relationship. They cannot be read directly from A’s and B’s respective four-letter codes.\n\n**What this contributes to the project:** M06, “Exceptions and Mutual Shaping,” must preserve direction: write A→B and B→A separately. The story can contain reciprocal exceptions, a one-way arrow, a mistaken belief that the exception is mutual, an exception limited to one setting, or one that disappears after the third event. Romantic pairing, partnership, and enmity can therefore overlap in the same pair of characters without being decided by a symmetrical compatibility chart.\n\n**What it does not show:** “Cruel only to you” must not automatically be written as love, and one exception must not be written as destiny. Specificity tells us that relationship-level information is needed; it does not give harm a romantic meaning."
+  },
+  "related": [
+    "mechanism-m06"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": true
+}

@@ -1,0 +1,186 @@
+/* T02/T03/T06/T07 source-faithful result motions, 4.8 s × 2.
+   Every selector uses suffix matching so inlineCharacterSvg instance prefixes remain valid. */
+.proto-character[data-motion-phase='result'][data-motion-state='playing'][data-paused='true'] svg.character-motion * {
+  animation-play-state: paused !important;
+}
+.proto-character[data-motion-phase='result'][data-motion-state='idle'] svg.character-motion * {
+  animation: none !important;
+}
+
+/* These visually-still markers preserve the result completion contract. */
+.proto-character[data-character='T02'][data-motion-phase='result'][data-motion-state='playing'] [id$='t02-web-artwork'] { animation: t02-body-result 4.8s linear 2 both; }
+.proto-character[data-character='T03'][data-motion-phase='result'][data-motion-state='playing'] [id$='t03-web-artwork'] { animation: t03-body-result 4.8s linear 2 both; }
+.proto-character[data-character='T06'][data-motion-phase='result'][data-motion-state='playing'] [id$='t06-web-artwork'] { animation: t06-body-result 4.8s linear 2 both; }
+.proto-character[data-character='T07'][data-motion-phase='result'][data-motion-state='playing'] [id$='t07-web-artwork'] { animation: t07-body-result 4.8s linear 2 both; }
+@keyframes t02-body-result { 0%,100% { opacity:1 } 50% { opacity:.999 } }
+@keyframes t03-body-result { 0%,100% { opacity:1 } 50% { opacity:.999 } }
+@keyframes t06-body-result { 0%,100% { opacity:1 } 50% { opacity:.999 } }
+@keyframes t07-body-result { 0%,100% { opacity:1 } 50% { opacity:.999 } }
+
+/* T02 投机客：真正的握棍手、绿袖口和不变形的整根树枝一起下捅，再抽回。
+   槽口的绿色反应和飞溅留在机器上，不随手漂移。 */
+.proto-character[data-character='T02'][data-motion-phase='result'][data-motion-state='playing'] :is(
+  [id$='t02-web-grip-fill'],
+  [id$='t02-web-layer-015'],
+  [id$='t02-web-layer-017'],
+  [id$='t02-web-layer-018']
+) {
+  transform-box: view-box;
+  transform-origin: 832px 586px;
+  animation: t02-poke-result 4.8s cubic-bezier(.24,.72,.22,1) 2 both;
+}
+@keyframes t02-poke-result {
+  0%,17%,100% { transform:none; }
+  23% { transform:translateY(-5px); }
+  31%,52% { transform:translateY(32px); }
+  68% { transform:translateY(12px); }
+  82% { transform:none; }
+}
+
+/* T03 笑面客：瓶、握瓶手、袖口及全部瓶身色块作为一个刚性组件挤压。
+   餐盘与主液堆始终固定；先挤瓶，再流出，液流由粗到细再到滴落，停止后保持到
+   99.999%，在 100% 瞬时重置。 */
+.proto-character[data-character='T03'][data-motion-phase='result'][data-motion-state='playing'] :is(
+  [id$='t03-web-layer-009'],
+  [id$='t03-web-layer-012'],
+  [id$='t03-web-layer-014'],
+  [id$='t03-web-layer-016'],
+  [id$='t03-web-layer-022'],
+  [id$='t03-web-layer-024'],
+  [id$='t03-web-layer-029'],
+  [id$='t03-web-layer-030'],
+  [id$='t03-web-layer-031'],
+  [id$='t03-web-layer-033'],
+  [id$='t03-web-layer-037'],
+  [id$='t03-web-layer-038'],
+  [id$='t03-web-layer-046']
+) {
+  transform-box: view-box;
+  transform-origin: 794px 702px;
+  animation: t03-squeeze-result 4.8s cubic-bezier(.25,.72,.2,1) 2 both;
+}
+.proto-character[data-character='T03'][data-motion-phase='result'][data-motion-state='playing'] [id$='t03-web-stream-fill'] {
+  transform-box:view-box;
+  transform-origin:712px 690px;
+  animation:t03-stream-result 4.8s cubic-bezier(.3,.65,.25,1) 2 both;
+}
+.proto-character[data-character='T03'][data-motion-phase='result'][data-motion-state='playing'] [id$='t03-web-pour-drops'] {
+  animation: t03-drops-result 4.8s linear 2 both;
+}
+.proto-character[data-character='T03'][data-motion-phase='result'][data-motion-state='playing'] [id$='t03-web-pour-drop-b'] {
+  animation: t03-drop-b-result 4.8s linear 2 both;
+}
+.proto-character[data-character='T03'][data-motion-phase='result'][data-motion-state='playing'] [id$='t03-web-pour-drop-c'] {
+  animation: t03-drop-c-result 4.8s linear 2 both;
+}
+@keyframes t03-squeeze-result {
+  0%,13% { transform:none; }
+  27% { transform:translate(-.5px,-.5px) rotate(-.2deg) scaleX(.98); }
+  43%,64% { transform:translate(-1px,1px) rotate(-.65deg) scaleX(.92); }
+  78%,99.999% { transform:translate(-.5px,.5px) rotate(-.2deg) scaleX(.98); }
+  100% { transform:none; }
+}
+@keyframes t03-stream-result {
+  0%,19% { transform:scaleX(.08); opacity:0; }
+  27%,36% { transform:scaleX(1); opacity:1; }
+  48% { transform:scaleX(.72); opacity:1; }
+  60% { transform:scaleX(.42); opacity:.94; }
+  71% { transform:scaleX(.22); opacity:.82; }
+  80%,99.999%,100% { transform:scaleX(.08); opacity:0; }
+}
+@keyframes t03-drops-result {
+  0%,55% { opacity:0; transform:translateY(-7px); }
+  62%,68% { opacity:1; transform:translateY(2px); }
+  76% { opacity:.7; transform:translateY(12px); }
+  84%,100% { opacity:0; transform:translateY(20px); }
+}
+@keyframes t03-drop-b-result { 0%,55% { opacity:0 } 62%,70% { opacity:1 } 79%,100% { opacity:0 } }
+@keyframes t03-drop-c-result { 0%,55% { opacity:0 } 61%,65% { opacity:1 } 73%,100% { opacity:0 } }
+
+/* T06 掠夺者：局部切除融合底层中会留在原位的抱箱黑轮廓，
+   再将箱、两只手、袖口、断封绳和挂牌的全色堆叠一起拉向身体。 */
+.proto-character[data-character='T06'][data-motion-phase='result'][data-motion-state='playing'] :is(
+  [id$='t06-web-clutch-underpaint'],
+  [id$='t06-web-layer-004'],
+  [id$='t06-web-layer-005'],
+  [id$='t06-web-layer-006'],
+  [id$='t06-web-layer-007'],
+  [id$='t06-web-layer-008'],
+  [id$='t06-web-layer-010'],
+  [id$='t06-web-layer-011'],
+  [id$='t06-web-layer-012'],
+  [id$='t06-web-layer-013'],
+  [id$='t06-web-layer-016'],
+  [id$='t06-web-layer-019'],
+  [id$='t06-web-layer-025'],
+  [id$='t06-web-layer-029'],
+  [id$='t06-web-layer-030'],
+  [id$='t06-web-layer-031']
+) {
+  transform-box:view-box;
+  transform-origin:760px 705px;
+  animation:t06-clutch-result 4.8s cubic-bezier(.22,.72,.2,1) 2 both;
+}
+@keyframes t06-clutch-result {
+  0%,14% { transform:none; }
+  27% { transform:translate(3px,-2px) rotate(.3deg); }
+  47%,72% { transform:translate(-28px,10px) rotate(-1.1deg); }
+  86% { transform:translate(-8px,3px) rotate(-.3deg); }
+  100% { transform:none; }
+}
+
+/* T07 清算者：原位层只提供路径定义；末尾的完整堆栈统一承载罐、
+   抓罐手和所有明暗细节，保证静止柜体不会压住运动中的罐。 */
+.proto-character[data-character='T07'] :is(
+  [id$='t07-web-jar-fill'],
+  [id$='t07-web-layer-012'],
+  [id$='t07-web-layer-020'],
+  [id$='t07-web-layer-027'],
+  [id$='t07-web-layer-034'],
+  [id$='t07-web-layer-036'],
+  [id$='t07-web-layer-038'],
+  [id$='t07-web-layer-039'],
+  [id$='t07-web-layer-040'],
+  [id$='t07-web-layer-041'],
+  [id$='t07-web-layer-042'],
+  [id$='t07-web-layer-045'],
+  [id$='t07-web-layer-046'],
+  [id$='t07-web-layer-047']
+) {
+  opacity:0;
+}
+.proto-character[data-character='T07'][data-motion-phase='result'][data-motion-state='playing'] [id$='t07-web-moving-jar-stack'] {
+  transform-box:view-box;
+  transform-origin:742px 742px;
+  animation:t07-take-result 4.8s cubic-bezier(.22,.72,.2,1) 2 both;
+}
+@keyframes t07-take-result {
+  0%,14% { transform:none; }
+  27% { transform:translate(-2px,2px) rotate(-.6deg); }
+  49%,99.999% { transform:translate(-34px,-24px) rotate(-3.2deg); }
+  100% { transform:none; }
+}
+
+
+@media (prefers-reduced-motion:reduce) { .proto-character[data-motion-phase='result'] svg.character-motion * { animation:none !important; } }
+/* T04: original accepted hand/eye motion; STOP sign stays fixed. */
+.proto-character[data-character='T04'][data-motion-phase='result'][data-motion-state='playing'] svg.t04-motion [id$='t04-web-artwork']{animation:t04-body-result 4.8s linear 2 both}
+@keyframes t04-body-result{0%,100%{opacity:1}50%{opacity:.999}}
+/* T04: all magnifier and gripping-hand fragments share one forward tracking arc. */
+.proto-character[data-character='T04'][data-motion-phase='result'][data-motion-state='playing'] svg.t04-motion [id$='t04-web-layer-010'],
+.proto-character[data-character='T04'][data-motion-phase='result'][data-motion-state='playing'] svg.t04-motion [id$='t04-web-layer-020'],
+.proto-character[data-character='T04'][data-motion-phase='result'][data-motion-state='playing'] svg.t04-motion [id$='t04-web-layer-026'],
+.proto-character[data-character='T04'][data-motion-phase='result'][data-motion-state='playing'] svg.t04-motion [id$='t04-web-layer-035'],
+.proto-character[data-character='T04'][data-motion-phase='result'][data-motion-state='playing'] svg.t04-motion [id$='t04-web-layer-037'],
+.proto-character[data-character='T04'][data-motion-phase='result'][data-motion-state='playing'] svg.t04-motion [id$='t04-web-layer-012'],
+.proto-character[data-character='T04'][data-motion-phase='result'][data-motion-state='playing'] svg.t04-motion [id$='t04-web-layer-021'],
+.proto-character[data-character='T04'][data-motion-phase='result'][data-motion-state='playing'] svg.t04-motion [id$='t04-web-layer-022'],
+.proto-character[data-character='T04'][data-motion-phase='result'][data-motion-state='playing'] svg.t04-motion [id$='t04-web-layer-023'],
+.proto-character[data-character='T04'][data-motion-phase='result'][data-motion-state='playing'] svg.t04-motion [id$='t04-web-layer-044'],
+.proto-character[data-character='T04'][data-motion-phase='result'][data-motion-state='playing'] svg.t04-motion [id$='t04-web-layer-054'],
+.proto-character[data-character='T04'][data-motion-phase='result'][data-motion-state='playing'] svg.t04-motion [id$='t04-web-layer-059'],
+.proto-character[data-character='T04'][data-motion-phase='result'][data-motion-state='playing'] svg.t04-motion [id$='t04-web-layer-066'],
+.proto-character[data-character='T04'][data-motion-phase='result'][data-motion-state='playing'] svg.t04-motion [id$='t04-web-layer-075'],
+.proto-character[data-character='T04'][data-motion-phase='result'][data-motion-state='playing'] svg.t04-motion [id$='t04-web-layer-077']{transform-box:view-box;transform-origin:820px 690px;animation:t04-track-refined 4.8s cubic-bezier(.22,.72,.2,1) 2 both}
+
+@keyframes t04-track-refined{0%,100%{transform:none}18%{transform:translate(-4px,-3px) rotate(-1.2deg)}40%,55%{transform:translate(18px,11px) rotate(4.5deg)}69%{transform:translate(8px,5px) rotate(1.4deg)}84%{transform:translate(-1px,1px) rotate(-.3deg)}}

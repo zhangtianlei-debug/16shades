@@ -1,0 +1,28 @@
+{
+  "slug": "mechanism-m04",
+  "status": "published",
+  "category": "mechanisms",
+  "title": {
+    "zh": "M04｜互激与停火",
+    "en": "M04 | Escalation and ceasefires"
+  },
+  "summary": {
+    "zh": "当前谁想改变现状，回应怎样升级，哪一步可以停下。",
+    "en": "Who wants change now, how responses escalate, and where the cycle can stop."
+  },
+  "kind": {
+    "zh": "项目定义",
+    "en": "Project definition"
+  },
+  "body": {
+    "zh": "<a id=\"M04\"></a>\n\n**我们的观点。** 关系里的角色会随议题变化。先看这一次谁要求改变、谁更想维持现状，再写追问、加码、沉默、拖延或反击。谋者也可能追得很紧，压者也可能拒绝回应；不要把两条手段路径直接套成焦虑或回避依恋。\n\n每个循环至少写明三步：触发了什么；A怎样解释并回应；B怎样理解这次回应。写转折时再补上一个可观察的停止动作，例如暂停追加条件、回应一项明确诉求、交还选择权。停火、承担后果和重建信任可以是不同阶段。\n\n**自拟场景。** 一位清算者追问谁承担损失，另一位拖延核对。前者把拖延解释为不认账，追加要求；后者把加码解释为谈不拢，更不愿回应。若双方先把已确认和有争议的事项分开，故事可能出现停火口；仅仅不再说话，不能自动写成问题已解决。\n\n**写作支点：** “如果有一人不按上一轮的方式回应，剧情从哪里改写？”\n\n研究路径：需求—退缩、相关元分析、调适研究。[S09](https://doi.org/10.1037/0022-3514.59.1.73)、[S10](https://doi.org/10.1080/03637751.2013.813632)、[S11](https://doi.org/10.1037/0022-3514.60.1.53)。本稿的“停火条件”是叙事与观察问题，不保证任何现实关系必然修复。",
+    "en": "<a id=\"M04\"></a>\n\n**Our view.** Roles in a relationship can change with the issue. First ask who wants change this time and who prefers the status quo. Then write the repeated questions, added demands, silence, delay, or counterattack. A Strategy-oriented person may pursue intensely, and a Pressure-oriented person may refuse to respond. Do not map these two methods directly onto anxious or avoidant attachment.\n\nDescribe at least three steps in each cycle: what triggered it, how A interpreted and answered it, and how B understood that response. At a turning point, add an observable stopping action, such as pausing extra conditions, answering a specific request, or returning a choice. A ceasefire, accepting consequences, and rebuilding trust may be separate stages.\n\n**An invented scene.** One Collector keeps asking who will bear a loss; the other delays checking the accounts. The first reads the delay as refusing responsibility and adds demands. The second reads those demands as proof that agreement is impossible and becomes even less willing to respond. Separating agreed matters from disputed ones could create an opening for a ceasefire. Simply falling silent cannot automatically be written as resolving the issue.\n\n**Writing prompt:** If one person stopped responding in the same way as last time, where would the story change?\n\nResearch paths: demand-withdraw patterns, the related meta-analysis, and accommodation research. [S09](https://doi.org/10.1037/0022-3514.59.1.73), [S10](https://doi.org/10.1080/03637751.2013.813632), [S11](https://doi.org/10.1037/0022-3514.60.1.53). This draft's ceasefire conditions are narrative and observational questions. They do not guarantee repair in any real relationship."
+  },
+  "related": [
+    "psychology-p04",
+    "psychology-p07",
+    "psychology-p08"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": true
+}

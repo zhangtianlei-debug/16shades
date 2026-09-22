@@ -1,0 +1,26 @@
+{
+  "slug": "psychology-p05",
+  "status": "published",
+  "category": "psychology",
+  "title": {
+    "zh": "相似的人真的更容易互相喜欢吗",
+    "en": "Do Similar People Really Like Each Other More?"
+  },
+  "summary": {
+    "zh": "外部研究的通俗整理：说明问题、证据与适用边界。",
+    "en": "An accessible guide to outside research: the questions it addresses, the evidence behind it, and the limits of its application."
+  },
+  "kind": {
+    "zh": "外部理论参照",
+    "en": "External theoretical reference"
+  },
+  "body": {
+    "zh": "<a id=\"P05\"></a>\n\n**通俗问题：** “同类相吸”和“相反相吸”，哪一句更接近研究？\n\nMontoya等人汇总313项实验室与现场研究、460个效应量，发现实际相似和知觉相似总体上都与吸引有关。但关系阶段很关键：实际相似在未互动和短时互动研究中较重要，超出短时互动后效应明显下降，在既有关系中总体效应不显著；“我觉得我们很像”则在未互动、短时互动和既有关系中都能预测吸引。[S06：Montoya, Horton, & Kirchner, 2008](https://doi.org/10.1177/0265407508096700)\n\n**证据怎样来：** 这是大规模元分析，优势是把不同研究阶段放在一起比较；局限是大量资料为相关，而且“觉得像”可能是喜欢的原因，也可能是喜欢之后的解释。被研究的相似还包括态度、人格等不同内容，不能合并成一个万能按钮。\n\n**自拟例子：** 两个人第一次聊电影时因口味相近迅速建立共同语言；相处半年后，真正维持亲近的可能不是片单重合，而是两人都觉得对方理解自己的取舍。另有两个人测试结果不同，却把彼此视为“都是不吃亏的人”，相似感仍然成立。\n\n**能为本项目提供什么：** M02中的“镜像”可以写成双方认出的共同逻辑、共同盲点或共同叙事，而不必要求四字相同。角色可以说“你的招数和我不同，但我知道你为什么这么做”。这比按相同字母计分更接近相似感的关系作用。\n\n**不能推出什么：** 不能说同型最适合，也不能说不同型一定缺少共同语言。四字相同只是本项目定义下的策略倾向相同，不等于价值观、生活习惯、温暖程度或关系目标相同。",
+    "en": "<a id=\"P05\"></a>\n\n**Plain-language question:** Which is closer to the research: “birds of a feather flock together” or “opposites attract”?\n\nMontoya and colleagues synthesized 313 laboratory and field studies comprising 460 effect sizes. Overall, both actual similarity and perceived similarity were associated with attraction. The stage of the relationship mattered, however. Actual similarity was more important in no-interaction and brief-interaction studies; its effect dropped markedly beyond brief interactions and was nonsignificant overall in existing relationships. By contrast, “I feel that we are alike” predicted attraction before interaction, during brief interaction, and in established relationships. [S06: Montoya, Horton, & Kirchner, 2008](https://doi.org/10.1177/0265407508096700)\n\n**Where the evidence comes from:** This is a large meta-analysis whose strength is comparing different stages of relationships. Its limitations are that much of the evidence is correlational and that perceived similarity may cause liking or may be an explanation people form after they already like someone. The studies also examine different kinds of similarity, including attitudes and personality; these cannot be collapsed into a single universal switch.\n\n**Illustrative example:** Two people quickly find common ground when they first talk about films because their tastes overlap. Six months later, what sustains their closeness may be less the overlap in their watchlists than the shared feeling that the other understands their choices. Another pair may receive different test results yet see each other as “people who refuse to be shortchanged”; their sense of similarity is still real.\n\n**What this contributes to the project:** “Mirroring” in M02 can mean a shared logic, blind spot, or story that both people recognize; their four letters need not match. A character can say, “Your methods differ from mine, but I know why you do it.” This comes closer to similarity’s relational role than awarding points for matching letters.\n\n**What it does not show:** We cannot say that identical types are the best match, or that different types necessarily lack common ground. Matching four-letter codes mean only that the characters share strategic tendencies as defined by this project. They do not imply identical values, habits, warmth, or relationship goals."
+  },
+  "related": [
+    "mechanism-m02"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": true
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "mbti-same-role",
+  "status": "published",
+  "category": "framework",
+  "title": {
+    "zh": "同一个阴影角色，为什么会表现得很不一样？",
+    "en": "Why can the same shadow role look so different?"
+  },
+  "summary": {
+    "zh": "角色描述路径，具体的人仍会用不同速度、语气和工具走这条路。",
+    "en": "A role describes a path; real people still travel it at different speeds, in different tones, and with different tools."
+  },
+  "kind": {
+    "zh": "创作联想与理论参照",
+    "en": "Creative interpretation & theory reference"
+  },
+  "body": {
+    "zh": "## 角色不是整个人\n\n‘操盘手’指向通过设计关系与局面保持决定权的阴影方向。一个人可能在会议里提前安排议程，另一个人可能在朋友间分别沟通；两者的动机、透明度、影响和严重程度都可能不同。\n\n## MBTI只增加表现色彩\n\nINTJ × 操盘手可以写成安静地画好结构；ENFJ × 操盘手可能更像通过关系和公开共识推进。这里的差别用于帮助用户想象场景，不表示某种MBTI更善于操控，也不表示同一角色只有两种表现。\n\n## 仍要回到实际行为\n\n判断是否越界，要看对方是否知情、能否拒绝、是否受到不成比例的代价，以及行为者是否愿意停止和修复。相同角色名称不代表相同坏度；四轴结果也不能替代对具体行为的观察。",
+    "en": "## A role is not the whole person\n\nThe Puppet Master describes a shadow tendency to retain control by shaping relationships and circumstances. One person might set a meeting agenda in advance; another might speak to friends separately. Their motives, transparency, impact, and severity can differ greatly.\n\n## MBTI Shapes the Portrayal\n\nAn INTJ × Puppet Master might quietly map out the whole structure; an ENFJ × Puppet Master might steer through relationships and visible consensus. These examples help bring the characters to life. They do not imply that one MBTI type is more manipulative, or that a role can appear in only two ways.\n\n## Look at the actual behavior\n\nTo tell whether a line was crossed, ask whether the other person was informed, free to refuse, exposed to a disproportionate cost, and offered a real stop and repair. Sharing a character label does not imply equal harm, and a four-axis result cannot replace looking at actual behavior."
+  },
+  "related": [
+    "mbti-connection",
+    "mbti-same-type",
+    "mbti-functions"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": false
+}

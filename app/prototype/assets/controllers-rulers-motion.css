@@ -1,0 +1,130 @@
+/* T09–T11 original-art motion repair. All selectors survive InlineCharacterSvg ID prefixing. */
+svg.character-motion:is(.t09-motion,.t10-motion,.t11-motion) :is(g,use){transform-box:view-box}
+
+.proto-character[data-character='T09'][data-motion-phase='result'][data-motion-state='playing'] .t09-body-result{animation:t09-body-result 4.8s linear 2 both}
+.proto-character[data-character='T10'][data-motion-phase='result'][data-motion-state='playing'] .t10-body-result{animation:t10-body-result 4.8s linear 2 both}
+.proto-character[data-character='T11'][data-motion-phase='result'][data-motion-state='playing'] .t11-body-result{animation:t11-body-result 4.8s linear 2 both}
+@keyframes t09-body-result{0%,100%{opacity:1}50%{opacity:.999}}
+@keyframes t10-body-result{0%,100%{opacity:1}50%{opacity:.999}}
+@keyframes t11-body-result{0%,100%{opacity:1}50%{opacity:.999}}
+
+/* T09: the original cross controller rises with its holding hand and all three lines.
+   The other original hand makes two small plucks while its lower line remains registered. */
+.proto-character[data-character='T09'][data-motion-phase='result'][data-motion-state='playing'] svg.t09-motion :is([id$='t09-web-layer-010'],[id$='t09-web-layer-011'],[id$='t09-web-layer-025'],[id$='t09-web-layer-028'],[id$='t09-web-layer-029'],[id$='t09-web-layer-033'],[id$='t09-web-layer-040'],[id$='t09-web-layer-041'],[id$='t09-web-layer-048'],[id$='t09-web-layer-049'],[id$='t09-web-layer-042'],[id$='t09-web-layer-044'],[id$='t09-web-layer-045'],[id$='t09-web-layer-046'],[id$='t09-web-layer-047'],.t09-motion__controller-lines,[id$='t09-web-layer-006'],[id$='t09-web-layer-015'],[id$='t09-web-layer-017']){animation:t09-controller-lift 4.8s cubic-bezier(.2,.72,.18,1) 2 both;transform-origin:46% 78%}
+.proto-character[data-character='T09'][data-motion-phase='result'][data-motion-state='playing'] svg.t09-motion :is(.t09-motion__hold-hand,[id$='t09-web-layer-008'],[id$='t09-web-layer-014'],[id$='t09-web-layer-022'],[id$='t09-web-layer-032'],[id$='t09-web-layer-036']){animation:t09-controller-lift 4.8s cubic-bezier(.2,.72,.18,1) 2 both;transform-origin:39% 54%}
+.proto-character[data-character='T09'][data-motion-phase='result'][data-motion-state='playing'] svg.t09-motion :is(.t09-motion__pluck-hand,[id$='t09-web-layer-009'],[id$='t09-web-layer-016'],[id$='t09-web-layer-031'],[id$='t09-web-layer-035'],[id$='t09-web-layer-038']){animation:t09-pluck-hand 4.8s cubic-bezier(.2,.72,.18,1) 2 both;transform-origin:67% 63%}
+.proto-character[data-character='T09'][data-motion-phase='result'][data-motion-state='playing'] svg.t09-motion :is([id$='t09-web-layer-021'],[id$='t09-web-layer-024']){animation:motion-paired-blink 4.8s linear 2 both;transform-box:fill-box;transform-origin:center}
+@keyframes t09-controller-lift{0%,9%,100%{transform:none}16%{transform:translateY(3px) rotate(.7deg)}31%,58%{transform:translateY(-23px) rotate(-1.2deg)}69%{transform:translateY(-10px) rotate(-.45deg)}82%{transform:translateY(2px) rotate(.25deg)}90%{transform:translateY(-1px)}}
+@keyframes t09-pluck-hand{0%,9%,100%{transform:none}16%{transform:translate(1px,2px)}31%{transform:translate(-3px,-20px)}39%{transform:translate(-14px,-16px) rotate(-1.8deg)}46%{transform:translate(-3px,-20px)}53%{transform:translate(-12px,-17px) rotate(-1.2deg)}60%{transform:translate(-3px,-20px)}70%{transform:translate(-1px,-8px)}82%{transform:translate(1px,1px)}90%{transform:translateY(-1px)}}
+
+/* T10: the intact original megaphone color stack and grip hand move as one.
+   The split source-path waves start hidden and flash outward from the body twice. */
+.proto-character[data-character='T10'][data-motion-phase='result'][data-motion-state='playing'] svg.t10-motion :is(.t10-motion__megaphone,[id$='t10-web-layer-007'],[id$='t10-web-layer-011'],[id$='t10-web-layer-014'],[id$='t10-web-layer-016'],[id$='t10-web-layer-024'],[id$='t10-web-layer-030'],[id$='t10-web-layer-035'],[id$='t10-web-layer-037'],[id$='t10-web-layer-038'],[id$='t10-web-layer-040'],[id$='t10-web-layer-043']){animation:t10-megaphone-speak 4.8s cubic-bezier(.2,.72,.18,1) 2 both;transform-origin:36% 55%}
+.proto-character[data-character='T10'][data-motion-phase='result'][data-motion-state='playing'] svg.t10-motion :is(.t10-motion__wave-left,[id$='t10-web-layer-012']){animation:t10-wave-left 4.8s linear 2 both;transform-origin:27% 59%}
+.proto-character[data-character='T10'][data-motion-phase='result'][data-motion-state='playing'] svg.t10-motion :is(.t10-motion__wave-right,[id$='t10-web-layer-013'],[id$='t10-web-layer-022']){animation:t10-wave-right 4.8s linear 2 both;transform-origin:78% 55%}
+.proto-character[data-character='T10'][data-motion-phase='result'][data-motion-state='playing'] svg.t10-motion :is([id$='t10-web-layer-026'],[id$='t10-web-layer-027']){animation:motion-paired-blink 4.8s linear 2 both;transform-box:fill-box;transform-origin:center}
+@keyframes t10-megaphone-speak{0%,9%,100%{transform:none}16%{transform:translate(2px,2px) rotate(1.2deg)}28%,36%{transform:translate(-5px,-5px) rotate(-4deg)}42%{transform:translate(-2px,-2px) rotate(-1.4deg)}49%,57%{transform:translate(-6px,-4px) rotate(-3.2deg)}67%{transform:translate(-1px,-1px) rotate(-.6deg)}81%{transform:translate(1px,1px) rotate(.7deg)}90%{transform:translate(-1px,-1px)}}
+@keyframes t10-wave-left{
+0%,18%,45%,100%{opacity:0;transform:translateX(20px) scaleX(.12)}
+25%,32%,51%,57%{opacity:1;transform:translateX(0) scaleX(1)}
+35%,59%{opacity:.7;transform:translateX(-5px) scaleX(1.08)}
+39%,44.999%,62%,99.999%{opacity:0;transform:translateX(-10px) scaleX(1.16)}
+}
+@keyframes t10-wave-right{
+0%,18%,45%,100%{opacity:0;transform:translateX(-20px) scaleX(.12)}
+25%,32%,51%,57%{opacity:1;transform:translateX(0) scaleX(1)}
+35%,59%{opacity:.7;transform:translateX(5px) scaleX(1.08)}
+39%,44.999%,62%,99.999%{opacity:0;transform:translateX(10px) scaleX(1.16)}
+}
+
+/* T11: each arm is cut out of the original shared silhouette, then the full arm,
+   hand and matching score plate rotate about its original shoulder. */
+.proto-character[data-character='T11'][data-motion-phase='result'][data-motion-state='playing'] svg.t11-motion .t11-motion__left-arm{animation:t11-left-arm-swap 4.8s cubic-bezier(.24,.72,.18,1) 2 both;transform-origin:491px 625px}
+.proto-character[data-character='T11'][data-motion-phase='result'][data-motion-state='playing'] svg.t11-motion .t11-motion__right-arm{animation:t11-right-arm-swap 4.8s cubic-bezier(.24,.72,.18,1) 2 both;transform-origin:746px 685px}
+.proto-character[data-character='T11'][data-motion-phase='result'][data-motion-state='playing'] svg.t11-motion :is([id$='t11-web-layer-024'],[id$='t11-web-layer-026']){animation:motion-paired-blink 4.8s linear 2 both;transform-box:fill-box;transform-origin:center}
+@keyframes t11-left-arm-swap{0%,18%,100%{transform:none}25%{transform:rotate(-10deg)}39%,61%{transform:rotate(-58deg)}71%{transform:rotate(-48deg)}82%{transform:rotate(4deg)}90%{transform:rotate(-2deg)}}
+@keyframes t11-right-arm-swap{0%,18%,100%{transform:none}25%{transform:rotate(-9deg)}39%,61%{transform:rotate(-52deg)}71%{transform:rotate(-43deg)}82%{transform:rotate(3deg)}90%{transform:rotate(-2deg)}}
+
+@keyframes motion-paired-blink{0%,16%,20%,76%,80%,100%{transform:scaleY(1)}18%,78%{transform:scaleY(.12)}}
+
+.proto-character[data-motion-phase='result'][data-motion-state='playing'][data-paused='true'] svg.character-motion:is(.t09-motion,.t10-motion,.t11-motion) *{animation-play-state:paused!important}
+@media (prefers-reduced-motion:reduce){.proto-character svg.character-motion:is(.t09-motion,.t10-motion,.t11-motion) *{animation:none!important}}
+
+/* T14 original-art motion repair. Class selectors survive InlineCharacterSvg ID prefixing. */
+svg.character-motion.t14-motion :is(g,use){transform-box:view-box}
+
+/* The source speed marks remain hidden until the paper is actually swept. */
+svg.t14-motion .t14-motion__speed-lines{opacity:0}
+svg.t14-motion .t14-motion__flying-paper{transform:translate(-82px,-55px)}
+
+.proto-character[data-character='T14'][data-motion-phase='result'][data-motion-state='playing'] .t14-body-result{animation:t14-body-result 4.8s linear 2 both}
+.proto-character[data-character='T14'][data-motion-phase='result'][data-motion-state='playing'] svg.t14-motion .t14-motion__stamp-fist{animation:t14-stamp-fist 4.8s cubic-bezier(.2,.72,.18,1) 2 both}
+.proto-character[data-character='T14'][data-motion-phase='result'][data-motion-state='playing'] svg.t14-motion .t14-motion__stamp{animation:t14-stamp-impact 4.8s cubic-bezier(.18,.76,.2,1) 2 both;transform-box:fill-box;transform-origin:center bottom}
+.proto-character[data-character='T14'][data-motion-phase='result'][data-motion-state='playing'] svg.t14-motion .t14-motion__throw-arm{animation:t14-throw-arm 4.8s cubic-bezier(.2,.72,.18,1) 2 both;transform-origin:47% 51%}
+.proto-character[data-character='T14'][data-motion-phase='result'][data-motion-state='playing'] svg.t14-motion .t14-motion__flying-paper{animation:t14-paper-sweep 4.8s cubic-bezier(.2,.72,.18,1) 2 both}
+.proto-character[data-character='T14'][data-motion-phase='result'][data-motion-state='playing'] svg.t14-motion .t14-motion__speed-lines{animation:t14-speed-lines 4.8s linear 2 both;transform-box:fill-box;transform-origin:right center}
+.proto-character[data-character='T14'][data-motion-phase='result'][data-motion-state='playing'] svg.t14-motion :is([id$='t14-web-layer-009'],[id$='t14-web-layer-010']){animation:t14-paired-blink 4.8s linear 2 both;transform-box:fill-box;transform-origin:center}
+
+@keyframes t14-body-result{0%,100%{opacity:1}50%{opacity:.999}}
+@keyframes t14-stamp-fist{
+  0%,10%,100%{transform:none}
+  16%{transform:translateY(-12px)}
+  24%,27%{transform:translateY(20px)}
+  34%{transform:translateY(-5px)}
+  46%{transform:translateY(1px)}
+  58%,99.999%{transform:none}
+}
+@keyframes t14-stamp-impact{
+  0%,20%,100%{transform:none}
+  24%,27%{transform:translateY(5px) scaleY(.68)}
+  32%{transform:translateY(-2px) scaleY(1.08)}
+  40%,99.999%{transform:none}
+}
+@keyframes t14-throw-arm{
+  0%,16%,100%{transform:none}
+  21%{transform:translate(2px,-2px) rotate(-8deg)}
+  25%{transform:translate(10px,2px) rotate(5deg)}
+  32%{transform:translate(5px,0) rotate(-1deg)}
+  40%,99.999%{transform:none}
+}
+@keyframes t14-paper-sweep{
+  0%,16%{opacity:1;transform:translate(-82px,-55px)}
+  20%{opacity:1;transform:translate(-74px,-57px)}
+  24%{opacity:1;transform:translate(8px,-60px)}
+  30%{opacity:1;transform:translate(78px,-66px)}
+  36%{opacity:.65;transform:translate(145px,-72px)}
+  42%,99.999%{opacity:0;transform:translate(175px,-75px)}
+  100%{opacity:1;transform:translate(-82px,-55px)}
+}
+@keyframes t14-speed-lines{
+  0%,17%,42%,100%{opacity:0;transform:translateX(0) scaleX(.25)}
+  20%{opacity:1;transform:translateX(0) scaleX(.65)}
+  25%,29%{opacity:1;transform:translateX(7px) scaleX(1)}
+  36%{opacity:.45;transform:translateX(15px) scaleX(1.12)}
+}
+@keyframes t14-paired-blink{0%,16%,20%,76%,80%,100%{transform:scaleY(1)}18%,78%{transform:scaleY(.12)}}
+
+.proto-character[data-character='T14'][data-motion-phase='result'][data-motion-state='playing'][data-paused='true'] svg.t14-motion *{animation-play-state:paused!important}
+@media (prefers-reduced-motion:reduce){.proto-character svg.t14-motion *{animation:none!important}}
+
+/* T16 only.  Layer inspection: 010 is the red button; 013 is the pressing hand;
+   036 is its small gray cuff/overlap at the same wrist origin.  008 is the remote
+   bracing hand and is intentionally not animated. */
+.proto-character[data-character='T16'][data-motion-phase='result'][data-motion-state='playing'][data-paused='true'] svg.t16-motion *{animation-play-state:paused!important}
+.proto-character[data-character='T16'][data-motion-phase='result'][data-motion-state='idle'] svg.t16-motion *{animation:none!important}
+.proto-character[data-character='T16'][data-motion-phase='result'][data-motion-state='playing'] [id$='t16-web-artwork']{animation:t16-body-result 4.8s linear 2 both}
+@keyframes t16-body-result{0%,100%{opacity:1}50%{opacity:.999}}
+
+/* The hand and its cuff share the wrist translation, preserving their common edge.
+   The button is a separate red disk (010), compressed about its lower edge so its
+   top visibly lowers under the fingertip without shifting the throne or torso. */
+.proto-character[data-character='T16'][data-motion-phase='result'][data-motion-state='playing'] svg.t16-motion :is([id$='t16-web-layer-013'],[id$='t16-web-layer-036']){transform-box:fill-box;transform-origin:50% 0%;animation:t16-press-hand 4.8s cubic-bezier(.22,.72,.2,1) 2 both}
+.proto-character[data-character='T16'][data-motion-phase='result'][data-motion-state='playing'] svg.t16-motion [id$='t16-web-layer-010']{transform-box:fill-box;transform-origin:50% 100%;animation:t16-button-press 4.8s cubic-bezier(.22,.72,.2,1) 2 both}
+.proto-character[data-character='T16'][data-motion-phase='result'][data-motion-state='playing'] svg.t16-motion [id$='t16-web-shape-010']{animation:t16-button-fill 4.8s cubic-bezier(.22,.72,.2,1) 2 both}
+@keyframes t16-press-hand{0%,100%{transform:translateY(0)}20%{transform:translateY(-2px)}43%,57%{transform:translateY(8px)}72%{transform:translateY(2px)}86%{transform:translateY(0)}}
+@keyframes t16-button-press{0%,29%,100%{transform:scaleY(1)}43%,57%{transform:scaleY(.78)}72%{transform:scaleY(.93)}86%{transform:scaleY(1)}}
+@keyframes t16-button-fill{0%,29%,100%{fill:#910720}43%,57%{fill:#d24761}72%{fill:#b52a45}86%{fill:#910720}}
+@media (prefers-reduced-motion:reduce){.proto-character svg.t16-motion *{animation:none!important}}
+
+.proto-character[data-character='T15'][data-motion-phase='result'][data-motion-state='playing'] :is([id$='t15-web-layer-012'],[id$='t15-web-layer-013']){transform-box:fill-box;transform-origin:center;animation:motion-paired-blink 4.8s linear 2 both}
+.proto-character[data-character='T16'][data-motion-phase='result'][data-motion-state='playing'] :is([id$='t16-web-layer-017'],[id$='t16-web-layer-018']){transform-box:fill-box;transform-origin:center;animation:motion-paired-blink 4.8s linear 2 both}

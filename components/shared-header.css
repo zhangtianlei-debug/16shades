@@ -1,0 +1,15 @@
+.shared-header { position: sticky; top: 0; z-index: 40; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 20px; height: 76px; min-height: 76px; padding: 0 max(32px, calc((100vw - 1152px) / 2)); border-bottom: 1px solid #dfd9e666; background: rgb(241 240 246 / 94%); backdrop-filter: blur(16px); }
+.shared-header__brand { display: flex; flex: 0 0 auto; align-items: center; gap: 8px; color: inherit; text-decoration: none; }
+.shared-header__brand > span { font-family: Georgia, serif; font-size: 32px; font-weight: 700; letter-spacing: -3px; }
+.shared-header__brand > strong { font-size: 18px; letter-spacing: .08em; }
+.shared-header .shared-header__nav { display: flex; min-width: 0; height: 44px; align-items: center; justify-content: flex-end; gap: clamp(16px, 2.25vw, 30px); }
+.shared-header .shared-header__link { display: inline-flex; align-items: center; height: 44px; padding: 0; color: #6b6176; font-family: inherit; font-size: 14px; font-weight: 500; line-height: 20px; text-decoration: none; white-space: nowrap; }
+.shared-header .shared-header__link[aria-current='page'] { color: #503080; font-weight: 650; box-shadow: 0 2px #503080; }
+.shared-header__actions { display: flex; align-items: center; gap: 8px; }
+.shared-header__utility, .language-switcher { display: inline-flex; align-items: center; justify-content: center; }
+.shared-header .shared-header__utility { box-sizing: border-box; flex: 0 0 44px; width: 44px; height: 44px; padding: 0; border: 1px solid #d4cbdf; border-radius: 12px; color: #503080; font-family: inherit; font-size: 14px; font-weight: 500; line-height: 20px; background: transparent; cursor: pointer; }
+.shared-header__utility:focus-visible, .shared-header__link:focus-visible { outline: 3px solid #a68fca; outline-offset: 3px; }
+.shared-header.proto-header { position: fixed; display: grid; height: auto; }
+.prototype-shell .shared-header.proto-header .shared-header__nav { gap: clamp(16px, 2.25vw, 30px); }
+@media (max-width: 640px) { .shared-header { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: 'brand actions' 'nav nav'; gap: 5px 12px; height: 104px; min-height: 104px; padding: 8px 12px; } .shared-header__brand { grid-area: brand; } .shared-header__actions { grid-area: actions; } .shared-header .shared-header__nav { grid-area: nav; width: 100%; justify-content: space-between; gap: 6px; } .shared-header .shared-header__link { height: 38px; font-size: 12px; line-height: 18px; } .shared-header__brand > span { font-size: 28px; } .shared-header__brand > strong { font-size: 15px; } }
+@media (max-width: 359px) { .shared-header .shared-header__link { font-size: 11px; } .shared-header .shared-header__nav { gap: 4px; } }

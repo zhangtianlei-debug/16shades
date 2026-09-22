@@ -1,0 +1,26 @@
+{
+  "slug": "psychology-p08",
+  "status": "published",
+  "category": "psychology",
+  "title": {
+    "zh": "停火不是认输：破坏冲动怎样被截断",
+    "en": "A Ceasefire Is Not Surrender: How Destructive Impulses Get Interrupted"
+  },
+  "summary": {
+    "zh": "外部研究的通俗整理：说明问题、证据与适用边界。",
+    "en": "An accessible guide to outside research: the questions it addresses, the evidence behind it, and the limits of its application."
+  },
+  "kind": {
+    "zh": "外部理论参照",
+    "en": "External theoretical reference"
+  },
+  "body": {
+    "zh": "<a id=\"P08\"></a>\n\n**通俗问题：** 对方先做了难看的事，为什么有人会还击，有人却能把回合停住？\n\nRusbult等人把“调适”定义为：伴侣做出可能破坏关系的行为时，抑制立即的破坏性反应，转向较建设性的反应。六项研究结合实验、自评和双人资料，发现社会关切与相互依赖较低时调适更少；较高满意、承诺、投入、换位思考以及较少优质替代选择，与更多调适相关。双人共同抑制破坏性反应也与较好伴侣功能相关。[S11：Rusbult et al., 1991](https://doi.org/10.1037/0022-3514.60.1.53)\n\n**证据怎样来：** 这组研究包含实验支持，也包含相关关系资料，因此能说明某些条件会影响破坏冲动是否被转换，但不能保证某个单一动作修好关系。研究讨论的是关系维护过程，不是要求任何人忍受持续侵害。\n\n**自拟例子：** A被公开拆台后已经写好报复邮件，B承认具体责任、撤回错误信息并把决定权交回。A仍可追责，却把目标从“让你难受”改成“恢复边界并防止再犯”。停火发生在可观察动作上，不靠一句“算了”。\n\n**能为本项目提供什么：** M04的 `brake` 应写具体条件：撤回威胁、补足损失、公开更正、让第三方核验、允许对方退出、约定何时恢复讨论。用／惩轴可帮助写“目标达成后是否仍追加代价”，但不能把用端写成天然宽恕，也不能把惩端写成无法自控。\n\n**不能推出什么：** 调适不是牺牲边界，更不是受伤者的义务。降低即时还击可与离开关系、寻求支持、追究责任同时发生；安全与自主选择优先于维持故事里的CP标签。",
+    "en": "<a id=\"P08\"></a>\n\n**Plain-language question:** When the other person has done something ugly first, why do some people retaliate while others can stop the cycle?\n\nRusbult and colleagues define “accommodation” as inhibiting an immediate destructive response when a partner behaves in a potentially relationship-damaging way and shifting toward a more constructive response. Across six studies combining experiments, self-reports, and dyadic data, accommodation was less common when social concern and interdependence were lower. Greater satisfaction, commitment, investment, perspective-taking, and fewer high-quality alternatives were associated with more accommodation. Partners’ joint inhibition of destructive responses was also associated with better couple functioning. [S11: Rusbult et al., 1991](https://doi.org/10.1037/0022-3514.60.1.53)\n\n**Where the evidence comes from:** This set of studies includes experimental support as well as correlational relationship data. It can therefore show that certain conditions affect whether destructive impulses are transformed, but it cannot guarantee that any single action will repair a relationship. The research concerns processes of relationship maintenance; it does not require anyone to endure continuing harm.\n\n**Illustrative example:** After A is publicly undermined, A has already drafted a retaliatory email. B acknowledges specific responsibility, retracts the false information, and returns decision-making authority. A can still seek accountability, but changes the goal from “make you suffer” to “restore the boundary and prevent a recurrence.” The ceasefire occurs through observable actions, not through a single “forget it.”\n\n**What this contributes to the project:** The `brake` in M04 should state concrete conditions: withdrawing a threat, making good a loss, issuing a public correction, allowing third-party verification, permitting the other person to leave, or agreeing when discussion will resume. The Instrumental/Punitive axis can help describe whether someone keeps imposing costs after the goal has been achieved, but the Instrumental pole must not be portrayed as inherently forgiving, nor the Punitive pole as incapable of self-control.\n\n**What it does not show:** Accommodation is not the sacrifice of boundaries, much less an obligation placed on the injured person. Reducing immediate retaliation can occur alongside leaving the relationship, seeking support, and pursuing accountability. Safety and autonomous choice take priority over preserving a romantic-pairing label in the story."
+  },
+  "related": [
+    "mechanism-m04"
+  ],
+  "updatedAt": "2026-09-07",
+  "indexable": true
+}

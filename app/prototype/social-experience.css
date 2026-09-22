@@ -1,0 +1,104 @@
+.proto-world-nav {
+  width: min(1080px, calc(100% - 40px));
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 22px;
+  margin: 26px auto 0;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--proto-line);
+}
+.proto-world-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  font-size: 14px;
+  color: var(--proto-body);
+  text-decoration: none;
+}
+.proto-world-nav a[aria-current='page'] { color: var(--proto-purple); font-weight: 650; }
+.prototype-shell .proto-social-tagline { max-width: 440px; font-size: clamp(19px, 2vw, 25px); line-height: 1.55; color: var(--proto-purple); margin: 17px 0 13px; }
+.proto-role-story { margin: 30px 0; padding: 22px 0; border-top: 1px solid var(--proto-line); border-bottom: 1px solid var(--proto-line); }
+.proto-role-story summary { cursor: pointer; color: var(--proto-purple); font-size: 17px; font-weight: 600; }
+.proto-role-story p, .proto-role-story li { font-size: 16px; line-height: 1.9; color: var(--proto-body); }
+.proto-role-story ul { padding-left: 23px; }
+.proto-role-story h3 { margin: 25px 0 10px; font-size: 18px; }
+.identity-card-export { text-align: center; }
+.identity-card-image { width: min(100%, 290px); height: auto; margin: 0 auto 16px; display: block; border-radius: 13px; }
+.identity-card-loading { min-height: 270px; display: grid; place-items: center; color: var(--proto-body); }
+.identity-card-export .proto-primary { display: inline-flex; text-decoration: none; }
+.proto-identity-tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+.proto-identity-tabs button { min-height: 40px; padding: 8px 13px; border: 1px solid #d9d0e5; background: #fff; color: #685675; border-radius: 12px; font-size: 14px; }
+.proto-identity-tabs button[aria-pressed='true'] { background: #503080; border-color: #503080; color: #fff; }
+.proto-shared-landing { max-width: 740px; width: calc(100% - 36px); margin: 42px auto 70px; text-align: center; }
+.proto-shared-landing h1 { font-family: 'Songti SC', 'STSong', serif; color: var(--proto-purple); font-size: clamp(30px, 5vw, 48px); margin: 20px 0; }
+.proto-shared-landing>img { display: block; width: min(340px, 90%); height: auto; margin: 0 auto 25px; border-radius: 22px; background: #e9e2f2; }
+.proto-shared-landing h2 { font-size: 25px; font-weight: 600; color: var(--proto-purple); }
+.proto-shared-landing>p { font-size: 16px; line-height: 1.8; max-width: 550px; margin: 14px auto; }
+.proto-shared-landing .proto-quiet { font-size: 13px; margin-top: 24px; }
+.proto-shared-actions { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.prototype-shell .proto-header nav { gap: 28px; }
+.prototype-shell .proto-nav-link { font-size: 15px!important; }
+.prototype-shell .proto-result-hero-actions { flex-wrap: wrap; row-gap: 10px; }
+.mbti-experience { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(250px, .8fr); align-items: start; gap: 24px; width: min(1080px, calc(100% - 40px)); }
+.mbti-heading { grid-column: 1 / -1; }
+.mbti-stage { grid-column: 1; grid-row: 2; display: block; margin: 0; padding: 24px; }
+.mbti-portrait-wrap { max-width: 350px; margin: 0 auto 24px; }
+.mbti-controls { grid-column: 2; grid-row: 2; position: sticky; top: calc(var(--header-height) + 20px); padding: 22px; }
+.mbti-sample-section { grid-column: 1 / -1; margin-top: 24px; }
+.mbti-controls select { width: 100%; border: 1px solid #cfc2da; border-radius: 10px; background: #fff; min-height: 46px; padding: 9px 12px; font-size: 16px; }
+.mbti-type-picker > .mbti-picker-row { display: flex; align-items: center; gap: 10px; }
+.mbti-picker-row select { flex: 1; min-width: 0; }
+.mbti-picker-row .mbti-clear { flex: 0 0 auto; min-height: 44px; margin: 0; }
+.mbti-identity span { display: none; }
+.mbti-identity b { font-size: 20px; }
+.mbti-heading>p:last-child, .mbti-scene, .play-copy { font-size: 16px; }
+.mbti-sample small { font-size: 12px; }
+.mbti-sample em { font-size: 14px; }
+.mbti-heading h2 { text-wrap: balance; }
+.mbti-privacy-note { font-size: 12px; color: var(--mbti-muted); line-height: 1.75; margin: 0; }
+@media (max-width: 760px) {
+  .mbti-experience { grid-template-columns: minmax(0, 1fr); gap: 20px; width: min(510px, calc(100% - 28px)); }
+  .mbti-heading, .mbti-stage, .mbti-controls, .mbti-sample-section { grid-column: 1; grid-row: auto; }
+  .mbti-controls { position: static; order: 1; }
+  .mbti-heading { order: 0; }
+  .mbti-stage { order: 2; }
+  .mbti-sample-section { order: 3; }
+  .mbti-stage { padding: 20px; }
+}
+@media (max-width: 700px) {
+  .prototype-shell .proto-header nav { gap: 12px; }
+  .prototype-shell .proto-nav-link { font-size: 14px!important; min-height: 38px; display: inline-flex; align-items: center; }
+  .proto-world-nav { margin-top: 16px; gap: 4px 15px; width: calc(100% - 32px); }
+  .proto-world-nav a { font-size: 13px; }
+  .prototype-shell .proto-result-hero-actions .proto-outline { padding: 11px 13px; font-size: 13px; }
+  .identity-card-image { width: min(100%, 235px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .play-seed { transition: none; }
+}
+/* Reading routes sit below the same fixed header as the test. */
+.prototype-shell .proto-world-nav { margin-top: 0; padding-top: calc(var(--header-height) + 18px); }
+.prototype-shell .proto-world-nav ~ .proto-reading-page,
+.prototype-shell .proto-world-nav ~ .rel-page,
+.prototype-shell .proto-world-nav ~ .play-experience { padding-top: 30px; }
+.prototype-shell .mbti-experience { padding-top: calc(var(--header-height) + 36px); }
+.prototype-shell .proto-shared-landing { margin-top: 0; padding-top: calc(var(--header-height) + 30px); }
+/* The editor, downloaded image and recipient page use the same card renderer. */
+.identity-card-export--preview .identity-card-image { width: 100%; max-width: 480px; margin: 0 auto; border-radius: 16px; }
+.identity-card-export--preview .identity-card-loading { aspect-ratio: 3 / 4; min-height: 0; width: 100%; max-width: 480px; margin: auto; background: #eae3f2; border-radius: 16px; }
+.prototype-shell .mbti-stage--card { background: transparent; border: 0; padding: 0; }
+.mbti-stage--card .mbti-stage-copy { max-width: 480px; margin: 18px auto 0; padding: 0 4px; }
+.mbti-stage--card .mbti-combo-card { border-top: 0; margin: 0; padding: 0; }
+.proto-shared-landing .identity-card-export--preview { max-width: 410px; margin: 0 auto; }
+
+@media (max-width: 760px) {
+  .prototype-shell .mbti-experience { padding-top: calc(var(--header-height) + 18px); gap: 14px; }
+  .mbti-heading h2 { font-size: 28px; }
+  .mbti-heading .mbti-kicker { margin-bottom: 6px; }
+  .mbti-heading > p:last-child { margin-top: 10px; font-size: 14px; }
+  .mbti-controls { gap: 10px; padding: 14px; }
+  .mbti-type-picker legend { margin-bottom: 6px; }
+  .mbti-controls .mbti-actions { gap: 8px; }
+  .mbti-controls .mbti-actions > .mbti-action { flex: 1 1 0; min-width: 0; padding: 10px; font-size: 13px; }
+  .mbti-controls .mbti-actions > .mbti-action svg { flex-shrink: 0; }
+}

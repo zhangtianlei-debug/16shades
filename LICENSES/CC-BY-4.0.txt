@@ -1,0 +1,9 @@
+Creative Commons Attribution 4.0 International
+
+The designated framework documentation in `public/prototype-framework.md` is
+licensed under the Creative Commons Attribution 4.0 International License.
+To view a copy of this license, visit:
+https://creativecommons.org/licenses/by/4.0/
+
+License legal code:
+https://creativecommons.org/licenses/by/4.0/legalcode

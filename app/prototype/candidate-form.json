@@ -1,0 +1,814 @@
+{
+  "versions": {
+    "schema_version": "16shadows-bank-1",
+    "framework_version": "1.0.0-draft.1",
+    "scoring_version": "1.0.0-draft.1",
+    "item_bank_version": "1.0.0-draft.1",
+    "reference_test_version": "1.0.0-draft.1",
+    "language": "zh-CN",
+    "form_mode": "self",
+    "score_profile": "open-reference-continuous-1",
+    "form_schema": "open-reference-form-1",
+    "sampling": "16shadows-sampling-1"
+  },
+  "bank_digest": "29f673bb25045920723e0942b7a29afe4c230b1abcd1e33d20abf076ccdaa132",
+  "form_id": "71a5db2b7660434320f2749cad338ff8c3bb0a2c1379e5adc4a788e1097cd0c2",
+  "sampling_version": "16shadows-sampling-1",
+  "options": [
+    {
+      "value": 1,
+      "label": "很不像我"
+    },
+    {
+      "value": 2,
+      "label": "不太像我"
+    },
+    {
+      "value": 3,
+      "label": "一半一半"
+    },
+    {
+      "value": 4,
+      "label": "比较像我"
+    },
+    {
+      "value": 5,
+      "label": "很像我"
+    },
+    {
+      "value": null,
+      "label": "难判断 / 跳过"
+    }
+  ],
+  "items": [
+    {
+      "id": "G01",
+      "axis": "G",
+      "facet": "tradeoff",
+      "direction": 1,
+      "text": "小组分奖励时，我宁愿少拿一点，也想保留最后决定权。",
+      "primary_weight": 1,
+      "family": "G-F-C1",
+      "contexts": [
+        "resource_conflict",
+        "low_stakes",
+        "private_relationship"
+      ],
+      "consistency_pair": "G-C1",
+      "secondary": []
+    },
+    {
+      "id": "M01",
+      "axis": "M",
+      "facet": "channel",
+      "direction": 1,
+      "text": "朋友商量聚餐地点时，我会定下两个选择，并说再拖就由我选。",
+      "primary_weight": 1,
+      "family": "M-F-C1",
+      "contexts": [
+        "private_relationship",
+        "low_stakes"
+      ],
+      "consistency_pair": "M-C1",
+      "secondary": []
+    },
+    {
+      "id": "H01",
+      "axis": "H",
+      "facet": "closure",
+      "direction": 1,
+      "text": "同伴已补回误事造成的损失，我还是想让他请客认个输。",
+      "primary_weight": 1,
+      "family": "H-C1",
+      "contexts": [
+        "private_relationship",
+        "low_stakes"
+      ],
+      "consistency_pair": "H-C1",
+      "secondary": []
+    },
+    {
+      "id": "N01",
+      "axis": "N",
+      "facet": "justification",
+      "direction": 1,
+      "text": "聚会临时改期对我更方便时，我能直接提出来，不必先把理由说圆。",
+      "primary_weight": 1,
+      "family": "N-C1",
+      "contexts": [
+        "private_relationship",
+        "low_stakes"
+      ],
+      "consistency_pair": "N-C1",
+      "secondary": []
+    },
+    {
+      "id": "G17",
+      "axis": "G",
+      "facet": "delegation",
+      "direction": 1,
+      "text": "把任务交给熟手后，我仍希望关键步骤由我确认再继续。",
+      "primary_weight": 1,
+      "family": "G-F17",
+      "contexts": [
+        "authority_asymmetry",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "M17",
+      "axis": "M",
+      "facet": "leverage",
+      "direction": 1,
+      "text": "我负责分配设备时，会说明不按进度完成的人暂停使用。",
+      "primary_weight": 1,
+      "family": "M-F17",
+      "contexts": [
+        "resource_conflict",
+        "authority_asymmetry",
+        "rules",
+        "weaker_other"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "H17",
+      "axis": "H",
+      "facet": "recognition",
+      "direction": 1,
+      "text": "大家已经知道我没错后，我还想听对方亲口认输。",
+      "primary_weight": 1,
+      "family": "H17-solo",
+      "contexts": [
+        "public",
+        "private_relationship",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "N17",
+      "axis": "N",
+      "facet": "audience",
+      "direction": 1,
+      "text": "当众分配活动名额时，我能直接说这次按自己的取舍来。",
+      "primary_weight": 1,
+      "family": "N-P08",
+      "contexts": [
+        "public",
+        "resource_conflict",
+        "authority_asymmetry",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "G30",
+      "axis": "G",
+      "facet": "allocation",
+      "direction": -1,
+      "text": "团队分奖金时，我先看怎样能让自己实际多拿一些。",
+      "primary_weight": 1,
+      "family": "G-F30",
+      "contexts": [
+        "resource_conflict",
+        "rules",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "M30",
+      "axis": "M",
+      "facet": "resistance",
+      "direction": -1,
+      "text": "室友不愿换值日安排时，我会先拆开争议，只讨论最容易同意的一项。",
+      "primary_weight": 1,
+      "family": "M-F30",
+      "contexts": [
+        "private_relationship",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "H30",
+      "axis": "H",
+      "facet": "persistence",
+      "direction": -1,
+      "text": "争来的名额已经拿到，我会把精力放到接下来的安排上。",
+      "primary_weight": 1,
+      "family": "H30-solo",
+      "contexts": [
+        "resource_conflict",
+        "competition",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "N30",
+      "axis": "N",
+      "facet": "challenge",
+      "direction": -1,
+      "text": "排班受到质疑时，我会从规则里找出能支持这次安排的依据。",
+      "primary_weight": 1,
+      "family": "N-P14",
+      "contexts": [
+        "authority_asymmetry",
+        "rules",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "G02",
+      "axis": "G",
+      "facet": "tradeoff",
+      "direction": -1,
+      "text": "小组分奖励时，只要自己多拿一点，谁做最后决定都可以。",
+      "primary_weight": 1,
+      "family": "G-F-C1",
+      "contexts": [
+        "resource_conflict",
+        "low_stakes",
+        "private_relationship"
+      ],
+      "consistency_pair": "G-C1",
+      "secondary": []
+    },
+    {
+      "id": "M02",
+      "axis": "M",
+      "facet": "channel",
+      "direction": -1,
+      "text": "朋友商量聚餐地点时，我会先筛选店家，再给出更容易选中我偏好的选项。",
+      "primary_weight": 1,
+      "family": "M-F-C1",
+      "contexts": [
+        "private_relationship",
+        "low_stakes"
+      ],
+      "consistency_pair": "M-C1",
+      "secondary": []
+    },
+    {
+      "id": "H02",
+      "axis": "H",
+      "facet": "closure",
+      "direction": -1,
+      "text": "同伴已补回误事造成的损失，我愿意就此翻篇，不再让他表示什么。",
+      "primary_weight": 1,
+      "family": "H-C1",
+      "contexts": [
+        "private_relationship",
+        "low_stakes"
+      ],
+      "consistency_pair": "H-C1",
+      "secondary": []
+    },
+    {
+      "id": "N02",
+      "axis": "N",
+      "facet": "justification",
+      "direction": -1,
+      "text": "聚会临时改期对我更方便时，我会先找到大家听起来说得通的理由。",
+      "primary_weight": 1,
+      "family": "N-C1",
+      "contexts": [
+        "private_relationship",
+        "low_stakes"
+      ],
+      "consistency_pair": "N-C1",
+      "secondary": []
+    },
+    {
+      "id": "G29",
+      "axis": "G",
+      "facet": "allocation",
+      "direction": 1,
+      "text": "预算有限需要删项目时，我更想保住自己决定删哪项的权利。",
+      "primary_weight": 1,
+      "family": "G-F29",
+      "contexts": [
+        "resource_conflict",
+        "rules",
+        "authority_asymmetry",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "M24",
+      "axis": "M",
+      "facet": "leverage",
+      "direction": -1,
+      "text": "知道对方急着成交时，我会调整报价顺序，让折中方案显得更合适。",
+      "primary_weight": 1,
+      "family": "M-F24",
+      "contexts": [
+        "resource_conflict",
+        "strangers",
+        "authority_asymmetry"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "H39",
+      "axis": "H",
+      "facet": "persistence",
+      "direction": 1,
+      "text": "对方能影响我的工作机会时，我也愿冒这个风险，让他为旧事再付点代价。",
+      "primary_weight": 1,
+      "family": "H39-solo",
+      "contexts": [
+        "authority_asymmetry",
+        "stronger_other",
+        "retaliation",
+        "sanction_risk",
+        "high_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "N40",
+      "axis": "N",
+      "facet": "challenge",
+      "direction": -1,
+      "text": "没人能追查到我的匿名分配决定时，我仍会想好一套沿用惯例的说明。",
+      "primary_weight": 1,
+      "family": "N-P19",
+      "contexts": [
+        "anonymous",
+        "authority_asymmetry",
+        "resource_conflict",
+        "rules",
+        "low_sanction_risk"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "G37",
+      "axis": "G",
+      "facet": "allocation",
+      "direction": 1,
+      "text": "公司裁减续约名额时，我宁可少拿奖金，也想决定留下哪些人。",
+      "primary_weight": 1,
+      "family": "G-F37",
+      "contexts": [
+        "resource_conflict",
+        "authority_asymmetry",
+        "weaker_other",
+        "high_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "M37",
+      "axis": "M",
+      "facet": "resistance",
+      "direction": 1,
+      "text": "会议上有人持续打断时，我会直接要求他停止，否则请主持人中止其发言。",
+      "primary_weight": 1,
+      "family": "M-F37",
+      "contexts": [
+        "public",
+        "rules",
+        "retaliation"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "H35",
+      "axis": "H",
+      "facet": "persistence",
+      "direction": 1,
+      "text": "损失已经补回，我也愿意让关系僵一阵，换对方认真认一次输。",
+      "primary_weight": 1,
+      "family": "H35-solo",
+      "contexts": [
+        "resource_conflict",
+        "private_relationship",
+        "retaliation"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "N25",
+      "axis": "N",
+      "facet": "audience",
+      "direction": 1,
+      "text": "给依赖我分配任务的新人作安排时，我能直接说这是自己的取舍。",
+      "primary_weight": 1,
+      "family": "N-P12",
+      "contexts": [
+        "authority_asymmetry",
+        "weaker_other",
+        "private_relationship"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "G08",
+      "axis": "G",
+      "facet": "tradeoff",
+      "direction": -1,
+      "text": "二手交易中，只要价格合适，我不在意由对方选择交接方式。",
+      "primary_weight": 1,
+      "family": "G-F-RESULT_OVER_PROCESS",
+      "contexts": [
+        "resource_conflict",
+        "strangers",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "M38",
+      "axis": "M",
+      "facet": "resistance",
+      "direction": -1,
+      "text": "家人不同意旅行计划时，我会先把偏好行程设为默认，再让他们修改。",
+      "primary_weight": 1,
+      "family": "M-F38",
+      "contexts": [
+        "private_relationship",
+        "resource_conflict",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "H20",
+      "axis": "H",
+      "facet": "recognition",
+      "direction": -1,
+      "text": "匿名差评删除后，我不会再设法查出是谁写来要求认错。",
+      "primary_weight": 1,
+      "family": "H20-solo",
+      "contexts": [
+        "anonymous",
+        "public",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "N24",
+      "axis": "N",
+      "facet": "audience",
+      "direction": -1,
+      "text": "上级可能否掉我的安排时，我会先说它符合他定过的标准。",
+      "primary_weight": 1,
+      "family": "N-P11",
+      "contexts": [
+        "authority_asymmetry",
+        "stronger_other",
+        "rules",
+        "sanction_risk"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "G20",
+      "axis": "G",
+      "facet": "delegation",
+      "direction": -1,
+      "text": "让家人代订行程时，只要预算合适，我不需要逐项批准安排。",
+      "primary_weight": 1,
+      "family": "G-F20",
+      "contexts": [
+        "resource_conflict",
+        "private_relationship",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "M15",
+      "axis": "M",
+      "facet": "channel",
+      "direction": 1,
+      "text": "对方一直回避决定时，我会说过了今晚就不再保留这次机会。",
+      "primary_weight": 1,
+      "family": "M-F15",
+      "contexts": [
+        "private_relationship",
+        "rules",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "H03",
+      "axis": "H",
+      "facet": "closure",
+      "direction": 1,
+      "text": "店家退回多收的钱后，我还想让这次差评留下来。",
+      "primary_weight": 1,
+      "family": "H03-solo",
+      "contexts": [
+        "resource_conflict",
+        "strangers",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "N28",
+      "axis": "N",
+      "facet": "audience",
+      "direction": -1,
+      "text": "朋友都赞成先到先得时，我会把自己的分法解释成这条规矩的延续。",
+      "primary_weight": 1,
+      "family": "N-P13",
+      "contexts": [
+        "private_relationship",
+        "resource_conflict",
+        "rules",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "G22",
+      "axis": "G",
+      "facet": "delegation",
+      "direction": -1,
+      "text": "委托专业人士维修时，只要费用不超预算，我愿意接受他的方案。",
+      "primary_weight": 1,
+      "family": "G-F22",
+      "contexts": [
+        "resource_conflict",
+        "strangers",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "M22",
+      "axis": "M",
+      "facet": "leverage",
+      "direction": -1,
+      "text": "朋友认识场地方时，我会请他先探口风，再选择最容易谈成的方案。",
+      "primary_weight": 1,
+      "family": "M-F22",
+      "contexts": [
+        "private_relationship",
+        "authority_asymmetry",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "H22",
+      "axis": "H",
+      "facet": "recognition",
+      "direction": -1,
+      "text": "晚辈把交代的事情补妥后，我更看结果，不要求他低头。",
+      "primary_weight": 1,
+      "family": "H22-solo",
+      "contexts": [
+        "authority_asymmetry",
+        "weaker_other",
+        "private_relationship"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "N15",
+      "axis": "N",
+      "facet": "justification",
+      "direction": 1,
+      "text": "排班不会有人追究时，我不必另找一个统一标准支持决定。",
+      "primary_weight": 1,
+      "family": "N-P07",
+      "contexts": [
+        "authority_asymmetry",
+        "rules",
+        "low_sanction_risk"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "G03",
+      "axis": "G",
+      "facet": "tradeoff",
+      "direction": 1,
+      "text": "合租选房时，我宁可多付一些房租，也要由自己定下最终地点。",
+      "primary_weight": 1,
+      "family": "G-F03",
+      "contexts": [
+        "resource_conflict",
+        "private_relationship"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "M33",
+      "axis": "M",
+      "facet": "resistance",
+      "direction": 1,
+      "text": "群成员反复偏离主题时，我会警告再继续就限制他的发言。",
+      "primary_weight": 1,
+      "family": "M-F33",
+      "contexts": [
+        "public",
+        "rules"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "H40",
+      "axis": "H",
+      "facet": "persistence",
+      "direction": -1,
+      "text": "比我弱的一方已停止妨碍，继续压住他也不会受罚，我仍会就此停手。",
+      "primary_weight": 1,
+      "family": "H40-solo",
+      "contexts": [
+        "authority_asymmetry",
+        "weaker_other",
+        "competition",
+        "low_sanction_risk"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "N35",
+      "axis": "N",
+      "facet": "challenge",
+      "direction": 1,
+      "text": "保留我的方案会失去下次参与机会时，我也不急着换个大家爱听的说法。",
+      "primary_weight": 1,
+      "family": "N-P17",
+      "contexts": [
+        "public",
+        "competition",
+        "sanction_risk"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "G21",
+      "axis": "G",
+      "facet": "delegation",
+      "direction": 1,
+      "text": "项目由新人负责时，我宁可进度慢一点，也想保留最终拍板权。",
+      "primary_weight": 1,
+      "family": "G-F21",
+      "contexts": [
+        "authority_asymmetry",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "M19",
+      "axis": "M",
+      "facet": "leverage",
+      "direction": 1,
+      "text": "有人需要我批准调班时，我会说明不补齐交接就不批准。",
+      "primary_weight": 1,
+      "family": "M-F19",
+      "contexts": [
+        "authority_asymmetry",
+        "rules",
+        "weaker_other"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "H25",
+      "axis": "H",
+      "facet": "recognition",
+      "direction": 1,
+      "text": "裁定和补偿都已到位，我仍想让对方在下一次评选中少一次机会。",
+      "primary_weight": 1,
+      "family": "H25-solo",
+      "contexts": [
+        "rules",
+        "competition",
+        "retaliation"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "N06",
+      "axis": "N",
+      "facet": "justification",
+      "direction": -1,
+      "text": "团购有规则没写清的优惠时，我会先找一条能支持领取的说明。",
+      "primary_weight": 1,
+      "family": "N-P02",
+      "contexts": [
+        "resource_conflict",
+        "rules",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "G32",
+      "axis": "G",
+      "facet": "allocation",
+      "direction": -1,
+      "text": "团购名额有限时，只要我能买到需要的东西，名额由谁分配都行。",
+      "primary_weight": 1,
+      "family": "G-F32",
+      "contexts": [
+        "resource_conflict",
+        "strangers",
+        "rules",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "M12",
+      "axis": "M",
+      "facet": "channel",
+      "direction": -1,
+      "text": "想让大家支持提案时，我会先调整说明顺序，让最有吸引力的部分先出现。",
+      "primary_weight": 1,
+      "family": "M-F12",
+      "contexts": [
+        "public",
+        "rules",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "H14",
+      "axis": "H",
+      "facet": "closure",
+      "direction": -1,
+      "text": "客服把错误处理完后，我不会再花时间追着某个人问责。",
+      "primary_weight": 1,
+      "family": "H14-solo",
+      "contexts": [
+        "strangers",
+        "authority_asymmetry",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    },
+    {
+      "id": "N31",
+      "axis": "N",
+      "facet": "challenge",
+      "direction": 1,
+      "text": "两次分账方式不同被问起时，我能分别讲取舍，不必归成一条原则。",
+      "primary_weight": 1,
+      "family": "N-P15",
+      "contexts": [
+        "resource_conflict",
+        "rules",
+        "low_stakes"
+      ],
+      "consistency_pair": null,
+      "secondary": []
+    }
+  ]
+}
