@@ -16,6 +16,20 @@ import {
   username,
 } from './security.mjs';
 import { normalizeResult, presentation } from './result.mjs';
+import { readLink, createCode, previewLink, commitLink, unlink, syncWebSaveInTransaction, syncWebDeleteInTransaction, syncMiniSaveInTransaction, syncMiniDeleteInTransaction } from './account-link.mjs';
+import {
+  createInvite,
+  deleteInvite,
+  ownerInvites,
+  publicInviteByToken,
+  submitResponse,
+} from './friend-invites.mjs';
+import {
+  WechatError,
+  createWechatShare,
+  shareJsApiList,
+  wechatSdkUrl,
+} from './wechat.mjs';
 import release from '../release.json' with { type: 'json' };
 
 const DAY = 86400000;
@@ -41,6 +55,9 @@ export function createApi({
   trustProxy = false,
   analyticsEnabled = false,
   baiduSiteId = '',
+  miniappAuth = null,
+  miniappContentSecurity = null,
+  wechat = createWechatShare(),
   now = Date.now,
   captchaCounter,
 }) {
@@ -84,6 +101,10 @@ export function createApi({
           savedAt: new Date(row.saved_at).toISOString(),
         }
       : null;
+  }
+  function miniSaved(userId) {
+    const row=db.prepare('SELECT result_json,completed_at FROM miniapp_results WHERE user_id=?').get(userId);
+    return row ? { result:JSON.parse(row.result_json), completedAt:row.completed_at } : null;
   }
   function newSession(res, userId, remember, priorToken) {
     if (priorToken)
@@ -188,11 +209,119 @@ export function createApi({
           ? req.headers['x-real-ip']
           : peer;
       rateLimit(db, secret, `all:${ip}`, 240, 60000, now());
+      if (path === '/api/analytics-config' && req.method === 'GET') {
+        const site = /^[a-f0-9]{32}$/i.test(baiduSiteId) ? baiduSiteId : '';
+        json(200, {
+          analyticsEnabled,
+          baiduSiteId: analyticsEnabled ? site : '',
+        });
+        return;
+      }
       if (path === '/api/health' && req.method === 'GET') {
         json(200, {
           service: 'shadow16-accounts',
           status: 'ok',
           version: release.version,
+        });
+        return;
+      }
+      // Mini-program callers use a bearer session only.  They deliberately
+      // bypass website cookies, CSRF and CAPTCHA routes, but share the invite
+      // domain model after authentication.
+      if (path.startsWith('/api/miniapp/')) {
+        if (!miniappAuth) throw new ApiError(503, 'MINIAPP_UNAVAILABLE', '小程序服务暂未配置。');
+        if (path === '/api/miniapp/auth/session' && req.method === 'POST') {
+          rateLimit(db, secret, `miniapp-login:${ip}`, 20, 60000, now());
+          const body = await bodyOf(req); requireFields(body, ['code']);
+          const logged = await miniappAuth.login(db, body.code, now());
+          json(201, { token: logged.token, identity: logged.userId, expiresAt: logged.expiresAt }); return;
+        }
+        const publicMiniInvite = path.match(/^\/api\/miniapp\/friend-invites\/([A-Za-z0-9_-]{43})$/);
+        if (publicMiniInvite && req.method === 'GET') {
+          const invite=publicInviteByToken(db,publicMiniInvite[1]);
+          if (!invite) throw new ApiError(404,'INVITE_NOT_FOUND','邀请已失效或不存在。');
+          json(200,{invite}); return;
+        }
+        const publicMiniResponse = path.match(/^\/api\/miniapp\/friend-invites\/([A-Za-z0-9_-]{43})\/responses$/);
+        if (publicMiniResponse && req.method === 'POST') {
+          rateLimit(db,secret,`miniapp-friend-response:${ip}`,12,60000,now());
+          const body=await bodyOf(req); const {reviewCode,...responseBody}=body; const nickname=typeof responseBody.nickname==='string'?responseBody.nickname.trim():''; if(nickname){ if(!miniappContentSecurity) throw new ApiError(503,'CONTENT_SECURITY_UNAVAILABLE','内容安全检查暂时不可用，请稍后再试。'); const openid=await miniappAuth.contentAuthor(db,reviewCode,now()); await miniappContentSecurity.checkText({content:nickname,openid,scene:1}); } json(201,{response:submitResponse(db,publicMiniResponse[1],responseBody,now())}); return;
+        }
+        const miniUser = miniappAuth.session(db, req.headers.authorization, now());
+        if (!miniUser) throw new ApiError(401, 'MINIAPP_SIGN_IN_REQUIRED', '请重新登录微信后再试。');
+        rateLimit(db, secret, `miniapp:${miniUser.id}`, 90, 60000, now());
+        if (path === '/api/miniapp/auth/logout' && req.method === 'POST') { const body=await bodyOf(req); requireFields(body,[]); db.prepare('DELETE FROM miniapp_sessions WHERE token_hash=?').run(digest(miniUser.token)); json(200,{ok:true}); return; }
+        if (path === '/api/miniapp/account' && req.method === 'DELETE') {
+          const body=await bodyOf(req); requireFields(body,[]);
+          transaction(db,()=>{
+            // Linked accounts retain independent user rows. Guard against any
+            // legacy mixed-identity row; normal deletion cascades the link
+            // without deleting the separate website user or its result.
+            if(db.prepare('SELECT 1 FROM identities WHERE user_id=?').get(miniUser.id)) throw new ApiError(409,'ACCOUNT_LINKED','已关联的网站账号需要在网站内删除。');
+            const deleted=db.prepare('DELETE FROM users WHERE id=? AND EXISTS (SELECT 1 FROM miniapp_identities WHERE user_id=users.id)').run(miniUser.id);
+            if(deleted.changes!==1) throw new ApiError(404,'MINIAPP_ACCOUNT_NOT_FOUND','该小程序账号已删除。');
+          });
+          json(200,{ok:true}); return;
+        }
+        if (path === '/api/miniapp/account/link' && req.method === 'GET') { json(200,{link:readLink(db,{miniappUserId:miniUser.id})}); return; }
+        if (path === '/api/miniapp/account/link' && req.method === 'DELETE') { const body=await bodyOf(req); requireFields(body,[]); json(200,unlink(db,{miniappUserId:miniUser.id})); return; }
+        if (path === '/api/miniapp/account/link/preview' && req.method === 'POST') {
+          rateLimit(db,secret,`miniapp-link-preview:${miniUser.id}`,10,60000,now());
+          const body=await bodyOf(req); requireFields(body,['code']); json(200,previewLink(db,miniUser.id,body.code,now())); return;
+        }
+        if (path === '/api/miniapp/account/link/commit' && req.method === 'POST') {
+          rateLimit(db,secret,`miniapp-link-commit:${miniUser.id}`,10,60000,now());
+          const body=await bodyOf(req); json(200,commitLink(db,miniUser.id,body,now())); return;
+        }
+        if (path === '/api/miniapp/result' && req.method === 'GET') { json(200, { result: miniSaved(miniUser.id) }); return; }
+        if (path === '/api/miniapp/result' && req.method === 'DELETE') {
+          const body = await bodyOf(req); requireFields(body, []);
+          transaction(db,()=>{db.prepare('DELETE FROM miniapp_results WHERE user_id=?').run(miniUser.id);db.prepare('INSERT INTO miniapp_result_deletions VALUES (?,?) ON CONFLICT(user_id) DO UPDATE SET deleted_before=excluded.deleted_before').run(miniUser.id,now());syncMiniDeleteInTransaction(db,miniUser.id,now());}); json(200, { ok:true }); return;
+        }
+        if (path === '/api/miniapp/result' && req.method === 'PUT') {
+          const body = await bodyOf(req); requireFields(body, ['result','completedAt']);
+          if (!Number.isInteger(body.completedAt) || body.completedAt < 0 || body.completedAt > now() + 5 * 60000) throw new ApiError(400,'COMPLETED_AT_INVALID','请检查完成时间后再试。');
+          const result = normalizeResult(body.result), match = presentation(result);
+          transaction(db, () => { const deleted=db.prepare('SELECT deleted_before FROM miniapp_result_deletions WHERE user_id=?').get(miniUser.id); if (deleted && body.completedAt<=deleted.deleted_before) return; const old=miniSaved(miniUser.id); if (!old || body.completedAt > old.completedAt) { db.prepare('INSERT INTO miniapp_results VALUES (?,?,?,?,?) ON CONFLICT(user_id) DO UPDATE SET result_json=excluded.result_json,presentation_json=excluded.presentation_json,completed_at=excluded.completed_at,saved_at=excluded.saved_at').run(miniUser.id,JSON.stringify(result),JSON.stringify(match),body.completedAt,now()); syncMiniSaveInTransaction(db,miniUser.id,now()); } });
+          json(200, { result: miniSaved(miniUser.id) }); return;
+        }
+        if (path === '/api/miniapp/friend-invites' && req.method === 'GET') { json(200, { invites: ownerInvites(db, miniUser.id) }); return; }
+        if (path === '/api/miniapp/friend-invites' && req.method === 'POST') { rateLimit(db, secret, `miniapp-friend-create:${miniUser.id}`, 20, 60000, now()); const body=await bodyOf(req); const {reviewCode,...inviteBody}=body; if(!miniappContentSecurity) throw new ApiError(503,'CONTENT_SECURITY_UNAVAILABLE','内容安全检查暂时不可用，请稍后再试。'); const openid=await miniappAuth.ownerContentAuthor(db,miniUser.id,reviewCode,now()); await miniappContentSecurity.checkText({content:inviteBody.subjectName,openid,scene:1}); json(201, { invite:createInvite(db,miniUser.id,inviteBody,now()) }); return; }
+        if (publicMiniInvite && req.method === 'DELETE') { const body=await bodyOf(req); requireFields(body,[]); deleteInvite(db,miniUser.id,publicMiniInvite[1]); json(200,{ok:true}); return; }
+        throw new ApiError(404, 'NOT_FOUND', '未找到此内容。');
+      }
+      // WeChat share signature for the exact page the visitor is on. Signing is
+      // limited to configured origins inside the share module, so this endpoint
+      // cannot be used to sign links for other sites.
+      if (path === '/api/wechat/jssdk' && req.method === 'GET') {
+        if (!wechat.enabled) {
+          json(200, { enabled: false });
+          return;
+        }
+        rateLimit(db, secret, `wechat-sign:${ip}`, 180, 60000, now());
+        let signed;
+        try {
+          signed = await wechat.sign(url.searchParams.get('url') ?? '');
+        } catch (error) {
+          if (error instanceof WechatError)
+            throw new ApiError(
+              503,
+              'WECHAT_UNAVAILABLE',
+              '微信分享暂时不可用，稍后重试即可。',
+            );
+          throw error;
+        }
+        if (!signed)
+          throw new ApiError(
+            400,
+            'SHARE_URL_REJECTED',
+            '请从网站页面重新打开。',
+          );
+        json(200, {
+          enabled: true,
+          sdkUrl: wechatSdkUrl,
+          jsApiList: shareJsApiList,
+          ...signed,
         });
         return;
       }
@@ -218,7 +347,11 @@ export function createApi({
           user: publicUser(session),
           saved: session ? saved(session.id) : null,
           csrfToken,
-          config: { analyticsEnabled, baiduSiteId, version: release.version },
+          config: {
+            analyticsEnabled: analyticsEnabled && Boolean(baiduSiteId),
+            baiduSiteId: analyticsEnabled ? baiduSiteId : '',
+            version: release.version,
+          },
         });
         return;
       }
@@ -268,6 +401,20 @@ export function createApi({
           expiresAt: new Date(now() + 300000),
         });
         json(200, challenge);
+        return;
+      }
+      if (path === '/api/account/link' && req.method === 'GET') { assertUser(session); json(200,{link:readLink(db,{webUserId:session.id})}); return; }
+      if (path === '/api/friend-invites' && req.method === 'GET') {
+        assertUser(session);
+        rateLimit(db, secret, `friend-owner:${session.id}`, 60, 60000, now());
+        json(200, { invites: ownerInvites(db, session.id) });
+        return;
+      }
+      const publicInviteMatch = path.match(/^\/api\/friend-invites\/([A-Za-z0-9_-]{43})$/);
+      if (publicInviteMatch && req.method === 'GET') {
+        const invite = publicInviteByToken(db, publicInviteMatch[1]);
+        if (!invite) throw new ApiError(404, 'INVITE_NOT_FOUND', '邀请已失效或不存在。');
+        json(200, { invite });
         return;
       }
       if (req.method === 'GET')
@@ -479,6 +626,12 @@ export function createApi({
         json(200, { ok: true });
         return;
       }
+      const responseMatch = path.match(/^\/api\/friend-invites\/([A-Za-z0-9_-]{43})\/responses$/);
+      if (responseMatch && req.method === 'POST') {
+        rateLimit(db, secret, `friend-response:${ip}`, 12, 60000, now());
+        json(201, { response: submitResponse(db, responseMatch[1], body, now()) });
+        return;
+      }
       assertUser(session);
       if (
         !db
@@ -493,6 +646,20 @@ export function createApi({
           '账号状态已更新，请重新登录。',
         );
       rateLimit(db, secret, `account:${session.id}`, 60, 60000, now());
+      if (path === '/api/account/link/code' && req.method === 'POST') { requireFields(body,[]); rateLimit(db,secret,`web-link-code:${session.id}`,6,60000,now()); json(201,createCode(db,session.id,now())); return; }
+      if (path === '/api/account/link' && req.method === 'DELETE') { requireFields(body,[]); json(200,unlink(db,{webUserId:session.id})); return; }
+      if (path === '/api/friend-invites' && req.method === 'POST') {
+        rateLimit(db, secret, `friend-create:${session.id}`, 20, 60000, now());
+        json(201, { invite: createInvite(db, session.id, body, now()) });
+        return;
+      }
+      const ownerInviteMatch = path.match(/^\/api\/friend-invites\/([A-Za-z0-9_-]{43})$/);
+      if (ownerInviteMatch && req.method === 'DELETE') {
+        requireFields(body, []);
+        deleteInvite(db, session.id, ownerInviteMatch[1]);
+        json(200, { ok: true });
+        return;
+      }
       if (path === '/api/auth/logout' && req.method === 'POST') {
         requireFields(body, []);
         db.prepare('DELETE FROM sessions WHERE token_hash=?').run(
@@ -526,6 +693,7 @@ export function createApi({
             JSON.stringify(match),
             now(),
           );
+          syncWebSaveInTransaction(db,session.id,now());
           if (analyticsConsent) recordMetric(db, 'save_success', now());
         });
         json(200, { saved: saved(session.id) });
@@ -538,6 +706,7 @@ export function createApi({
           db.prepare('DELETE FROM saved_results WHERE user_id=?').run(
             session.id,
           );
+          syncWebDeleteInTransaction(db,session.id,now());
         });
         json(200, { ok: true });
         return;

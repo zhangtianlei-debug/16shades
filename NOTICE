@@ -30,9 +30,11 @@ modifying, redistributing, or using its contents.
    repository. Existing explicit permissions in asset-specific usage notes
    continue to apply.
 
-   The bundled public/open/16shades-open-1.0.0.zip is governed by the
-   LICENSE.md and license texts inside that archive; this notice does not
-   narrow its MIT and CC BY 4.0 grants.
+   The retained public/open/16shades-open-1.0.0.zip is governed by the
+   LICENSE.md and license texts inside that archive. Current open materials
+   are released separately at
+   https://github.com/zhangtianlei-debug/16shades-open/releases/tag/v1.0.1;
+   this notice does not narrow their MIT and CC BY 4.0 grants.
 
 4. Third-party packages
    Dependencies retain their own licenses. See `THIRD_PARTY_NOTICES.md` and

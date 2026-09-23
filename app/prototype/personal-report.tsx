@@ -1,5 +1,6 @@
 'use client';
 
+import { CollaborationNote } from './collaboration-note';
 import { Heart, BriefcaseBusiness, BookOpen, Users, Sunrise, ArrowDown } from 'lucide-react';
 import { useI18n } from '@/app/i18n/provider';
 import { axisContent } from './content';
@@ -116,6 +117,7 @@ export function PersonalReport({ result, recommendation, character, canContinue 
         })}</div>
       </section>
       <section className="personal-report-takeaway"><p className="proto-kicker">{t('04 / 留给你的空间')}</p><h3>{t('这份报告，只供你参考。')}</h3><p>{t('哪些地方贴近你的经验，哪些地方不贴近，都可以由你自己判断。')}</p><p className="personal-report-footnote">{t('人物只是参照，你可以保留不同看法。')}</p></section>
+      <CollaborationNote result={result} characterId={character.id} />
     </>}
   </div>;
 }

@@ -1,6 +1,6 @@
 {
   "name": "16shades",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "private": false,
   "engines": {
     "node": ">=22.13.0"
@@ -10,7 +10,7 @@
     "build": "node scripts/build-site.mjs",
     "start": "wrangler dev --config dist/server/wrangler.json",
     "preview:build": "node server/run.mjs --preview",
-    "test:accounts": "node --test server/accounts.test.mjs app/prototype/account-api.test.mjs",
+    "test:accounts": "node --test server/accounts.test.mjs server/account-link.test.mjs server/account-link-http.test.mjs server/friend-invites.test.mjs app/prototype/account-api.test.mjs",
     "test:static": "node --test server/encoding.test.mjs",
     "test:local-results": "node --test app/prototype/local-result.test.mjs",
     "lint": "oxlint",

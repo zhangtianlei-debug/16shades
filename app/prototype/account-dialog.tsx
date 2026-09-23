@@ -44,6 +44,7 @@ import { recommendRoles } from './recommendation';
 import type { CandidateResult } from './scoring';
 import type { AltchaWidgetElement } from 'altcha';
 import type {} from 'altcha/types/react';
+import { AccountLinkPanel } from './account-link-panel';
 
 export function DataNotice() {
   const { t, href } = useI18n();
@@ -85,7 +86,7 @@ function PasswordField({
   autoComplete?: string;
   minimum?: boolean;
 }) {
-  const { t, tn } = useI18n();
+  const { t, tn, locale } = useI18n();
 
   const [visible, setVisible] = useState(false);
   return (
@@ -220,7 +221,7 @@ export function AccountDialog({
   onOpenResult: (saved: SavedResult) => void;
   onSaved: () => void;
 }) {
-  const { t, tn } = useI18n();
+  const { t, tn, locale } = useI18n();
 
   const [mode, setMode] = useState<Mode>(
     user ? (pendingResult ? 'save' : 'profile') : 'login',
@@ -516,7 +517,9 @@ export function AccountDialog({
       : '下次登录，就能在「我的结果」里找到。',
     password: '设置新密码后，其他设备需要重新登录。',
     recovery: '忘记密码时，可以用它找回账号。',
-    delete: '注销后账号和已保存结果将被删除，无法找回。',
+    delete: locale === 'en'
+      ? 'Deleting this account removes its saved result and cannot be undone. If linked, the accounts will be unlinked; the other account and its summary remain.'
+      : '注销后账号和已保存结果将被删除，无法找回。如已关联，将解除关联；另一端账号和摘要保留。',
     code: '复制或保存这串代码，忘记密码时用它找回。',
     privacy: '关于账号、结果保存和访问统计。',
   };
@@ -861,6 +864,7 @@ export function AccountDialog({
         ))}
         {(ready && mode === 'settings' && user && (
           <div className="account-settings">
+            <AccountLinkPanel />
             <div className="account-settings-group">
               <button type="button" onClick={() => switchMode('password')}>
                 {t("修改密码 ")}<ChevronRight size={17} />
@@ -887,6 +891,7 @@ export function AccountDialog({
                 {(confirmRemove ? (
                   <div className="account-remove-confirm">
                     <p>{t("删除已保存的结果？")}</p>
+                    <p>{locale === 'en' ? 'If a WeChat mini program is linked, both cloud summaries will be deleted.' : '如已关联微信小程序，将同步删除两端的云端摘要。'}</p>
                     <button
                       type="button"
                       disabled={busy}

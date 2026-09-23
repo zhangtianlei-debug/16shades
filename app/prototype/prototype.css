@@ -22,6 +22,8 @@
     sans-serif;
   overflow: clip;
 }
+
+.launch-friend-entry{margin:24px 0;padding:28px;border:1px solid #ddd2e7;border-radius:20px;background:#eee8f5}.launch-friend-entry h2,.launch-friend-entry h3{margin:8px 0 12px;font-size:26px}.launch-friend-entry p{line-height:1.8;margin-bottom:18px;max-width:700px}.launch-friend-entry a{display:inline-flex;gap:8px;text-decoration:none;align-items:center}.launch-friend-entry.proto-reading-page{margin:28px auto}
 .prototype-shell button,
 .prototype-shell a,
 .prototype-shell input {

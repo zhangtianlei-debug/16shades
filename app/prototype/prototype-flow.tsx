@@ -1017,6 +1017,7 @@ export function Prototype({
           handlers[destination]();
         }}
         onAccount={() => setModal('account')}
+        shareResult={latestResult}
         className="proto-header"
         brandClassName="proto-brand"
         brandHref={href('/prototype')}
@@ -1395,7 +1396,7 @@ export function Prototype({
                 <p className="proto-kicker">{t('人物导览 · 先认识这一型')}</p>
                 <h2>{tn(character.name)}</h2>
                 <p>{tn(character.description)}</p>
-              </div> : <PersonalReport result={result} recommendation={recommendation} character={character} canContinue={canContinue} />}
+              </div> : <PersonalReport result={result} recommendation={recommendation} character={character} canContinue={canContinue} />}<section className="launch-friend-entry"><h3>{locale==='zh'?'朋友眼中的我':'How friends see me'}</h3><p>{locale==='zh'?'让朋友按对你的印象完成48题。登录后，邀请和回应会保存在你的账号里。':'Let a friend answer 48 questions about you. Invitations and responses are saved to your account after sign-in.'}</p><a className="proto-primary-button" href={href('/friends')}>{locale==='zh'?'让TA猜':'Let them guess'} <ArrowRight size={18}/></a></section>
               {!isUnansweredResult && !isAllTypesTied && <RoleStory key={`story-${character.id}`} roleId={character.id} collapsible={false} />}
               {(view === 'result' &&
                 (result.stage === 'basic' || isUnansweredResult) && (
@@ -1551,10 +1552,11 @@ export function Prototype({
           share={() => share(viewedCharacter.id)}
         />
       ))}
-      {(view === 'resources' && <Resources />)}
-      {(view === 'play' && (
+      {(view === 'resources' && <Resources initialKind={params.get('collection') === 'wallpapers' ? 'wallpapers' : 'portraits'} />)}
+      {(view === 'play' && (<>
+        <section className="proto-reading-page launch-friend-entry"><p className="proto-kicker">{locale==='zh'?'朋友视角':'A FRIEND’S PERSPECTIVE'}</p><h2>{locale==='zh'?'朋友眼中的我':'How friends see me'}</h2><p>{locale==='zh'?'邀请朋友完成同一套48题，留下昵称，把对你的印象存进你的账号。':'Invite a friend to answer the full 48 questions, leave a name, and save their impression to your account.'}</p><a className="proto-primary-button" href={href('/friends')}>{locale==='zh'?'让TA猜':'Let them guess'} <ArrowRight size={18}/></a></section>
         <OfficialPlay onBrowse={browseCombination} onOpenType={openType} />
-      ))}
+      </>))}
       {(view === 'combo' && (
         <MbtiExperience
           roleId={comboRoleId}

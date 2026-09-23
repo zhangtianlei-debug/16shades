@@ -53,6 +53,9 @@ export function recordMetric(db, event, now = Date.now()) {
 export function cleanExpired(db, now = Date.now()) {
   for (const table of [
     'sessions',
+    'miniapp_sessions',
+    'miniapp_login_codes',
+    'account_link_codes',
     'rate_limits',
     'captcha_uses',
     'metric_receipts',

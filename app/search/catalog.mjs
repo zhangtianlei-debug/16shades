@@ -14,6 +14,7 @@ export function text(value, locale) {
   return english[value];
 }
 export const roles = social.roles;
+export const sources = knowledge.sources;
 const wikiSlugs = ['mbti-connection', 'mbti-same-type', 'mbti-same-role', 'mbti-functions'];
 export const articles = [...knowledge.articles, ...social.wiki.map((article, index) => ({
   ...article, slug: wikiSlugs[index], summary: article.lead, kind: 'MBTI', body: '',

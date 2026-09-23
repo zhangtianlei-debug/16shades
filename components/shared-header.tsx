@@ -2,6 +2,8 @@
 
 import { UserRound } from 'lucide-react';
 import { LanguageSwitcher, useI18n } from '@/app/i18n/provider';
+import type { CandidateResult } from '@/app/prototype/scoring';
+import { ShareHub } from './share-hub';
 import './shared-header.css';
 
 export type SharedHeaderDestination = 'theater' | 'types' | 'combo' | 'knowledge' | 'about';
@@ -10,6 +12,7 @@ type SharedHeaderProps = {
   current?: SharedHeaderDestination;
   onNavigate?: (destination: 'types' | 'combo' | 'knowledge') => void;
   onAccount?: () => void;
+  shareResult?: CandidateResult | null;
   className?: string;
   brandClassName?: string;
   navClassName?: string;
@@ -26,7 +29,7 @@ const destinations: Array<{ id: SharedHeaderDestination; zh: string; en: string;
   { id: 'about', zh: '关于', en: 'About', href: '/about' },
 ];
 
-export function SharedHeader({ current, onNavigate, onAccount, className = '', brandClassName = '', navClassName = '', brandHref, onBrandClick, brandLabel }: SharedHeaderProps) {
+export function SharedHeader({ current, onNavigate, onAccount, shareResult, className = '', brandClassName = '', navClassName = '', brandHref, onBrandClick, brandLabel }: SharedHeaderProps) {
   const { locale, t, href } = useI18n();
   return <header className={`shared-header ${className}`.trim()}>
     <a className={`shared-header__brand ${brandClassName}`.trim()} href={brandHref ?? href('/prototype')} onClick={onBrandClick} aria-label={brandLabel ?? t('16暗影首页')}>
@@ -38,6 +41,7 @@ export function SharedHeader({ current, onNavigate, onAccount, className = '', b
       </a>)}
     </nav>
     <div className="shared-header__actions">
+      <ShareHub result={shareResult} />
       {onAccount ? <button className="shared-header__utility" type="button" onClick={onAccount} aria-label={t('账号')}><UserRound size={18} aria-hidden="true" /></button> : <a className="shared-header__utility" href={href('/prototype?account=1')} aria-label={t('登录')}><UserRound size={18} aria-hidden="true" /></a>}
       <LanguageSwitcher />
     </div>

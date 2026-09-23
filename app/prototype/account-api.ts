@@ -161,55 +161,34 @@ export type MetricEvent =
   | 'share_link_copied';
 export function analyticsPreference() {
   try {
-    return localStorage.getItem('shadow16-analytics-choice') === 'allow';
+    const current = localStorage.getItem('shadow16-analytics-choice-v2');
+    if (current === 'allow') return true;
+    if (current === 'decline') return false;
+    return localStorage.getItem('shadow16-analytics-choice') !== 'decline';
   } catch {
     return false;
   }
 }
-let baiduLoaded = false;
 export function setAnalyticsPreference(allowed: boolean) {
   try {
     localStorage.setItem(
-      'shadow16-analytics-choice',
+      'shadow16-analytics-choice-v2',
       allowed ? 'allow' : 'decline',
     );
   } catch {
-    /* Device preferences are optional. */
+    return false;
   }
-  if (!allowed) {
-    window._hmt?.push(['_setAutoTracking', false]);
-    return;
-  }
-  loadBaidu();
-}
-function loadBaidu() {
-  if (
-    !config?.analyticsEnabled ||
-    !config.baiduSiteId ||
-    !analyticsPreference()
-  )
-    return;
-  window._hmt ??= [];
-  if (baiduLoaded) {
-    window._hmt.push(['_setAutoTracking', true]);
-    return;
-  }
-  baiduLoaded = true;
-  const script = document.createElement('script');
-  script.async = true;
-  script.src = `https://hm.baidu.com/hm.js?${config.baiduSiteId}`;
-  document.head.appendChild(script);
+  window.dispatchEvent(
+    new CustomEvent('shadow16-analytics-change', { detail: { allowed } }),
+  );
+  return true;
 }
 export function trackEvent(event: MetricEvent) {
   if (!config?.analyticsEnabled || !csrf || !analyticsPreference()) return;
   void accountRequest('/api/events', { event, id: crypto.randomUUID() }).catch(
     () => undefined,
   );
-  loadBaidu();
-  window._hmt?.push(['_trackEvent', '16shadows', event]);
-}
-declare global {
-  interface Window {
-    _hmt?: unknown[][];
-  }
+  window.dispatchEvent(
+    new CustomEvent('shadow16-analytics-track', { detail: { event } }),
+  );
 }

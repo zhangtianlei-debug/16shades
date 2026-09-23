@@ -78,9 +78,9 @@ export default function AboutPage() {
           <Material number="03" title="复验方法与引用资料" detail="保留版本身份、人工案例和期望输出，让同一输入能够重复核对。" meta="可重复验证" />
         </div>
         <div className="about-release">
-          <span>{t('开放资料 v1.0.0 · 中文 / English · 含版本与复验说明')}</span>
+          <span>{t('开放资料 v1.0.1 · 中文 / English · 含版本与复验说明')}</span>
           <div className="about-release-links">
-            <a className="about-download" href="/open/16shades-open-1.0.0.zip" download>{t('下载双语资料包')}</a>
+            <a className="about-download" href="https://github.com/zhangtianlei-debug/16shades-open/releases/download/v1.0.1/16shades-open-1.0.1.zip">{t('下载双语资料包')}</a>
             <a href="https://github.com/zhangtianlei-debug/16shades-open" target="_blank" rel="noreferrer">{t('资料与参考实现')} ↗</a>
             <a href="https://github.com/zhangtianlei-debug/16shades" target="_blank" rel="noreferrer">{t('网站源码')} ↗</a>
           </div>
@@ -98,7 +98,7 @@ export default function AboutPage() {
         </div>
         <p className="about-license-note">{t('工程复验不等于心理测量验证；不同语言、不同随机表单的统计等值尚未验证。开放材料的使用范围，以对应版本的许可文件为准。')}</p>
         <p className="about-license-links"><a href="https://github.com/zhangtianlei-debug/16shades-open/blob/main/LICENSE.md" target="_blank" rel="noreferrer">{t('完整许可与适用范围')} ↗</a></p>
-        <p className="about-attribution">{t('署名示例：来源：16暗影 / 16 Shades（shades16.com），开放资料 v1.0.0，CC BY 4.0；如有修改，请说明修改内容。')}</p>
+        <p className="about-attribution">{t('署名示例：来源：16暗影 / 16 Shades（shades16.com），开放资料 v1.0.1，CC BY 4.0；如有修改，请说明修改内容。')}</p>
       </section>
 
       <footer className="about-footer">

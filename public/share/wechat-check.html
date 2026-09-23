@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>16暗影｜微信卡片检查</title>
+  <meta property="og:title" content="16暗影｜微信卡片检查">
+  <meta property="og:description" content="核对微信发送窗口里的标题和缩略图。">
+  <meta property="og:image" content="https://shades16.com/share/site.png">
+  <style>
+    *{box-sizing:border-box}body{font:15px/1.55 system-ui,sans-serif;margin:0;padding:22px 18px 40px;background:#f7f3fa;color:#382845}main{max-width:560px;margin:auto}h1{font-size:23px;margin:8px 0}p{margin:8px 0;color:#6a5b74}.card{background:#fff;border:1px solid #ded1e5;border-radius:13px;padding:16px;margin:16px 0}.preview{display:flex;align-items:center;gap:12px}.preview img{width:60px;height:60px}.preview strong{font-size:17px}dl{margin:0}dl>div{border-bottom:1px solid #eee7f2;padding:9px 0}dt{font-size:12px;color:#85758c}dd{margin:2px 0 0;overflow-wrap:anywhere}button{border:0;background:#50316d;color:white;padding:13px 16px;font:inherit;font-weight:600;border-radius:8px;width:100%}a{color:#654183}nav{display:flex;gap:10px;flex-wrap:wrap;font-size:12px}.small{font-size:12px}pre{font-size:11px;white-space:pre-wrap;overflow-wrap:anywhere}#summary{font-weight:600;color:#50316d}
+  </style>
+  <script src="/share/wechat-check.js" defer></script>
+</head>
+<body><main>
+  <p class="small">临时检查 · D1</p>
+  <h1>微信分享检查</h1>
+  <p>等下面状态更新后，点微信右上角「···」→「发送给朋友」，选择文件传输助手查看发送窗口。</p>
+  <p>随后点取消回到这里。下面会显示手机上实际发生的步骤。</p>
+  <div class="card preview"><img src="/share/site.png" alt="16暗影"><div><strong>16暗影｜微信卡片检查</strong><p class="small">核对微信发送窗口里的标题和缩略图。</p></div></div>
+  <p id="summary">正在读取微信状态…</p>
+  <div class="card"><dl id="states"></dl></div>
+  <button id="copy" type="button">复制检查结果</button>
+  <p class="small" id="copy-status">也可以把这页截图发给我。</p>
+  <details><summary>完整检查结果</summary><pre id="report"></pre></details>
+  <nav class="card"><a href="?mode=both">两条分享路径</a><a href="?mode=modern">仅新版接口</a><a href="?mode=menu">仅菜单接口</a></nav>
+</main></body></html>

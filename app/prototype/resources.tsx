@@ -15,23 +15,28 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 import { familyClass, T06_ARTWORK_REVISION } from './character-artwork';
+import { Wallpapers } from './wallpapers';
 
-type ImageKind = 'portraits' | 'cards';
+type ImageKind = 'portraits' | 'cards' | 'wallpapers';
 const imagePath = (character: Character, kind: ImageKind) =>
   `/downloads/${kind}/${character.slug}.png${character.id === 'T06' ? `?v=${T06_ARTWORK_REVISION}` : ''}`;
 
-export function Resources() {
-  const { t, tn, asset, href } = useI18n();
+export function Resources({ initialKind = 'portraits' }: { initialKind?: ImageKind }) {
+  const { locale, t, tn, asset, href } = useI18n();
 
-  const [kind, setKind] = useState<ImageKind>('portraits');
+  const [kind, setKind] = useState<ImageKind>(initialKind);
   const [selected, setSelected] = useState<Character | null>(null);
   const trigger = useRef<HTMLButtonElement | null>(null);
-  const label = kind === 'portraits' ? '角色图' : '信息卡';
+  const label = kind === 'portraits' ? '角色图' : kind === 'cards' ? '信息卡' : '人物壁纸';
+  const wallpaperLabel = locale === 'zh' ? '人物壁纸' : 'Character wallpapers';
+  const resourceLead = locale === 'zh'
+    ? '角色图、人物信息卡和壁纸，点开就能保存。'
+    : 'Character art, profile cards, and wallpapers are ready to save.';
 
   return (
     <section className="proto-reading-page proto-resources-page">
       <h1>{t("收藏你喜欢的角色")}</h1>
-      <p className="proto-reading-lead">{t("角色图或人物信息卡，点开就能保存。")}</p>
+      <p className="proto-reading-lead">{resourceLead}</p>
       <div className="proto-resource-toolbar">
         <fieldset className="proto-resource-switch">
           <legend className="sr-only">{t("图片类型")}</legend>
@@ -47,21 +52,27 @@ export function Resources() {
             onClick={() => setKind('cards')}
           >
             {t("信息卡 ")}</button>
+          <button
+            type="button"
+            aria-pressed={kind === 'wallpapers'}
+            onClick={() => setKind('wallpapers')}
+          >
+            {wallpaperLabel}</button>
         </fieldset>
-        <a
+        {kind !== 'wallpapers' && <a
           className="proto-resource-bundle"
           href={href(asset(`/downloads/shadow16-all-characters.zip?v=${T06_ARTWORK_REVISION}`))}
           download={t("16暗影-全人物素材包.zip")}
         >
           <Download size={17} /> {t(" 下载完整素材包 ")}<span>{t("32 张 PNG")}</span>
-        </a>
+        </a>}
       </div>
-      <p className="proto-resource-hint">
+      {kind !== 'wallpapers' && <p className="proto-resource-hint">
         {tn(kind === 'portraits'
           ? '透明底角色图 · 1024 × 1024'
           : '人物介绍卡 · 1080 × 1440')}
-      </p>
-      <div className="proto-resource-grid">
+      </p>}
+      {kind === 'wallpapers' ? <Wallpapers /> : <><div className="proto-resource-grid">
         {(characters.map((character) => (
           <button
             key={character.id}
@@ -148,7 +159,7 @@ export function Resources() {
             </>
           ))}
         </DialogContent>
-      </Dialog>
+      </Dialog></>}
     </section>
   );
 }
