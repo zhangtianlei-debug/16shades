@@ -15,15 +15,15 @@
     "en": "External theoretical reference"
   },
   "body": {
-    "zh": "## 外部理论参照\n\n本项目参考黑暗人格、道德脱离、相互依赖、权力—依赖、关系模式等研究，用来说明可观察的关系和行为问题。它们不是对本项目四轴、16型映射或人物配对的直接验证。\n\n## 项目定义与人物演绎\n\n四轴、16型名称与关系机制编排属于项目定义或创作方法；人物场景属于人物演绎。每篇关系文章会标出研究能支持什么、不能推出什么。\n\n## 谨慎使用\n\n研究相关不等于因果，单次事件或单方主张也不足以判断稳定人格。信息不足时保留不知道。",
-    "en": "## External theoretical references\n\nThe project draws on research on dark personality, moral disengagement, interdependence, power and dependence, and relational models to explain observable questions about relationships and behavior. These sources do not directly validate its four axes, mapping of 16 types, or character pairings.\n\n## Project definitions and character interpretations\n\nThe four axes, type names, and arrangement of relationship mechanisms are project definitions or creative methods. Character scenes are interpretations. Each relationship article states what research can support and what cannot be inferred from it.\n\n## Use with care\n\nA research association is not causation. A single incident or one person's account is also insufficient to establish a stable personality. When information is insufficient, leave room for not knowing."
+    "zh": "## 这页如何组织来源\n\n这里把三层内容分开：**项目定义**说明四轴、16型和使用边界；**外部研究**讨论可观察的关系与行为机制；**人物演绎**把前两层用于虚构场景。阅读时可先从[模型总览](model-overview)了解项目定义，再从[人物关系方法](relationships-method)查看项目如何提出创作问题，最后进入具体研究说明。\n\n## 外部理论参照\n\n本项目参考黑暗人格、道德脱离、相互依赖、权力—依赖、关系模式等研究，用来说明可观察的关系和行为问题。它们不是对本项目四轴、16型映射、题目、结果准确率或人物配对的直接验证。\n\n本页下方列出的来源只复用本站已整理的原始 DOI；各篇[心理学参照](psychology-p01)继续说明研究设计、适用范围与不能推出的结论。\n\n## 项目版本与人物演绎\n\n四轴、16型名称和关系机制是16暗影当前版本的项目定义或创作方法；人物场景是基于它们的虚构演绎。页面的更新日期说明这份整理何时更新；要了解当前定义，请回到模型总览和人物关系方法。\n\n## 谨慎使用\n\n研究相关不等于因果，单次事件或单方主张也不足以判断稳定人格。信息不足时保留不知道。",
+    "en": "## How this page organizes sources\n\nThis site keeps three layers separate: **project definitions** state the four axes, 16 types, and limits of use; **external research** addresses observable mechanisms in relationships and behavior; and **character interpretations** use the first two layers in fictional scenes. Start with [the model overview](model-overview) for the project definition, then [the relationship method](relationships-method) for how the project turns it into creative questions, and then move to individual research explainers.\n\n## External theoretical references\n\nThe project draws on research on dark personality, moral disengagement, interdependence, power and dependence, and relational models to explain observable questions about relationships and behavior. These sources do not directly validate its four axes, its 16-type mapping, its questions, result accuracy, or character pairings.\n\nThe source list below reuses only original DOIs already catalogued on this site. Each [psychology reference](psychology-p01) continues with the study design, scope, and claims it cannot support.\n\n## Project versions and character interpretations\n\nThe four axes, type names, and relationship mechanisms are project definitions or creative methods in the current version of 16 Shades. Character scenes are fictional interpretations built from them. The update date shows when this guide was revised; return to the model overview and relationship method for the current definitions.\n\n## Use with care\n\nA research association is not causation. A single incident or one person's account is also insufficient to establish a stable personality. When information is insufficient, leave room for not knowing."
   },
   "related": [
     "relationships-method",
     "psychology-p01"
   ],
-  "updatedAt": "2026-09-07",
-  "indexable": false,
+  "updatedAt": "2026-09-22",
+  "indexable": true,
   "sources": [
     {
       "id": "S01",

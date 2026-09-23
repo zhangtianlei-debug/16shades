@@ -4,11 +4,11 @@
 
 [官网](https://shades16.com) · [在线测评](https://shades16.com/prototype) · [About / 开放入口](https://shades16.com/about) · [开放资料 v1.0.1](https://github.com/zhangtianlei-debug/16shades-open/releases/tag/v1.0.1)
 
-当前源码版本：**v1.1.0**。本版按 2026-09-23 已上线的网站服务版本整理，新增朋友眼中的我、个人合作说明书、人物壁纸、微信网页分享和网站／微信账号关联的公开网站代码；生产运行配置、搜索验证、统计标识、私有账号数据与凭据均未包含。完整变更见 [CHANGELOG.md](CHANGELOG.md)。
+当前源码版本：**v1.1.1**。本版按 2026-09-23 已上线的网站服务版本整理，新增朋友眼中的我、个人合作说明书、人物壁纸、微信网页分享和网站／微信账号关联的公开网站代码；生产运行配置、搜索验证、统计标识、私有账号数据与凭据均未包含。完整变更见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## 中文
 
-这是「16暗影」网站的可独立构建源码：包含双语前端、16 角色结果页、测评流程、本地账号 API、内容读取器和当前正式网页素材。v1.1.0 依据 2026-09-23 已上线的服务端发布清单和 2026-09-22 已完成发布对应的前端源码整理；本地运行不会发布网站、提交搜索引擎、发送统计数据或连接生产数据库。
+这是「16暗影」网站的可独立构建源码：包含双语前端、16 角色结果页、测评流程、本地账号 API、内容读取器和当前正式网页素材。v1.1.1 依据 2026-09-23 已上线的服务端发布清单和 2026-09-22 已完成发布对应的前端源码整理；本地运行不会发布网站、提交搜索引擎、发送统计数据或连接生产数据库。
 
 ### 本地运行
 
@@ -41,9 +41,9 @@ pnpm preview:build
 
 [Website](https://shades16.com) · [Online assessment](https://shades16.com/en/prototype) · [About / open entry](https://shades16.com/en/about) · [Open Materials v1.0.1](https://github.com/zhangtianlei-debug/16shades-open/releases/tag/v1.0.1)
 
-Current source release: **v1.1.0**. This version follows the website service deployed on 2026-09-23. It adds the public web code for friend impressions, the personal collaboration note, character wallpapers, WeChat web sharing, and website-to-WeChat account linking. Production runtime settings, search verification, analytics identifiers, private account data, and credentials are excluded. See [CHANGELOG.md](CHANGELOG.md) for the full scope.
+Current source release: **v1.1.1**. This version follows the website service deployed on 2026-09-23. It adds the public web code for friend impressions, the personal collaboration note, character wallpapers, WeChat web sharing, and website-to-WeChat account linking. Production runtime settings, search verification, analytics identifiers, private account data, and credentials are excluded. See [CHANGELOG.md](CHANGELOG.md) for the full scope.
 
-This is an independently buildable source release for the 16 Shades website. It includes the bilingual frontend, sixteen character result pages, quiz flow, local account API, content reader, and the current production web assets. Version 1.1.0 is prepared from frontend source corresponding to completed 2026-09-22 releases and the deployed 2026-09-23 service manifest. Local use does not publish a site, submit pages to search engines, send analytics, or connect to a production database.
+This is an independently buildable source release for the 16 Shades website. It includes the bilingual frontend, sixteen character result pages, quiz flow, local account API, content reader, and the current production web assets. Version 1.1.1 is prepared from frontend source corresponding to completed 2026-09-22 releases and the deployed 2026-09-23 service manifest. Local use does not publish a site, submit pages to search engines, send analytics, or connect to a production database.
 
 ### Run locally
 

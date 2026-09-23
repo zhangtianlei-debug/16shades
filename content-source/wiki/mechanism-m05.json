@@ -21,6 +21,15 @@
   "related": [
     "psychology-p09"
   ],
+  "relationshipExamples": [
+    {
+      "id": "t11-t15",
+      "label": {
+        "zh": "墨线组：权术家 × 裁决者",
+        "en": "Lines in Ink: Power Broker × Arbiter"
+      }
+    }
+  ],
   "updatedAt": "2026-09-07",
   "indexable": true
 }

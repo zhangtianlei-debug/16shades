@@ -23,6 +23,15 @@
     "psychology-p11",
     "psychology-p12"
   ],
+  "relationshipExamples": [
+    {
+      "id": "t14-t14",
+      "label": {
+        "zh": "交锋组：定局者 × 定局者",
+        "en": "Head to Head: Decider × Decider"
+      }
+    }
+  ],
   "updatedAt": "2026-09-07",
   "indexable": true
 }

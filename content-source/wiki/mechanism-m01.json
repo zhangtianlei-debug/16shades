@@ -22,6 +22,15 @@
     "psychology-p01",
     "psychology-p02"
   ],
+  "relationshipExamples": [
+    {
+      "id": "t01-t09",
+      "label": {
+        "zh": "筹码组：掮客 × 操盘手",
+        "en": "The Chip Table: Broker × Puppet Master"
+      }
+    }
+  ],
   "updatedAt": "2026-09-07",
   "indexable": true
 }

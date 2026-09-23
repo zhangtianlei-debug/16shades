@@ -29,6 +29,13 @@ export function validateContent({ settings, wiki, theater }) {
     assert.ok(categories.has(article.category), `${article.slug}: unknown category`);
     assert.ok(Array.isArray(article.related), `${article.slug}: related must be an array`);
     article.related.forEach(id => assert.ok(wikiIds.has(id), `${article.slug}: unknown related ${id}`));
+    if(article.relationshipExamples!==undefined){
+      assert.ok(Array.isArray(article.relationshipExamples), `${article.slug}: relationshipExamples must be an array`);
+      article.relationshipExamples.forEach(example=>{
+        assert.ok(typeof example?.id==='string'&&/^t(?:0[1-9]|1[0-6])-t(?:0[1-9]|1[0-6])$/.test(example.id), `${article.slug}: invalid relationship example`);
+        bilingual(example.label, `${article.slug}.relationshipExamples.label`);
+      });
+    }
     if(article.sources!==undefined){
       assert.ok(Array.isArray(article.sources),'Sources must be an array');
       for(const source of article.sources){

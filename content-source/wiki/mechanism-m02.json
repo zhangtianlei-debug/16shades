@@ -23,6 +23,15 @@
     "psychology-p04",
     "psychology-p05"
   ],
+  "relationshipExamples": [
+    {
+      "id": "t02-t06",
+      "label": {
+        "zh": "顺手组：投机客 × 掠夺者",
+        "en": "The Easy Grab: Opportunist × Raider"
+      }
+    }
+  ],
   "updatedAt": "2026-09-07",
   "indexable": true
 }

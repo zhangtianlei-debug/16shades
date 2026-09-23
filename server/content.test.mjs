@@ -43,7 +43,8 @@ test('independent publication updates a running server, both languages and new c
   let index=await (await f.get('/content/v1/index.json')).json();
   assert.equal(index.wiki.articles.length,1);const oldDetail=index.theater.episodes[0].url;
   const settings2=settings();settings2.categories.push({id:'new-topic',label:pair('新主题','New topic'),order:2});
-  await f.write('settings.json',settings2);await f.write('wiki/second.json',article('second','new-topic'));await f.write('theater/005.json',episode('005'));
+  const secondArticle=article('second','new-topic');secondArticle.relationshipExamples=[{id:'t01-t09',label:pair('筹码组','The chip table')}];
+  await f.write('settings.json',settings2);await f.write('wiki/second.json',secondArticle);await f.write('theater/005.json',episode('005'));
   const second=await f.publish();assert.notEqual(first.revision,second.revision);
   index=await(await f.get('/content/v1/index.json')).json();
   assert.equal(index.wiki.articles.length,2);assert.equal(index.wiki.categories.length,2);assert.equal(index.theater.episodes.length,2);
@@ -51,6 +52,7 @@ test('independent publication updates a running server, both languages and new c
   for(const prefix of ['','/en']) {
     const wikiHtml=await(await f.get(prefix+'/knowledge/second')).text();assert.ok(wikiHtml.includes(prefix? 'Readable English body.':'可见的中文正文。'));
     assert.ok(wikiHtml.includes('rel="canonical"'));assert.ok(wikiHtml.includes('hreflang="zh-CN"'));assert.ok(wikiHtml.includes('application/ld+json'));assert.ok(wikiHtml.includes('https://example.org/paper'));
+    assert.ok(wikiHtml.includes(prefix ? 'The chip table' : '筹码组'));assert.ok(wikiHtml.includes(prefix ? '/en/relationships/t01-t09' : '/relationships/t01-t09'));
     const comic=await(await f.get(prefix+'/theater/005')).text();assert.ok(comic.includes(prefix?'Character: Hello.':'人物：你好。'));assert.ok(comic.includes('width="30" height="40"'));
   }
   assert.equal((await f.get(oldDetail)).status,200,'old immutable detail still resolves');

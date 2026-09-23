@@ -23,6 +23,15 @@
     "psychology-p07",
     "psychology-p08"
   ],
+  "relationshipExamples": [
+    {
+      "id": "t03-t11",
+      "label": {
+        "zh": "满分毒签组：笑面客 × 权术家",
+        "en": "The Poisoned Perfect Score: Smiler × Power Broker"
+      }
+    }
+  ],
   "updatedAt": "2026-09-07",
   "indexable": true
 }

@@ -21,6 +21,15 @@
   "related": [
     "psychology-p06"
   ],
+  "relationshipExamples": [
+    {
+      "id": "t01-t03",
+      "label": {
+        "zh": "余账组：掮客 × 笑面客",
+        "en": "The Unsettled Tab: Broker × Smiler"
+      }
+    }
+  ],
   "updatedAt": "2026-09-07",
   "indexable": true
 }

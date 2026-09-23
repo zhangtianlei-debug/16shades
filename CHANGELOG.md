@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.1.1 — 2026-09-23
+
+### 中文
+
+- 补齐独立内容发布流程使用的 Wiki 内容源与渲染逻辑，使按 README 启动后的知识页也包含已上线的来源说明与关系实例。
+- 保留 34 篇 Wiki、第一期小剧场示例和默认关闭的收录／统计配置。
+
+### English
+
+- Updates the Wiki sources and rendering used by the independent content-publishing workflow, so pages served through the documented startup process also include the deployed references and relationship examples.
+- Retains 34 Wiki articles, the first theatre issue as an example, and indexing and analytics disabled by default.
+
 ## v1.1.0 — 2026-09-23
 
 ### 中文
