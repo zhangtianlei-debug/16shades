@@ -2,11 +2,13 @@
 
 [中文](#中文) · [English](#english)
 
-[官网](https://shades16.com) · [在线测评](https://shades16.com/prototype) · [About / 开放入口](https://shades16.com/about) · [开放资料 v1.0.1](https://github.com/zhangtianlei-debug/16shades-open/releases/tag/v1.0.1)
+[官网](https://shades16.com/index) · [在线测评](https://shades16.com/index) · [About / 开放入口](https://shades16.com/about) · [开放资料 v1.0.1](https://github.com/zhangtianlei-debug/16shades-open/releases/tag/v1.0.1)
 
 当前源码版本：**v1.1.1**。本版按 2026-09-23 已上线的网站服务版本整理，新增朋友眼中的我、个人合作说明书、人物壁纸、微信网页分享和网站／微信账号关联的公开网站代码；生产运行配置、搜索验证、统计标识、私有账号数据与凭据均未包含。完整变更见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## 中文
+
+线上官网已于 2026-09-28 更新至 v1.11.0，正式首页为 `/index`，目前以中文运营。本仓库仍是下述 v1.1.1 源码发布快照，版本范围和本地运行地址以本仓库说明为准。
 
 这是「16暗影」网站的可独立构建源码：包含双语前端、16 角色结果页、测评流程、本地账号 API、内容读取器和当前正式网页素材。v1.1.1 依据 2026-09-23 已上线的服务端发布清单和 2026-09-22 已完成发布对应的前端源码整理；本地运行不会发布网站、提交搜索引擎、发送统计数据或连接生产数据库。
 
@@ -31,7 +33,7 @@ pnpm preview:build
 
 本源码的 `release.json` 与 `app/search/config.json` 均保留为空值或关闭状态：没有生产域名或搜索验证值，搜索收录默认关闭。部署者若有自己的正式 HTTPS 域名，可自行填写两处相同的域名，并仅在确认网站内容和爬虫策略后把 `indexingEnabled` 改为 `true`。`.env.example` 中的统计开关和 32 位站点标识也为空值或关闭；默认配置不会加载第三方统计脚本。
 
-[shades16.com](https://shades16.com) 链接提供在线体验、内容来源说明和历史参考；本地运行使用本仓库的代码与配置。
+[shades16.com](https://shades16.com/index) 链接提供在线体验、内容来源说明和历史参考；本地运行使用本仓库的代码与配置。
 
 ### 许可范围
 
@@ -39,7 +41,9 @@ pnpm preview:build
 
 ## English
 
-[Website](https://shades16.com) · [Online assessment](https://shades16.com/en/prototype) · [About / open entry](https://shades16.com/en/about) · [Open Materials v1.0.1](https://github.com/zhangtianlei-debug/16shades-open/releases/tag/v1.0.1)
+The live site was updated to v1.11.0 on 2026-09-28, with `/index` as its homepage, and currently serves Chinese users. This repository remains the v1.1.1 source snapshot described below, including its historical local routes.
+
+[Website](https://shades16.com/index) · [Online assessment](https://shades16.com/index) · [About / open entry](https://shades16.com/about) · [Open Materials v1.0.1](https://github.com/zhangtianlei-debug/16shades-open/releases/tag/v1.0.1)
 
 Current source release: **v1.1.1**. This version follows the website service deployed on 2026-09-23. It adds the public web code for friend impressions, the personal collaboration note, character wallpapers, WeChat web sharing, and website-to-WeChat account linking. Production runtime settings, search verification, analytics identifiers, private account data, and credentials are excluded. See [CHANGELOG.md](CHANGELOG.md) for the full scope.
 
@@ -66,7 +70,7 @@ Before deploying a derivative site, replace the operator, contact email, and fil
 
 `release.json` and `app/search/config.json` intentionally have blank or disabled production settings. There is no production domain or search verification token, and indexing is off. A deployer may enter their own HTTPS domain in both files, then enable indexing only after reviewing the site and crawler policy. The analytics switch and 32-character site identifier in `.env.example` are also blank or disabled; the default configuration keeps third-party analytics disabled.
 
-[shades16.com](https://shades16.com) links provide the live experience, content attribution, and historical references. Local operation uses this repository’s code and configuration.
+[shades16.com](https://shades16.com/index) links provide the live experience, content attribution, and historical references. Local operation uses this repository’s code and configuration.
 
 ### Licensing
 
